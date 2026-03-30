@@ -1,0 +1,90 @@
+[
+  {
+    "id": "kl_sage_barista",
+    "name": "Sage Barista Express™ Espresso Machine",
+    "brand": "Sage",
+    "asin": "B00CI32S9K",
+    "price": 629.0,
+    "category": "Électroménager",
+    "slug": "sage-barista-express",
+    "image": "https://images.unsplash.com/photo-1570968015849-ab4263799c99?q=80&w=1974&auto=format&fit=crop",
+    "rating": 4.9,
+    "reviews": 1240,
+    "description": "L'expérience barista ultime à la maison. De l'espresso parfait en moins d'une minute.",
+    "benefits": "### Avantages\n- Broyeur intégré\n- Contrôle précis de la température\n- Mousse de lait micro-fine",
+    "features": [
+      "Acier Inoxydable",
+      "Qualité Pro"
+    ],
+    "seoTags": [
+      "espresso",
+      "café de luxe"
+    ]
+  },
+  {
+    "id": "kl_ninja_foodi",
+    "name": "Ninja Foodi MAX Dual Zone Air Fryer",
+    "brand": "Ninja",
+    "asin": "B089SYG6CC",
+    "price": 229.0,
+    "category": "Électroménager",
+    "slug": "ninja-foodi-max",
+    "image": "https://images.unsplash.com/photo-1626074353765-517a681e40be?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.8,
+    "reviews": 2150,
+    "description": "La friteuse sans huile qui change tout. Deux zones de cuisson indépendantes pour vos repas complets.",
+    "benefits": "### Avantages\n- 6 modes de cuisson\n- Économie d'énergie\n- Santé sans compromis",
+    "features": [
+      "Polyvalence",
+      "Performance"
+    ],
+    "seoTags": [
+      "air fryer",
+      "cuisine saine"
+    ]
+  },
+  {
+    "id": "kl_kitchenaid",
+    "name": "KitchenAid Artisan Stand Mixer 4.8L",
+    "brand": "KitchenAid",
+    "asin": "B00004SGFW",
+    "price": 749.0,
+    "category": "Appareils de Précision",
+    "slug": "kitchenaid-artisan",
+    "image": "https://images.unsplash.com/photo-1594910413521-17f167666993?q=80&w=1974&auto=format&fit=crop",
+    "rating": 5.0,
+    "reviews": 5600,
+    "description": "L'icône de la pâtisserie. Un design légendaire allié à une puissance inégalée pour toutes vos créations.",
+    "benefits": "### Avantages\n- Moteur à entraînement direct\n- Multi-fonctionnel\n- Robuste & Durable",
+    "features": [
+      "Icône Design",
+      "Incontournable"
+    ],
+    "seoTags": [
+      "pâtisserie",
+      "robot pâtissier"
+    ]
+  },
+  {
+    "id": "kl_le_creuset",
+    "name": "Le Creuset Signature Cast Iron Casserole",
+    "brand": "Le Creuset",
+    "asin": "B00V86W64M",
+    "price": 319.0,
+    "category": "Ustensiles de Chef",
+    "slug": "le-creuset-signature",
+    "image": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?q=80&w=1974&auto=format&fit=crop",
+    "rating": 4.9,
+    "reviews": 890,
+    "description": "Le secret des mijotés parfaits. La fonte émaillée française pour une répartition homogène de la chaleur.",
+    "benefits": "### Avantages\n- Garantie à vie\n- Design classique\n- Polyvalence four/plaques",
+    "features": [
+      "Fonte Émaillée",
+      "Tradition"
+    ],
+    "seoTags": [
+      "mijoté",
+      "cuisine française"
+    ]
+  }
+]

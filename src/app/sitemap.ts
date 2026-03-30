@@ -24,7 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }));
 
     // Categories
-    const categories = ['face', 'hair', 'body', 'skincare', 'anti-aging'];
+    const categories = ['appliances', 'cookware', 'knives', 'gadgets'];
     const categoryUrls = categories.map((cat) => ({
         url: `${baseUrl}/category/${cat}`,
         lastModified: new Date(),

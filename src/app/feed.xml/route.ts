@@ -48,9 +48,9 @@ export async function GET() {
     const rssFeed = `<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>KitchenLuxe Beauté Naturelle</title>
+        <title>KitchenLuxe | Excellence Culinaire & Design</title>
         <link>${siteUrl}</link>
-        <description>Le meilleur de la cosmétique naturelle et des routines beauté luxueuses.</description>
+        <description>Découvrez les meilleurs ustensiles de chef, robots de cuisine et conseils gastronomiques de luxe.</description>
         <language>fr</language>
         <atom:link href="${siteUrl}/feed.xml" rel="self" type="application/rss+xml" />
         ${rssItems}

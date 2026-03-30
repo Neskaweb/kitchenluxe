@@ -1,7 +1,7 @@
 import { Product } from "./data";
 
-const FR_TAG = "kitchenluxe-21";
-const US_TAG = "kitchenluxe-20";
+const FR_TAG = process.env.NEXT_PUBLIC_AMAZON_TAG_FR || "kitchenluxe-21";
+const US_TAG = process.env.NEXT_PUBLIC_AMAZON_TAG_US || "kitchenluxe-20";
 
 /**
  * Generates an optimized Amazon Affiliate Link.

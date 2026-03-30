@@ -19,7 +19,10 @@ const HASHTAGS_BY_CATEGORY: Record<string, string[]> = {
 
 const DEFAULT_HASHTAGS = ["#CuisineDeLuxe", "#PassionCuisine", "#MaisonDesign", "#GastronomieFrançaise", "#KitchenLuxe"];
 
-export function buildPinData(product: Product, baseUrl: string = "https://kitchenluxe.vercel.app"): PinData {
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://kitchenluxe.vercel.app";
+const MAKE_WEBHOOK_URL = process.env.NEXT_PUBLIC_MAKE_WEBHOOK_URL || "";
+
+export function buildPinData(product: Product, baseUrl: string = BASE_URL): PinData {
     const productUrl = `${baseUrl}/products/${product.slug}`;
     const cleanName = product.name.trim();
 

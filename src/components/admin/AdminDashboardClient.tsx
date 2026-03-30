@@ -84,7 +84,7 @@ export default function AdminDashboardClient() {
         return (
             <div className="dashboard-loading">
                 <div className="spinner"></div>
-                <p>Analyse des performances d'Arganor...</p>
+                <p>Analyse des performances d'KitchenLuxe...</p>
             </div>
         );
     }
@@ -93,7 +93,7 @@ export default function AdminDashboardClient() {
         <div className="dashboard-home">
             <header className="page-header-admin">
                 <div className="header-top">
-                    <h1 className="dashboard-title">✨ Arganor Dashboard</h1>
+                    <h1 className="dashboard-title">✨ KitchenLuxe Dashboard</h1>
                     <span className="live-badge">🚀 SITE EN LIGNE (Vercel)</span>
                 </div>
                 <p>Tableau de bord de performance et d'affiliation.</p>

@@ -26,12 +26,12 @@ export async function generateMetadata({ params }: ProductPageProps) {
 
     if (!product) {
         return {
-            title: "Product Not Found | Arganor",
+            title: "Product Not Found | KitchenLuxe",
         };
     }
 
     return {
-        title: `${product.name} | Arganor Luxury Beauty`,
+        title: `${product.name} | KitchenLuxe Elite`,
         description: product.description,
         keywords: product.seoTags,
         openGraph: {
@@ -80,7 +80,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
                                 },
                                 "offers": {
                                     "@type": "Offer",
-                                    "url": `https://arganor.com/products/${product.slug}`,
+                                    "url": `https://kitchenluxe.vercel.app/products/${product.slug}`,
                                     "priceCurrency": "EUR",
                                     "price": product.price,
                                     "availability": "https://schema.org/InStock",
@@ -172,7 +172,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
                                 </div>
                                 <div className="trust-badge-item">
                                     <Award size={22} color="var(--color-gold-dark)" />
-                                    <span>Label de Qualité Bio</span>
+                                    <span>Label de Qualité Chef</span>
                                 </div>
                                 <div className="trust-badge-item">
                                     <ShieldCheck size={22} color="var(--color-gold-dark)" />

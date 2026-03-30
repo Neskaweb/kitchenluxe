@@ -3,7 +3,7 @@ import { getProducts } from '@/lib/data';
 import { getBlogPosts } from '@/lib/blog';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://arganor.vercel.app'; // URL de production exacte
+    const baseUrl = 'https://KitchenLuxe.vercel.app'; // URL de production exacte
 
     // Get all products
     const products = getProducts();

@@ -14,7 +14,7 @@ async function postToPinterest(pinData) {
     
     // Pseudo-code d'intégration API
     // const response = await myPinterestAPI.createPin({
-    //     board_id: "VOTRE_BOARD_ID_ARGANOR",
+    //     board_id: "VOTRE_BOARD_ID_KitchenLuxe",
     //     media_source: {
     //         source_type: "image_url",
     //         url: pinData.imageUrl
@@ -40,11 +40,11 @@ async function autoPin() {
     const latestPost = posts[0];
     
     // Nous construisons l'URL vers votre site (Changez avec votre vrai domaine Vercel)
-    const siteDomain = "https://arganor.vercel.app";
+    const siteDomain = "https://KitchenLuxe.vercel.app";
 
     const pin = {
         title: latestPost.title,
-        description: `${latestPost.excerpt} Découvrez le secret de belleza naturel #arganor #beauté #routine #soin`,
+        description: `${latestPost.excerpt} Découvrez le secret de belleza naturel #KitchenLuxe #beauté #routine #soin`,
         imageUrl: latestPost.image || "https://images.unsplash.com/photo-1542452255-1f5462c4b868",
         link: `${siteDomain}/blog/${latestPost.slug}`
     };

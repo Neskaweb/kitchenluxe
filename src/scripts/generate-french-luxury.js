@@ -31,7 +31,7 @@ const IMAGES = [
     'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?q=80&w=1974&auto=format&fit=crop'
 ];
 
-const BRANDS = ['Arganor Héritage', 'Arganor Luxe', 'Arganor Professionnel', 'Arganor Spa', 'Arganor Botanique', 'Arganor Or Pur'];
+const BRANDS = ['KitchenLuxe Héritage', 'KitchenLuxe Luxe', 'KitchenLuxe Professionnel', 'KitchenLuxe Spa', 'KitchenLuxe Botanique', 'KitchenLuxe Or Pur'];
 
 function getRandom(arr) {
     return arr[Math.floor(Math.random() * arr.length)];
@@ -82,11 +82,11 @@ for (let i = 0; i < TOTAL_PRODUCTS; i++) {
         rating: Number((Math.random() * (5.0 - 4.6) + 4.6).toFixed(1)), // Very high ratings for luxury
         reviews: Math.floor(Math.random() * 800) + 120,
         features: [niche.keywords[0], "100% Bio", "Ethique", "Luxe"],
-        seoTags: [...niche.keywords, "beauté de luxe", "arganor", "cosmétique marocaine"]
+        seoTags: [...niche.keywords, "beauté de luxe", "KitchenLuxe", "cosmétique marocaine"]
     };
 
     products.push(product);
 }
 
 fs.writeFileSync(OUTPUT_FILE, JSON.stringify(products, null, 2));
-console.log(`[Arganor Engine] Génération réussie de ${products.length} produits de luxe. Target: ${OUTPUT_FILE}`);
+console.log(`[KitchenLuxe Engine] Génération réussie de ${products.length} produits de luxe. Target: ${OUTPUT_FILE}`);

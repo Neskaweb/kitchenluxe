@@ -2,8 +2,8 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
 export const metadata = {
-  title: "Terms of Service | Arganor",
-  description: "Terms and conditions of use for Arganor.",
+  title: "Terms of Service | KitchenLuxe",
+  description: "Terms and conditions of use for KitchenLuxe.",
 };
 
 export default function TermsPage() {
@@ -16,12 +16,12 @@ export default function TermsPage() {
 
         <section style={{ marginTop: "2rem" }}>
           <h2>1. Agreement to Terms</h2>
-          <p>By accessing or using our website, www.arganor.com, you agree to be bound by these Terms of Service. If you disagree with any part of the terms, you may not access the service.</p>
+          <p>By accessing or using our website, www.KitchenLuxe.com, you agree to be bound by these Terms of Service. If you disagree with any part of the terms, you may not access the service.</p>
         </section>
 
         <section style={{ marginTop: "2rem" }}>
           <h2>2. Intellectual Property</h2>
-          <p>The Service and its original content, features, and functionality are and will remain the exclusive property of Arganor and its licensors. Our trademarks and trade dress may not be used in connection with any product or service without the prior written consent of Arganor.</p>
+          <p>The Service and its original content, features, and functionality are and will remain the exclusive property of KitchenLuxe and its licensors. Our trademarks and trade dress may not be used in connection with any product or service without the prior written consent of KitchenLuxe.</p>
         </section>
 
         <section style={{ marginTop: "2rem" }}>
@@ -31,7 +31,7 @@ export default function TermsPage() {
 
         <section style={{ marginTop: "2rem" }}>
           <h2>4. Links to Other Web Sites</h2>
-          <p>Our Service may contain affiliate links to third-party web sites or services that are not owned or controlled by Arganor, such as Amazon. Arganor has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services.</p>
+          <p>Our Service may contain affiliate links to third-party web sites or services that are not owned or controlled by KitchenLuxe, such as Amazon. KitchenLuxe has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services.</p>
         </section>
 
         <section style={{ marginTop: "2rem" }}>

@@ -5,7 +5,7 @@ export async function GET() {
     const posts = getBlogPosts();
     
     // Fallback à Vercel en production, localhost sinon
-    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://arganor.vercel.app';
+    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://KitchenLuxe.vercel.app';
 
     let rssItems = '';
 
@@ -48,7 +48,7 @@ export async function GET() {
     const rssFeed = `<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Arganor Beauté Naturelle</title>
+        <title>KitchenLuxe Beauté Naturelle</title>
         <link>${siteUrl}</link>
         <description>Le meilleur de la cosmétique naturelle et des routines beauté luxueuses.</description>
         <language>fr</language>

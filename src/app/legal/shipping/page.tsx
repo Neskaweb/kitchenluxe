@@ -2,8 +2,8 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
 export const metadata = {
-  title: "Shipping Policy | Arganor",
-  description: "Arganor shipping information and delivery times.",
+  title: "Shipping Policy | KitchenLuxe",
+  description: "KitchenLuxe shipping information and delivery times.",
 };
 
 export default function ShippingPage() {
@@ -16,7 +16,7 @@ export default function ShippingPage() {
         <section style={{ marginTop: "2rem" }}>
           <h2>1. Shipping with Amazon</h2>
           <p>
-            Because Arganor curates premium beauty products via affiliate partnerships with Amazon, shipping methods, costs, and delivery times are determined directly by Amazon Logistics or the third-party seller on their platform. 
+            Because KitchenLuxe curates premium beauty products via affiliate partnerships with Amazon, shipping methods, costs, and delivery times are determined directly by Amazon Logistics or the third-party seller on their platform. 
           </p>
           <p>
             For exact shipping dates, expedited options (like Amazon Prime Free One-Day Delivery), and tracking information, please refer to the Amazon checkout page during your purchase.
@@ -26,7 +26,7 @@ export default function ShippingPage() {
         <section style={{ marginTop: "2rem" }}>
           <h2>2. Direct Order Shipping</h2>
           <p>
-            For any promotional or limited-edition items sold directly via Arganor.com, standard shipping is processed within 1-2 business days. 
+            For any promotional or limited-edition items sold directly via KitchenLuxe.com, standard shipping is processed within 1-2 business days. 
           </p>
           <ul style={{ paddingLeft: "2rem", marginTop: "1rem" }}>
             <li><strong>Standard Shipping (EU):</strong> 3-5 business days</li>
@@ -43,7 +43,7 @@ export default function ShippingPage() {
 
         <section style={{ marginTop: "2rem" }}>
           <h2>4. Contact Us</h2>
-          <p>If you have questions regarding a direct shipment from Arganor, contact us at purorganicoil@gmail.com. For questions regarding an Amazon shipment, please check your Amazon Orders page.</p>
+          <p>If you have questions regarding a direct shipment from KitchenLuxe, contact us at purorganicoil@gmail.com. For questions regarding an Amazon shipment, please check your Amazon Orders page.</p>
         </section>
 
       </main>

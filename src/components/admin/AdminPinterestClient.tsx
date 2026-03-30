@@ -404,7 +404,7 @@ export default function AdminPinterestClient() {
                                         <li>Dans Make.com → Nouveau scénario</li>
                                         <li>Trigger : <strong>Clock</strong> → Tous les jours à <strong>10:00</strong></li>
                                         <li>Module : <strong>HTTP → Make a request</strong></li>
-                                        <li>URL : <code>{typeof window !== "undefined" ? window.location.origin : "https://arganor.vercel.app"}/api/pinterest/publish?batch=5</code></li>
+                                        <li>URL : <code>{typeof window !== "undefined" ? window.location.origin : "https://KitchenLuxe.vercel.app"}/api/pinterest/publish?batch=5</code></li>
                                         <li>Méthode : <strong>POST</strong> → Sauvegarder → <strong>Activer le scénario</strong> ✅</li>
                                     </ol>
                                     <p className="make-cron-result">→ 5 Pins publiés automatiquement chaque matin, 7j/7, sans rien faire ! 🎉</p>

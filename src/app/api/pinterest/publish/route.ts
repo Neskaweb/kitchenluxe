@@ -3,7 +3,7 @@ import { getProducts, getProductById } from "@/lib/data";
 import { buildPinData, buildMakeWebhookPayload } from "@/lib/pinterest";
 
 const MAKE_WEBHOOK = process.env.PINTEREST_WEBHOOK || "https://hook.eu2.make.com/f7uev8liex6gs2o9klx082s6muyq1dtl";
-const API_KEY = process.env.ARGANOR_API_KEY || "";
+const API_KEY = process.env.KitchenLuxe_API_KEY || "";
 
 function isAuthorized(req: NextRequest): boolean {
     // Accept via Authorization header ("Bearer XXX" or raw key)
@@ -52,7 +52,7 @@ export async function POST(req: NextRequest) {
     const batchSize = parseInt(searchParams.get("batch") || "0");
     
     // Force production URL for Pinterest (never use VERCEL_URL because it might point to a protected preview branch causing SSO login issues)
-    const baseUrl = "https://arganor.vercel.app";
+    const baseUrl = "https://KitchenLuxe.vercel.app";
 
     // ── Single product publish ──────────────────────────────────
     if (productId) {

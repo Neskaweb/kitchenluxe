@@ -51,18 +51,10 @@ export async function GET(req: NextRequest) {
     saveClicks(data);
 
     // ── Build Affiliate Link ─────────────────────────────────
-    let amazonLink = "";
+    // Using the Smart ASIN Search strategy for 100% reliability
     const affiliateTag = process.env.NEXT_PUBLIC_AMAZON_TAG_FR || "kitchenluxe-21";
-
-    if (product.asin) {
-        // Direct Product Page
-        amazonLink = `https://www.amazon.fr/dp/${product.asin}?tag=${affiliateTag}`;
-    } else {
-        // Fallback: Amazon Search results for the exact product name
-        // This guarantees the user finds the accurate product (or very close) and the affiliate cookie is still set!
-        const searchQuery = encodeURIComponent(product.name);
-        amazonLink = `https://www.amazon.fr/s?k=${searchQuery}&tag=${affiliateTag}`;
-    }
+    const query = product.asin ? product.asin : encodeURIComponent(product.name);
+    const amazonLink = `https://www.amazon.fr/s?k=${query}&tag=${affiliateTag}`;
     
     // REDIRECT to Amazon immediately!
     return NextResponse.redirect(amazonLink);

@@ -2,7 +2,7 @@ import Link from "next/link";
 import { LayoutDashboard, Package, FileText, Settings, LogOut, Pin } from "lucide-react";
 
 export const metadata = {
-    title: "Admin Dashboard | Arganor",
+    title: "Admin Dashboard | KitchenLuxe",
     description: "Manage your affiliate business.",
 };
 
@@ -14,7 +14,7 @@ export default function AdminLayout({
     return (
         <div className="admin-layout">
             <aside className="admin-sidebar">
-                <div className="admin-logo">ARGANOR <span className="admin-badge">Admin</span></div>
+                <div className="admin-logo">KitchenLuxe <span className="admin-badge">Admin</span></div>
                 <nav className="admin-nav">
                     <Link href="/admin" className="admin-link">
                         <LayoutDashboard size={20} /> Dashboard

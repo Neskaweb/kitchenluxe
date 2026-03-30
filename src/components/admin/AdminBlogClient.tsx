@@ -60,7 +60,7 @@ We've tested countless products, but this one stands out because of its purity a
 Apply generous amounts before bed or in the morning for best results.
         `,
             category: product.category,
-            author: "Arganor AI Editor",
+            author: "KitchenLuxe AI Editor",
             publishedDate: new Date().toISOString().split('T')[0],
             image: product.image,
             relatedProductId: product.id

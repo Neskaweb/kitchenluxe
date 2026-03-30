@@ -2,8 +2,8 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
 export const metadata = {
-  title: "Privacy Policy | Arganor",
-  description: "Learn how Arganor protects your personal information.",
+  title: "Privacy Policy | KitchenLuxe",
+  description: "Learn how KitchenLuxe protects your personal information.",
 };
 
 export default function PrivacyPage() {
@@ -22,7 +22,7 @@ export default function PrivacyPage() {
 
         <section style={{ marginTop: "2rem" }}>
           <h2>2. Use Of Data</h2>
-          <p>Arganor uses the collected data for various purposes:</p>
+          <p>KitchenLuxe uses the collected data for various purposes:</p>
           <ul style={{ paddingLeft: "2rem", marginTop: "1rem" }}>
             <li>To provide and maintain our Service</li>
             <li>To notify you about changes to our Service</li>

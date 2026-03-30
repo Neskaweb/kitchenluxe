@@ -112,21 +112,46 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                                     .replace(/\n\n/g, '<br /><br />')
                             }} />
 
-                            {/* Pinterest Pin-It Block (Optimized for "Save from URL") */}
+                            {/* Pinterest Pin-It Block (Optimized for Sharing) */}
                             {(post as any).pinterestImage && (
                                 <div className="pinterest-share-box" style={{ background: '#FFF5F5', padding: '2rem', borderRadius: '12px', border: '1px solid #FFDFDF', textAlign: 'center', margin: '3rem 0', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                                    <h3 style={{ fontSize: '1.4rem', color: '#E60023', marginBottom: '1rem', fontFamily: 'var(--font-playfair)' }}>
-                                        📌 Épinglez pour lire plus tard !
+                                    <h3 style={{ fontSize: '1.4rem', color: '#E60023', marginBottom: '1rem', fontFamily: 'var(--font-heading)' }}>
+                                        📌 Partagez-le sur Pinterest !
                                     </h3>
                                     <p style={{ fontSize: '0.95rem', color: '#555', marginBottom: '1.5rem', maxWidth: '400px' }}>
-                                        Utilisez l'extension Pinterest ou la fonction "Créer depuis une URL" pour partager instantanément cette affiche avec votre communauté.
+                                        Aidez d'autres passionnés de cuisine en épinglant cette aide visuelle sur votre profil.
                                     </p>
-                                    <div style={{ maxWidth: '300px', width: '100%', boxShadow: '0 10px 30px rgba(0,0,0,0.15)', borderRadius: '8px', overflow: 'hidden' }}>
+                                    
+                                    <div style={{ position: 'relative', maxWidth: '300px', width: '100%', boxShadow: '0 10px 30px rgba(0,0,0,0.15)', borderRadius: '8px', overflow: 'hidden', cursor: 'pointer' }}>
                                         <img 
                                             src={(post as any).pinterestImage} 
                                             alt={`Épingle Pinterest : ${post.title}`} 
                                             style={{ width: '100%', height: 'auto', display: 'block' }}
                                         />
+                                        
+                                        {/* Dynamic Pinterest share link */}
+                                        <a 
+                                            href={`https://www.pinterest.com/pin/create/button/?url=${encodeURIComponent(`https://kitchenluxe.vercel.app/blog/${post.slug}`)}&media=${encodeURIComponent((post as any).pinterestImage)}&description=${encodeURIComponent(post.title)}`}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            style={{ 
+                                                position: 'absolute', 
+                                                top: '50%', left: '50%', 
+                                                transform: 'translate(-50%, -50%)',
+                                                backgroundColor: '#E60023',
+                                                color: 'white',
+                                                padding: '10px 20px',
+                                                borderRadius: '30px',
+                                                fontWeight: 'bold',
+                                                textDecoration: 'none',
+                                                boxShadow: '0 4px 12px rgba(0,0,0,0.3)',
+                                                display: 'flex',
+                                                alignItems: 'center',
+                                                gap: '8px',
+                                            }}
+                                        >
+                                            📌 Épingler
+                                        </a>
                                     </div>
                                 </div>
                             )}

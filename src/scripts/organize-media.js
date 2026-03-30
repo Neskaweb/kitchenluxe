@@ -7,8 +7,8 @@ const MEDIA_PINTEREST_DIR = path.join(__dirname, '../../media/pinterest');
 const BULK_CSV_FILE = path.join(MEDIA_PINTEREST_DIR, 'pinterest-bulk-upload.csv');
 
 // Configuration du site
-const SITE_URL = 'https://arganor.vercel.app'; 
-const BOARD_NAME = 'Arganor - Beauté Naturelle';
+const SITE_URL = 'https://KitchenLuxe.vercel.app'; 
+const BOARD_NAME = 'KitchenLuxe - Beauté Naturelle';
 
 function escapeCsv(str) {
     if (!str) return '""';
@@ -16,7 +16,7 @@ function escapeCsv(str) {
 }
 
 async function run() {
-    console.log('📦 [Arganor Media] Organisation au format Officiel Pinterest...');
+    console.log('📦 [KitchenLuxe Media] Organisation au format Officiel Pinterest...');
 
     if (!fs.existsSync(MEDIA_PINTEREST_DIR)) {
         fs.mkdirSync(MEDIA_PINTEREST_DIR, { recursive: true });

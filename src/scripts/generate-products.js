@@ -37,8 +37,8 @@ const IMAGES = [
     'https://images.unsplash.com/photo-1629198688000-71f23e745b6e?q=80&w=2080&auto=format&fit=crop', // Dropper
 ];
 
-// Brands in the Arganor Ecosystem
-const BRANDS = ['Arganor Heritage', 'Arganor Luxe', 'Arganor Professional', 'Arganor Spa', 'Arganor Botanics', 'Arganor Pure', 'Arganor Gold'];
+// Brands in the KitchenLuxe Ecosystem
+const BRANDS = ['KitchenLuxe Heritage', 'KitchenLuxe Luxe', 'KitchenLuxe Professional', 'KitchenLuxe Spa', 'KitchenLuxe Botanics', 'KitchenLuxe Pure', 'KitchenLuxe Gold'];
 
 // --- Helper Functions ---
 
@@ -92,7 +92,7 @@ for (let i = 0; i < TOTAL_PRODUCTS; i++) {
         rating: Number((Math.random() * (5.0 - 4.2) + 4.2).toFixed(1)), // High ratings 4.2+
         reviews: Math.floor(Math.random() * 500) + 24,
         features: [niche.keywords[0], "Cruelty Free", "Organic", "Premium"],
-        seoTags: [...niche.keywords, "luxury beauty", "arganor"]
+        seoTags: [...niche.keywords, "luxury beauty", "KitchenLuxe"]
     };
 
     products.push(product);

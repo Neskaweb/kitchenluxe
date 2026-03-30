@@ -1,7 +1,7 @@
 import AdminPinterestClient from "@/components/admin/AdminPinterestClient";
 
 export const metadata = {
-    title: "Pinterest Dashboard | Arganor Admin",
+    title: "Pinterest Dashboard | KitchenLuxe Admin",
     description: "Gérer et automatiser la publication de Pins Pinterest",
 };
 

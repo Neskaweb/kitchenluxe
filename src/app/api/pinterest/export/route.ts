@@ -32,13 +32,13 @@ export async function GET(req: NextRequest) {
         const header = "Title,Description,Link,Image URL,Board";
         const rows = pins.map((pin) => {
             const desc = `${pin.description}\n\n${pin.hashtags.join(" ")}`.replace(/"/g, '""');
-            return `"${pin.title}","${desc}","${pin.link}","${pin.imageUrl}","Arganor — Soins Naturels"`;
+            return `"${pin.title}","${desc}","${pin.link}","${pin.imageUrl}","KitchenLuxe — Soins Naturels"`;
         });
         const csv = [header, ...rows].join("\n");
         return new NextResponse(csv, {
             headers: {
                 "Content-Type": "text/csv; charset=utf-8",
-                "Content-Disposition": `attachment; filename="arganor-pins-${Date.now()}.csv"`,
+                "Content-Disposition": `attachment; filename="KitchenLuxe-pins-${Date.now()}.csv"`,
             },
         });
     }

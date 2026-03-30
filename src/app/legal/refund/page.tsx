@@ -2,8 +2,8 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
 export const metadata = {
-  title: "Return & Refund Policy | Arganor",
-  description: "Arganor return and refund policy information.",
+  title: "Return & Refund Policy | KitchenLuxe",
+  description: "KitchenLuxe return and refund policy information.",
 };
 
 export default function RefundPage() {
@@ -18,14 +18,14 @@ export default function RefundPage() {
           <p>
             As an affiliate partner, the majority of our premium products are fulfilled and shipped directly by Amazon. 
             Therefore, any returns, refunds, or exchanges must be handled through your Amazon account under Amazon&apos;s 
-            standard return policy. Arganor cannot process refunds for items purchased through affiliate links.
+            standard return policy. KitchenLuxe cannot process refunds for items purchased through affiliate links.
           </p>
         </section>
 
         <section style={{ marginTop: "2rem" }}>
           <h2>2. Direct Purchases</h2>
           <p>
-            For any products purchased directly on Arganor.com, we offer a 30-day money-back guarantee. If you are not completely satisfied with your purchase, you may return the item within 30 days of the delivery date for a full refund or exchange.
+            For any products purchased directly on KitchenLuxe.com, we offer a 30-day money-back guarantee. If you are not completely satisfied with your purchase, you may return the item within 30 days of the delivery date for a full refund or exchange.
           </p>
           <ul style={{ paddingLeft: "2rem", marginTop: "1rem" }}>
             <li>Items must be unopened and in their original packaging.</li>

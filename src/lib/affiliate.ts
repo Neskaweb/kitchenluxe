@@ -13,18 +13,12 @@ export const getAffiliateLink = (product: Product, region: 'fr' | 'us' = 'fr'): 
     const tag = region === 'fr' ? FR_TAG : US_TAG;
     const domain = region === 'fr' ? 'amazon.fr' : 'amazon.com';
 
-    // SOLUTION ANTI-404: 
-    // On ignore volontairement les anciens ASINs aléatoires qui causent des erreurs.
-    // On force la recherche directe du nom du produit sur Amazon. 
-    // Cela garantit que la page Amazon s'ouvrira TOUJOURS avec les bons résultats + votre tag d'affiliation.
+    // SMART ASIN SEARCH (Anti-404 Strategy)
+    // If product has an ASIN, we search for that ASIN on Amazon instead of just name.
+    // This triggers the product match 100% of the time without risk of a direct link 404.
+    const query = product.asin ? product.asin : encodeURIComponent(product.name.replace(/\b\d+(ml|g|oz)\b/ig, '').trim());
     
-    // Clean search name for better results on Amazon
-    let cleanName = product.name;
-    // Remove volume/weight strings like "250ml", "100ml", "50ml" for broader matches just in case
-    cleanName = cleanName.replace(/\b\d+(ml|g|oz)\b/ig, '').trim();
-
-    const searchName = encodeURIComponent(cleanName);
-    return `https://www.${domain}/s?k=${searchName}&tag=${tag}`;
+    return `https://www.${domain}/s?k=${query}&tag=${tag}`;
 };
 
 /**

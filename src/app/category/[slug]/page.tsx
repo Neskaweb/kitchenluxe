@@ -5,7 +5,7 @@ import { getProductsByCategory } from "@/lib/data"; // Assumes you might need ge
 import { notFound } from "next/navigation";
 
 // Define known categories for static generation
-const CATEGORIES = ["face", "hair", "body", "skincare", "anti-aging"];
+const CATEGORIES = ["appliances", "cookware", "knives", "precision"];
 
 interface CategoryPageProps {
     params: Promise<{ slug: string }>;
@@ -21,8 +21,8 @@ export async function generateMetadata({ params }: CategoryPageProps) {
     const { slug } = await params;
     const capitalized = slug.charAt(0).toUpperCase() + slug.slice(1);
     return {
-        title: `${capitalized} Care | Arganor`,
-        description: `Shop premium ${slug} care products enriched with organic argan oil.`,
+        title: `${capitalized} | KitchenLuxe Excellence`,
+        description: `Découvrez notre sélection premium de ${slug} pour une cuisine professionnelle à domicile.`,
     };
 }
 
@@ -41,8 +41,8 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
             <main>
                 <div className="category-header">
                     <div className="container">
-                        <h1>{categoryName} Care</h1>
-                        <p>Curated organic solutions for your {slug}.</p>
+                        <h1>{categoryName.replace('Appliances', 'Électroménager').replace('Cookware', 'Cuisson').replace('Knives', 'Coutellerie').replace('Precision', 'Précision')}</h1>
+                        <p>L'excellence culinaire sélectionnée par nos experts.</p>
                     </div>
                 </div>
 

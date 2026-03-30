@@ -1,10 +1,503 @@
 [
   {
+    "id": "kl_p_1774834923803_2827",
+    "asin": "B000X97G3A",
+    "name": "Wüsthof Classic Ikon Paring Knife",
+    "slug": "wusthof-classic-ikon-paring-knife-2827",
+    "description": "Le couteau d'office de précision. Parfait pour peler, parer et décorer vos fruits et légumes avec une agilité maximale.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 79,
+    "category": "Coutellerie",
+    "brand": "Wüsthof",
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.9,
+    "reviews": 1247,
+    "features": [
+      "couteau d'office",
+      "wüsthof",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "couteau d'office",
+      "wüsthof",
+      "ikon",
+      "coutellerie de précision",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1774834915975_7438",
+    "asin": "B00V86W64M",
+    "name": "Le Creuset Signature Cast Iron Casserole",
+    "slug": "le-creuset-signature-cast-iron-casserole-7438",
+    "description": "La cocotte en fonte émaillée française légendaire. Parfaite pour les ragoûts, les rôtis et les cuissons lentes.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 319,
+    "category": "Ustensiles de Chef",
+    "brand": "Le Creuset",
+    "image": "https://images.unsplash.com/photo-1588854337236-6889d631faa8?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.8,
+    "reviews": 1024,
+    "features": [
+      "cocotte en fonte",
+      "le creuset",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "cocotte en fonte",
+      "le creuset",
+      "cuisine traditionnelle",
+      "mijoté",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1774834909237_8109",
+    "asin": "B00004RFMT",
+    "name": "Zwilling Pro Chef's Knife 20cm",
+    "slug": "zwilling-pro-chef-s-knife-20cm-8109",
+    "description": "L'excellence de la coutellerie allemande. Forgé à partir d'une seule pièce d'acier spécial pour un tranchant durable.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 109,
+    "category": "Coutellerie",
+    "brand": "Zwilling",
+    "image": "https://images.unsplash.com/photo-1507048331197-7d4ac70811cf?q=80&w=1974&auto=format&fit=crop",
+    "rating": 4.9,
+    "reviews": 1626,
+    "features": [
+      "couteau de chef",
+      "zwilling pro",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "couteau de chef",
+      "zwilling pro",
+      "coutellerie pro",
+      "couteau forgé",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1774834902684_6461",
+    "asin": "B000X97G3A",
+    "name": "Wüsthof Classic Ikon Paring Knife",
+    "slug": "wusthof-classic-ikon-paring-knife-6461",
+    "description": "Le couteau d'office de précision. Parfait pour peler, parer et décorer vos fruits et légumes avec une agilité maximale.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 79,
+    "category": "Coutellerie",
+    "brand": "Wüsthof",
+    "image": "https://images.unsplash.com/photo-1594910413521-17f167666993?q=80&w=1974&auto=format&fit=crop",
+    "rating": 4.8,
+    "reviews": 654,
+    "features": [
+      "couteau d'office",
+      "wüsthof",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "couteau d'office",
+      "wüsthof",
+      "ikon",
+      "coutellerie de précision",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1774834894147_9124",
+    "asin": "B00V86W64M",
+    "name": "Le Creuset Signature Cast Iron Casserole",
+    "slug": "le-creuset-signature-cast-iron-casserole-9124",
+    "description": "La cocotte en fonte émaillée française légendaire. Parfaite pour les ragoûts, les rôtis et les cuissons lentes.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 319,
+    "category": "Ustensiles de Chef",
+    "brand": "Le Creuset",
+    "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.7,
+    "reviews": 356,
+    "features": [
+      "cocotte en fonte",
+      "le creuset",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "cocotte en fonte",
+      "le creuset",
+      "cuisine traditionnelle",
+      "mijoté",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1774834883322_7791",
+    "asin": "B00V86W64M",
+    "name": "Le Creuset Signature Cast Iron Casserole",
+    "slug": "le-creuset-signature-cast-iron-casserole-7791",
+    "description": "La cocotte en fonte émaillée française légendaire. Parfaite pour les ragoûts, les rôtis et les cuissons lentes.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 319,
+    "category": "Ustensiles de Chef",
+    "brand": "Le Creuset",
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2070&auto=format&fit=crop",
+    "rating": 5,
+    "reviews": 1631,
+    "features": [
+      "cocotte en fonte",
+      "le creuset",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "cocotte en fonte",
+      "le creuset",
+      "cuisine traditionnelle",
+      "mijoté",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1774834876974_8292",
+    "asin": "B01B7M9R9S",
+    "name": "Magimix Cook Expert Robot Cuiseur",
+    "slug": "magimix-cook-expert-robot-cuiseur-8292",
+    "description": "Le robot cuiseur multifonction ultra-complet. Cuit, mélange, hache et pétrit pour des repas gastronomiques rapides.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 1199,
+    "category": "Électroménager",
+    "brand": "Magimix",
+    "image": "https://images.unsplash.com/photo-1507048331197-7d4ac70811cf?q=80&w=1974&auto=format&fit=crop",
+    "rating": 4.7,
+    "reviews": 428,
+    "features": [
+      "robot cuiseur",
+      "magimix cook expert",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "robot cuiseur",
+      "magimix cook expert",
+      "cuisine gourmande",
+      "robot multifonction",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1774834869809_2981",
+    "asin": "B00CI32S9K",
+    "name": "Sage Barista Express Espresso Machine",
+    "slug": "sage-barista-express-espresso-machine-2981",
+    "description": "L'expérience barista ultime à la maison. Un broyeur intégré pour un café fraîchement moulu et une mousse de lait soyeuse.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 629,
+    "category": "Électroménager",
+    "brand": "Sage",
+    "image": "https://images.unsplash.com/photo-1594910413521-17f167666993?q=80&w=1974&auto=format&fit=crop",
+    "rating": 4.9,
+    "reviews": 762,
+    "features": [
+      "machine espresso",
+      "barista",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "machine espresso",
+      "barista",
+      "café de luxe",
+      "sage appliances",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1774834863274_449",
+    "asin": "B00V86W64M",
+    "name": "Le Creuset Signature Cast Iron Casserole",
+    "slug": "le-creuset-signature-cast-iron-casserole-449",
+    "description": "La cocotte en fonte émaillée française légendaire. Parfaite pour les ragoûts, les rôtis et les cuissons lentes.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 319,
+    "category": "Ustensiles de Chef",
+    "brand": "Le Creuset",
+    "image": "https://images.unsplash.com/photo-1507048331197-7d4ac70811cf?q=80&w=1974&auto=format&fit=crop",
+    "rating": 5,
+    "reviews": 594,
+    "features": [
+      "cocotte en fonte",
+      "le creuset",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "cocotte en fonte",
+      "le creuset",
+      "cuisine traditionnelle",
+      "mijoté",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1774834854974_4155",
+    "asin": "B00004RFMT",
+    "name": "Zwilling Pro Chef's Knife 20cm",
+    "slug": "zwilling-pro-chef-s-knife-20cm-4155",
+    "description": "L'excellence de la coutellerie allemande. Forgé à partir d'une seule pièce d'acier spécial pour un tranchant durable.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 109,
+    "category": "Coutellerie",
+    "brand": "Zwilling",
+    "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=2070&auto=format&fit=crop",
+    "rating": 5,
+    "reviews": 658,
+    "features": [
+      "couteau de chef",
+      "zwilling pro",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "couteau de chef",
+      "zwilling pro",
+      "coutellerie pro",
+      "couteau forgé",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1774834848176_4240",
+    "asin": "B00CI32S9K",
+    "name": "Sage Barista Express Espresso Machine",
+    "slug": "sage-barista-express-espresso-machine-4240",
+    "description": "L'expérience barista ultime à la maison. Un broyeur intégré pour un café fraîchement moulu et une mousse de lait soyeuse.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 629,
+    "category": "Électroménager",
+    "brand": "Sage",
+    "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.9,
+    "reviews": 328,
+    "features": [
+      "machine espresso",
+      "barista",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "machine espresso",
+      "barista",
+      "café de luxe",
+      "sage appliances",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1774834841009_7128",
+    "asin": "B000X97G3A",
+    "name": "Wüsthof Classic Ikon Paring Knife",
+    "slug": "wusthof-classic-ikon-paring-knife-7128",
+    "description": "Le couteau d'office de précision. Parfait pour peler, parer et décorer vos fruits et légumes avec une agilité maximale.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 79,
+    "category": "Coutellerie",
+    "brand": "Wüsthof",
+    "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.8,
+    "reviews": 635,
+    "features": [
+      "couteau d'office",
+      "wüsthof",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "couteau d'office",
+      "wüsthof",
+      "ikon",
+      "coutellerie de précision",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1774834833998_5854",
+    "asin": "B089SYG6CC",
+    "name": "Ninja Foodi MAX Dual Zone Air Fryer",
+    "slug": "ninja-foodi-max-dual-zone-air-fryer-5854",
+    "description": "La friteuse sans huile révolutionnaire avec deux zones de cuisson indépendantes. Cuisinez deux plats différemment en même temps.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 229,
+    "category": "Électroménager",
+    "brand": "Ninja",
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.9,
+    "reviews": 1079,
+    "features": [
+      "air fryer",
+      "ninja foodi",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "air fryer",
+      "ninja foodi",
+      "cuisine saine",
+      "friteuse sans huile",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1774834827431_4679",
+    "asin": "B01B7M9R9S",
+    "name": "Magimix Cook Expert Robot Cuiseur",
+    "slug": "magimix-cook-expert-robot-cuiseur-4679",
+    "description": "Le robot cuiseur multifonction ultra-complet. Cuit, mélange, hache et pétrit pour des repas gastronomiques rapides.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 1199,
+    "category": "Électroménager",
+    "brand": "Magimix",
+    "image": "https://images.unsplash.com/photo-1588854337236-6889d631faa8?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.8,
+    "reviews": 978,
+    "features": [
+      "robot cuiseur",
+      "magimix cook expert",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "robot cuiseur",
+      "magimix cook expert",
+      "cuisine gourmande",
+      "robot multifonction",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1774834820026_5555",
+    "asin": "B00V86W64M",
+    "name": "Le Creuset Signature Cast Iron Casserole",
+    "slug": "le-creuset-signature-cast-iron-casserole-5555",
+    "description": "La cocotte en fonte émaillée française légendaire. Parfaite pour les ragoûts, les rôtis et les cuissons lentes.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 319,
+    "category": "Ustensiles de Chef",
+    "brand": "Le Creuset",
+    "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.9,
+    "reviews": 1401,
+    "features": [
+      "cocotte en fonte",
+      "le creuset",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "cocotte en fonte",
+      "le creuset",
+      "cuisine traditionnelle",
+      "mijoté",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1774833595169_8973",
+    "asin": "B01D8S80FA",
+    "name": "Philips Pasta Maker Avance Collection",
+    "slug": "philips-pasta-maker-avance-collection-8973",
+    "description": "Préparez des pâtes fraîches maison en moins de 10 minutes. Entièrement automatique, du mélange à l'extrusion.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 199,
+    "category": "Électroménager",
+    "brand": "Philips",
+    "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.9,
+    "reviews": 1746,
+    "features": [
+      "pâtes maison",
+      "pasta maker",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "pâtes maison",
+      "pasta maker",
+      "philips avance",
+      "cuisine italienne",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1774833581709_8769",
+    "asin": "B01GE777XK",
+    "name": "Couteau de Chef Japonais Damas 20cm",
+    "slug": "couteau-de-chef-japonais-damas-20cm-8769",
+    "description": "Une lame en acier Damas 67 couches d'une netteté exceptionnelle. L'équilibre parfait pour une découpe de précision.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 89,
+    "category": "Coutellerie",
+    "brand": "Shan Zu",
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.7,
+    "reviews": 793,
+    "features": [
+      "couteau damas",
+      "couteau de chef",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "couteau damas",
+      "couteau de chef",
+      "cuisine japonaise",
+      "coutellerie pro",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
     "id": "kl_sage_barista",
     "name": "Sage Barista Express™ Espresso Machine",
     "brand": "Sage",
     "asin": "B00CI32S9K",
-    "price": 629.0,
+    "price": 629,
     "category": "Électroménager",
     "slug": "sage-barista-express",
     "image": "https://images.unsplash.com/photo-1570968015849-ab4263799c99?q=80&w=1974&auto=format&fit=crop",
@@ -26,7 +519,7 @@
     "name": "Ninja Foodi MAX Dual Zone Air Fryer",
     "brand": "Ninja",
     "asin": "B089SYG6CC",
-    "price": 229.0,
+    "price": 229,
     "category": "Électroménager",
     "slug": "ninja-foodi-max",
     "image": "https://images.unsplash.com/photo-1626074353765-517a681e40be?q=80&w=2070&auto=format&fit=crop",
@@ -48,11 +541,11 @@
     "name": "KitchenAid Artisan Stand Mixer 4.8L",
     "brand": "KitchenAid",
     "asin": "B00004SGFW",
-    "price": 749.0,
+    "price": 749,
     "category": "Appareils de Précision",
     "slug": "kitchenaid-artisan",
     "image": "https://images.unsplash.com/photo-1594910413521-17f167666993?q=80&w=1974&auto=format&fit=crop",
-    "rating": 5.0,
+    "rating": 5,
     "reviews": 5600,
     "description": "L'icône de la pâtisserie. Un design légendaire allié à une puissance inégalée pour toutes vos créations.",
     "benefits": "### Avantages\n- Moteur à entraînement direct\n- Multi-fonctionnel\n- Robuste & Durable",
@@ -70,7 +563,7 @@
     "name": "Le Creuset Signature Cast Iron Casserole",
     "brand": "Le Creuset",
     "asin": "B00V86W64M",
-    "price": 319.0,
+    "price": 319,
     "category": "Ustensiles de Chef",
     "slug": "le-creuset-signature",
     "image": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?q=80&w=1974&auto=format&fit=crop",

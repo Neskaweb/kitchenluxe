@@ -13,7 +13,9 @@
   --color-light-grey: #F4F4F4;
   --color-cream: #FDFCFB;
   --color-white: #FFFFFF;
-  --color-glass: rgba(255, 255, 255, 0.85);
+  --color-glass: rgba(255, 255, 255, 0.05);
+  --color-glass-border: rgba(255, 255, 255, 0.1);
+  --color-glass-dark: rgba(0, 0, 0, 0.6);
 
   /* Typography - Modern Serif & Sans */
   --font-heading: var(--font-playfair), "Cormorant Garamond", serif;
@@ -439,8 +441,22 @@ img {
 .image-container {
   position: relative;
   overflow: hidden;
-  aspect-ratio: 1;
   background: var(--color-light-grey);
+  border-radius: 2px;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.03);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--color-glass-border);
+  transition: all 0.5s var(--ease-premium);
+}
+
+.glass-card:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: var(--color-accent);
+  transform: translateY(-10px);
 }
 
 .image-container .product-image {
@@ -671,16 +687,16 @@ img {
   transform: translateY(0);
 }
 
-.category-image.face {
-  background-image: url('https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2070&auto=format&fit=crop');
+.category-image.appliances {
+  background-image: url('https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=2070&auto=format&fit=crop');
 }
 
-.category-image.hair {
-  background-image: url('https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=1974&auto=format&fit=crop');
+.category-image.cookware {
+  background-image: url('https://images.unsplash.com/photo-1583394060213-9791f1737be5?q=80&w=1974&auto=format&fit=crop');
 }
 
-.category-image.body {
-  background-image: url('https://images.unsplash.com/photo-1608248597279-f99d160bfbc8?q=80&w=1974&auto=format&fit=crop');
+.category-image.knives {
+  background-image: url('https://images.unsplash.com/photo-1593113630400-ea4288922497?q=80&w=2070&auto=format&fit=crop');
 }
 
 @media (max-width: 768px) {

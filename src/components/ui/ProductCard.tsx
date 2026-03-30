@@ -9,14 +9,13 @@ interface ProductCardProps {
 
 export default function ProductCard({ product }: ProductCardProps) {
   return (
-    <div className="product-card">
+    <div className="product-card glass-card">
       <div className="image-container">
         <Link href={`/products/${product.slug}`}>
           <img
             src={product.image}
             alt={product.name}
             className="product-image"
-            style={{ width: '100%', height: '100%', objectFit: 'cover', cursor: 'pointer' }}
             loading="lazy"
           />
         </Link>
@@ -25,7 +24,7 @@ export default function ProductCard({ product }: ProductCardProps) {
 
       <div className="card-details">
         <div className="rating">
-          <Star size={14} fill="var(--color-gold)" color="var(--color-gold)" />
+          <Star size={14} fill="var(--color-accent)" color="var(--color-accent)" />
           <span>{product.rating} ({product.reviews})</span>
         </div>
 
@@ -33,10 +32,10 @@ export default function ProductCard({ product }: ProductCardProps) {
           <h3 className="product-title">{product.name}</h3>
         </Link>
 
-        <p className="price">${product.price.toFixed(2)}</p>
+        <p className="price" style={{ color: 'var(--color-accent)' }}>{product.price.toFixed(2)}€</p>
 
         <Link href={`/products/${product.slug}`} className="btn-view">
-          Voir le Produit
+          Excellence Profiler
         </Link>
       </div>
     </div>

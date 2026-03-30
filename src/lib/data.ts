@@ -45,11 +45,10 @@ export const getProductById = (id: string): Product | undefined => {
 export const getProductsByCategory = (categorySlug: string): Product[] => {
     // Map URL slug to JSON array categories
     const categoryMap: Record<string, string> = {
-        'face': 'Visage',
-        'hair': 'Cheveux',
-        'body': 'Corps',
-        'skincare': 'Soin',
-        'anti-aging': 'Anti-Âge'
+        'appliances': 'Électroménager',
+        'cookware': 'Ustensiles de Chef',
+        'knives': 'Coutellerie',
+        'precision': 'Appareils de Précision'
     };
 
     const targetCategory = categoryMap[categorySlug.toLowerCase()] || categorySlug;

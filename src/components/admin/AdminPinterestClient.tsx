@@ -169,7 +169,7 @@ export default function AdminPinterestClient() {
                 {[
                     { icon: "📌", value: String(pins.length), label: "Pins Prêts" },
                     { icon: "🤖", value: "Make.com", label: "Webhook Actif" },
-                    { icon: "💰", value: "arganor-21", label: "Tag Affilié" },
+                    { icon: "💰", value: process.env.NEXT_PUBLIC_AMAZON_TAG_FR || "kitchenluxe-21", label: "Tag Affilié" },
                     { icon: "📊", value: String(publishLog.filter(l => l.success).length), label: "Publiés ce run" },
                 ].map((s) => (
                     <div key={s.label} className="pin-stat-card">

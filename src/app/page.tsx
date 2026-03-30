@@ -22,7 +22,7 @@ export default function Home() {
             className="hero-video"
             poster="/images/hero-fallback.jpg"
           >
-            <source src="/videos/hero-luxury.mp4" type="video/mp4" />
+            <source src="https://assets.mixkit.co/videos/preview/mixkit-coffee-pouring-from-a-machine-into-a-cup-40333-preview.mp4" type="video/mp4" />
           </video>
           <div className="hero-overlay"></div>
           

@@ -52,7 +52,7 @@ export async function GET(req: NextRequest) {
 
     // ── Build Affiliate Link ─────────────────────────────────
     let amazonLink = "";
-    const affiliateTag = "arganor-21";
+    const affiliateTag = process.env.NEXT_PUBLIC_AMAZON_TAG_FR || "kitchenluxe-21";
 
     if (product.asin) {
         // Direct Product Page

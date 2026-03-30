@@ -1,11 +1,8 @@
+"use client";
+
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { Mail, Phone, MapPin, Send } from "lucide-react";
-
-export const metadata = {
-  title: "Nous Contacter | KitchenLuxe Support Gourmet",
-  description: "Notre brigade est à votre écoute pour toute question technique ou conseil sur nos équipements culinaires d'exception.",
-};
 
 export default function ContactPage() {
   return (

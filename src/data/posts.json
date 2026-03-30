@@ -429,11 +429,12 @@
     "title": "Bienvenue chez KitchenLuxe : Redéfinissez votre Art Culinaire",
     "slug": "bienvenue-kitchenluxe",
     "metaTitle": "KitchenLuxe | Le nouveau standard des cuisines d'exception",
-    "description": "Découvrez notre mission : apporter la précision des cuisines professionnelles dans votre foyer.",
+    "metaDescription": "Découvrez notre mission : apporter la précision des cuisines professionnelles dans votre foyer.",
+    "excerpt": "Découvrez notre mission : apporter la précision des cuisines professionnelles dans votre foyer.",
     "category": "Inspiration",
     "keywords": "cuisine, luxe, électroménager pro, design",
     "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=2070&auto=format&fit=crop",
-    "date": "2026-03-30",
+    "publishedDate": "2026-03-30",
     "author": "Chef Thomas - Expert KitchenLuxe",
     "content": "\n# Bienvenue chez KitchenLuxe\n\nLa cuisine n'est pas seulement un lieu de préparation, c'est le cœur battant de la maison. Chez **KitchenLuxe**, nous croyons que chaque passionné mérite des outils à la hauteur de son imagination.\n\n## La Quête de la Précision\n\nQue vous soyez un barista en herbe ou un maître du mijotage, nos collections sont sélectionnées pour leur performance sans compromis. \n\n### Nos Engagements :\n\n- **Matériaux Nobles** : Acier chirurgical, cuivre poli, fonte émaillée.\n- **Technologie de Pointe** : Des appareils intelligents pour une maîtrise parfaite.\n- **Design Signature** : Parce que l'esthétique compte autant que la fonctionnalité.\n\nRestez à l'écoute pour nos guides de recettes et nos tests d'appareils bientôt sur ce blog !\n"
   }

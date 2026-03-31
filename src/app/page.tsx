@@ -14,16 +14,11 @@ export default function Home() {
       <main>
         {/* Hero Section - CINEMATIC WAOUH EFFECT */}
         <section className="hero-video-container reveal">
-          <video 
-            autoPlay 
-            muted 
-            loop 
-            playsInline 
-            className="hero-video"
-            poster="/images/hero-fallback.jpg"
-          >
-            <source src="https://assets.mixkit.co/videos/preview/mixkit-coffee-pouring-from-a-machine-into-a-cup-40333-preview.mp4" type="video/mp4" />
-          </video>
+          <div className="hero-animated-bg">
+            <div className="glow-orb orb-1"></div>
+            <div className="glow-orb orb-2"></div>
+            <div className="glow-orb orb-3"></div>
+          </div>
           <div className="hero-overlay"></div>
           
           <div className="container hero-content">

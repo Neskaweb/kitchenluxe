@@ -240,7 +240,7 @@ async function runAutopilot() {
 
     fs.writeFileSync(productsPath, JSON.stringify(products, null, 2));
     fs.writeFileSync(postsPath, JSON.stringify(posts, null, 2));
-    console.log(`🌟 Fin du processus Autopilot KitchenLuxe. 2 produits et 2 articles d'exception générés !`);
+    console.log(`🌟 Fin du processus Autopilot KitchenLuxe. ${NUM_PRODUCTS} produits et articles d'exception générés !`);
 }
 
 runAutopilot().catch(console.error);

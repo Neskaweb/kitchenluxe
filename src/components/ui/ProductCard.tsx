@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Product } from "@/lib/data";
 import { getAffiliateLink } from "@/lib/affiliate";
 import { Star } from "lucide-react";
+import Image from "next/image";
 
 interface ProductCardProps {
   product: Product;
@@ -12,11 +13,13 @@ export default function ProductCard({ product }: ProductCardProps) {
     <div className="product-card glass-card">
       <div className="image-container">
         <Link href={`/products/${product.slug}`}>
-          <img
+          <Image
             src={product.image}
             alt={product.name}
+            width={500}
+            height={400}
             className="product-image"
-            loading="lazy"
+            style={{ objectFit: 'cover', width: '100%', height: '100%' }}
           />
         </Link>
         <span className="category-tag">{product.category}</span>

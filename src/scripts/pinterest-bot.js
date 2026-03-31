@@ -44,7 +44,7 @@ async function autoPin() {
 
     const pin = {
         title: latestPost.title,
-        description: `${latestPost.excerpt} Découvrez le secret de belleza naturel #KitchenLuxe #beauté #routine #soin`,
+        description: `${latestPost.excerpt} Découvrez l'excellence culinaire avec #KitchenLuxe #cuisine #gastronomie #chef`,
         imageUrl: latestPost.image || "https://images.unsplash.com/photo-1542452255-1f5462c4b868",
         link: `${siteDomain}/blog/${latestPost.slug}`
     };

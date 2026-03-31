@@ -3,6 +3,7 @@ import Footer from "@/components/layout/Footer";
 import { getBlogPostBySlug, getBlogPosts } from "@/lib/blog";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { Calendar, User, ArrowLeft, Star } from "lucide-react";
 import { getProductById } from "@/lib/data";
 import { getAffiliateLink } from "@/lib/affiliate";
@@ -26,7 +27,7 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
     if (!post) return { title: "Article Not Found" };
 
     return {
-        title: `${post.title} | Arganor Journal`,
+        title: `${post.title} | KitchenLuxe Journal`,
         description: post.excerpt,
         keywords: post.seoTags || [],
         openGraph: {
@@ -88,10 +89,11 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                     <div className="post-hero-image">
                         <div className="container" style={{maxWidth: '900px'}}>
                             <div className="hero-img-wrapper" style={{ position: 'relative', width: '100%', height: '500px', borderRadius: '12px', overflow: 'hidden', marginTop: '20px' }}>
-                                <img
+                                <Image
                                     src={post.image}
                                     alt={post.title}
-                                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                    fill
+                                    style={{ objectFit: 'cover' }}
                                 />
                             </div>
                         </div>

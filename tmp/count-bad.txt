@@ -1,0 +1,3 @@
+﻿src/data/products.json: 7 occurrences
+src/data/posts.json: 6 occurrences
+Total: 13

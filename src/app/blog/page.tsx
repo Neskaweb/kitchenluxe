@@ -5,9 +5,9 @@ import Link from "next/link";
 import { Calendar, User, ArrowRight } from "lucide-react";
 
 export const metadata = {
-    title: "Le Journal KitchenLuxe | Astuces Beauté Bio & Huile d'Argan",
-    description: "Découvrez nos conseils d'experts sur la beauté bio, les routines de soins, et les bienfaits prouvés de l'huile d'argan et de ricin.",
-    keywords: ["beauté bio", "huile d'argan", "soins naturels", "routine beauté", "KitchenLuxe"],
+    title: "Le Journal KitchenLuxe | L'Excellence Culinaire & Art de Recevoir",
+    description: "Découvrez nos guides d'experts sur les appareils de cuisine haute performance, les secrets des chefs et l'art de la table.",
+    keywords: ["cuisine de luxe", "ustensiles chef", "électroménager premium", "art culinaire", "KitchenLuxe"],
 };
 
 interface BlogPageProps {
@@ -40,7 +40,7 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
                 <section className="page-header" style={{ paddingBottom: '2rem' }}>
                     <div className="container">
                         <h1>Le Journal KitchenLuxe</h1>
-                        <p>Secrets de beauté, rituels et conseils d'experts.</p>
+                        <p>Secrets de chefs, rituels culinaires et guides d'experts.</p>
                     </div>
                 </section>
 

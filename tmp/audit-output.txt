@@ -1,0 +1,47 @@
+﻿
+=== CHECKING LOCAL PINTEREST PINS ===
+
+
+=== CHECKING PRODUCT IMAGES FOR KNOWN BAD IDS ===
+
+
+=== CHECKING POST IMAGES FOR KNOWN BAD IDS ===
+
+
+=== CHECKING FOR DUPLICATE SLUGS ===
+
+
+
+========== IMAGE AUDIT REPORT ==========
+
+ÔØî [CRITIQUE] Image hero fallback manquante: /public/images/hero-fallback.jpg
+   ÔåÆ La page d'accueil utilise poster="/images/hero-fallback.jpg" pour la vid├®o h├®ro.
+
+Ô£à [PRODUITS] Aucune image Unsplash cass├®e connue.
+
+Ô£à [ARTICLES] Aucune image Unsplash cass├®e connue.
+
+Ô£à [PINS] Toutes les ├®pingles Pinterest locales sont pr├®sentes.
+
+Ô£à [PINS] Tous les articles autopilot ont un champ pinterestImage.
+
+ÔÜá´©Å  [SLUGS] 10 slug(s) dupliqu├®(s) dans posts.json (risque de 404 / mauvais article affich├®):
+   - "guide-expert-comment-maitriser-le-staub-round-cocotte-24cm-comme-un-chef" (2x)
+   - "top-astuces-optimisez-vos-creations-avec-le-sage-barista-express-espresso-machine" (2x)
+   - "guide-expert-comment-maitriser-le-magimix-cook-expert-robot-cuiseur-comme-un-chef" (2x)
+   - "duel-culinaire-kitchenaid-artisan-stand-mixer-4-8l-vs-les-equipements-standards" (2x)
+   - "top-astuces-optimisez-vos-creations-avec-le-magimix-cook-expert-robot-cuiseur" (2x)
+   - "top-astuces-optimisez-vos-creations-avec-le-ninja-foodi-max-dual-zone-air-fryer" (2x)
+   - "guide-expert-comment-maitriser-le-sage-barista-express-espresso-machine-comme-un-chef" (2x)
+   - "duel-culinaire-le-creuset-signature-cast-iron-casserole-vs-les-equipements-standards" (2x)
+   - "duel-culinaire-magimix-cook-expert-robot-cuiseur-vs-les-equipements-standards" (2x)
+   - "top-astuces-optimisez-vos-creations-avec-le-le-creuset-signature-cast-iron-casserole" (2x)
+
+­ƒôè STATS:
+   - Produits total: 36
+   - Articles total: 33
+   - Pins r├®f├®renc├®s dans posts.json: 160
+   - Fichiers .jpg/.png dans /public/pins: 158
+
+========================================
+

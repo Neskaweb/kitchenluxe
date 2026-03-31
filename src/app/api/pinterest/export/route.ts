@@ -32,7 +32,7 @@ export async function GET(req: NextRequest) {
         const header = "Title,Description,Link,Image URL,Board";
         const rows = pins.map((pin) => {
             const desc = `${pin.description}\n\n${pin.hashtags.join(" ")}`.replace(/"/g, '""');
-            return `"${pin.title}","${desc}","${pin.link}","${pin.imageUrl}","KitchenLuxe — Soins Naturels"`;
+            return `"${pin.title}","${desc}","${pin.link}","${pin.imageUrl}","KitchenLuxe — Excellence Culinaire"`;
         });
         const csv = [header, ...rows].join("\n");
         return new NextResponse(csv, {

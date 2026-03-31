@@ -103,10 +103,12 @@ export default async function ProductPage({ params }: ProductPageProps) {
                         <div className="product-gallery">
                             {/* Product Image Clickable to Amazon */}
                             <div className="main-image">
-                                <a href={`/api/track?id=${product.id}&s=product-image`} target="_blank" rel="noopener noreferrer" style={{ display: 'block', width: '100%', height: '100%' }}>
-                                    <img
+                                <a href={`/api/track?id=${product.id}&s=product-image`} target="_blank" rel="noopener noreferrer" style={{ display: 'block', width: '100%', height: '100%' }} title={`Voir ${product.name} sur Amazon`}>
+                                <Image
                                         src={product.image}
                                         alt={product.name}
+                                        width={600}
+                                        height={600}
                                         style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '8px', cursor: 'pointer' }}
                                     />
                                 </a>
@@ -130,7 +132,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
                             </div>
 
                             <div className="price-row">
-                                <span className="price">${product.price.toFixed(2)}</span>
+                                <span className="price">{product.price.toFixed(2)}€</span>
                                 <span className="shipping-badge">Free Premium Shipping</span>
                             </div>
 
@@ -216,7 +218,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
                 {/* Mobile Sticky Action Bar */}
                  <div className="mobile-sticky-buy">
                     <div className="price-info">
-                        <span className="price">${product.price.toFixed(2)}</span>
+                        <span className="price">{product.price.toFixed(2)}€</span>
                         <span className="rating-text">★ {product.rating}</span>
                     </div>
                     <a href={`/api/track?id=${product.id}&s=mobile-sticky`} className="btn btn-primary buy-btn" target="_blank" rel="noopener noreferrer">

@@ -21,6 +21,9 @@ for (const file of files) {
     // Broken 3 -> Replace with hair mask (1598440947619)
     content = content.replace(/photo-1556228720-1957be9b936d/g, 'photo-1598440947619-2c35fc9aa908');
 
+    // Broken 4 -> Replace with working knife/kitchen photo (1551218808)
+    content = content.replace(/photo-1594910413521-17f167666993/g, 'photo-1551218808-d8a2f8228f7a');
+
     fs.writeFileSync(file, content, 'utf8');
     replaced++;
   }

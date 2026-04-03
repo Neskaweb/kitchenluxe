@@ -28,12 +28,26 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
 
     return {
         title: `${post.title} | KitchenLuxe Journal`,
-        description: post.excerpt,
+        description: post.metaDescription || post.excerpt,
         keywords: post.seoTags || [],
+        alternates: {
+          canonical: `https://kitchenluxe.vercel.app/blog/${post.slug}`,
+        },
         openGraph: {
             title: post.title,
             description: post.excerpt,
-            images: [post.image],
+            url: `https://kitchenluxe.vercel.app/blog/${post.slug}`,
+            siteName: 'KitchenLuxe',
+            images: [
+              {
+                url: post.image,
+                width: 1200,
+                height: 630,
+                alt: post.title,
+              }
+            ],
+            locale: 'fr_FR',
+            type: 'article',
         },
     };
 }
@@ -55,14 +69,29 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
     const jsonLd = {
         "@context": "https://schema.org",
-        "@type": "Article",
+        "@type": "BlogPosting",
         "headline": post.title,
         "image": post.image,
         "datePublished": post.publishedDate,
+        "dateModified": post.publishedDate,
         "author": [{
             "@type": "Person",
-            "name": post.author
-        }]
+            "name": post.author,
+            "url": "https://kitchenluxe.vercel.app/about"
+        }],
+        "publisher": {
+          "@type": "Organization",
+          "name": "KitchenLuxe",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://kitchenluxe.vercel.app/logo.png"
+          }
+        },
+        "description": post.excerpt,
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": `https://kitchenluxe.vercel.app/blog/${post.slug}`
+        }
     };
 
     return (

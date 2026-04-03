@@ -1,14 +1,10 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
-// Locales that are supported
-const locales = ['fr', 'en'];
-const defaultLocale = 'fr';
-
 export function middleware(request: NextRequest) {
     const { pathname } = request.nextUrl;
     
-    // Skip next internal and static files
+    // 1. Skip next internal and static files
     if (
         pathname.startsWith('/_next') ||
         pathname.startsWith('/api') ||
@@ -19,21 +15,20 @@ export function middleware(request: NextRequest) {
         return NextResponse.next();
     }
 
-    // Check if there is any supported locale in the pathname
-    const pathnameHasLocale = locales.some(
-        (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
-    );
+    // 2. SAUVETAGE PINTEREST : 
+    // Si l'URL commence par /fr/, on retire le /fr/ en interne (REWRITE)
+    // Cela permet aux liens Pinterest existants de fonctionner sans erreur 404
+    if (pathname.startsWith('/fr/') || pathname === '/fr') {
+        const newPathname = pathname === '/fr' ? '/' : pathname.replace('/fr/', '/');
+        const url = request.nextUrl.clone();
+        url.pathname = newPathname;
+        return NextResponse.rewrite(url);
+    }
 
-    if (pathnameHasLocale) return NextResponse.next();
-
-    // Redirect if there is no locale
-    const locale = defaultLocale;
-    request.nextUrl.pathname = `/${locale}${pathname}`;
-    
-    return NextResponse.redirect(request.nextUrl);
+    // 3. Pour tout le reste, on laisse passer normalement
+    return NextResponse.next();
 }
 
 export const config = {
-    // Matcher ignoring `/_next/` and `/api/`
     matcher: ['/((?!api|_next/static|_next/image|favicon.ico).*)'],
 };

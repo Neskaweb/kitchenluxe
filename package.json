@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "autopilot": "node src/scripts/autopilot-content.js && node src/scripts/pinterest-bot.js"
+    "discover": "node src/scripts/discovery-agent.js",
+    "autopilot": "node src/scripts/autopilot-content.js && node src/scripts/pinterest-bot.js",
+    "agent-loop": "npm run discover && npm run autopilot"
   },
   "dependencies": {
     "@resvg/resvg-js": "^2.6.2",
@@ -17,6 +19,7 @@
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3",
+    "recharts": "^3.8.1",
     "satori": "^0.26.0",
     "sharp": "^0.34.5",
     "tailwind-merge": "^3.4.0"

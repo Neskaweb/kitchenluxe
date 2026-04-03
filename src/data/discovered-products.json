@@ -1,0 +1,34 @@
+[
+  {
+    "name": "De'Longhi Magnifica S Smart",
+    "brand": "De'Longhi",
+    "category": "Électroménager",
+    "asin": "B0B8XMJLVK",
+    "description": "Machine à café à grains automatique avec broyeur. Préparation de boissons caféinées parfaites avec mousse de lait ajustable.",
+    "keywords": [
+      "machine à café grains",
+      "delonghi",
+      "espresso broyeur",
+      "café frais"
+    ],
+    "price": 389,
+    "discoveredAt": "2026-04-02T00:45:20.228Z",
+    "status": "pending"
+  },
+  {
+    "name": "SMEG Bouilloire Années 50",
+    "brand": "SMEG",
+    "category": "Électroménager",
+    "asin": "B00U3I01C8",
+    "description": "Une bouilloire iconique au design vintage italien. Alliance parfaite entre esthétique rétro et chauffe rapide.",
+    "keywords": [
+      "bouilloire smeg",
+      "design vintage",
+      "électroménager rétro",
+      "thé"
+    ],
+    "price": 169,
+    "discoveredAt": "2026-04-02T00:45:20.233Z",
+    "status": "pending"
+  }
+]

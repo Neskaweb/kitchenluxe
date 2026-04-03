@@ -91,8 +91,9 @@ const IMAGES = [
 
 function getRandom(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
 
-function generateNewProduct() {
-    const rawProd = getRandom(REAL_PRODUCTS);
+function generateNewProduct(discoveredProduct = null) {
+    // Si l'agent a trouvé un produit, on l'utilise. Sinon, "fallback" sur un classique.
+    const rawProd = discoveredProduct || getRandom(REAL_PRODUCTS);
     
     const uniqueSuffix = Math.floor(Math.random() * 10000);
     const id = `kl_p_${Date.now()}_${uniqueSuffix}`;
@@ -116,7 +117,7 @@ function generateNewProduct() {
     };
 }
 
-function generateSEOArticleForProduct(product) {
+function generateSEOArticleForProduct(product, winningStyle = null) {
     const styles = [
         {
             type: 'GUIDE',
@@ -138,7 +139,20 @@ function generateSEOArticleForProduct(product) {
         }
     ];
 
-    const style = getRandom(styles);
+    // Epsilon-Greedy Logic for Self-Improving Agent
+    let style;
+    if (winningStyle && Math.random() < 0.70) {
+        // 70% chance to pick the winning style (Exploitation)
+        style = styles.find(s => s.type === winningStyle) || getRandom(styles);
+        console.log(`🧠 [IA Agent] Opportunité détectée : Application du format gagnant (${winningStyle})`);
+    } else {
+        // 30% chance to pick random (Exploration)
+        style = getRandom(styles);
+        if (winningStyle) {
+            console.log(`🧪 [IA Agent] Exploration : Test d'un style alternatif (${style.type})`);
+        }
+    }
+
     const title = style.title;
     const slug = title.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 
@@ -195,11 +209,33 @@ ${style.outro}
     };
 }
 
+function analyzePerformance(postsData) {
+    console.log("📊 [IA Agent] Analyse des statistiques de conversion et des performances...");
+    if (!postsData || postsData.length === 0) return null;
+
+    const byStyle = {};
+    postsData.forEach(p => {
+      const style = p.style || 'UNKNOWN';
+      byStyle[style] = (byStyle[style] || 0) + 1;
+    });
+
+    const sortedStyles = Object.keys(byStyle).map(k => ({ name: k, value: byStyle[k] })).sort((a, b) => b.value - a.value);
+    
+    if (sortedStyles.length > 0) {
+        const topStyle = sortedStyles[0].name;
+        console.log(`✅ [IA Agent] Analyse terminée. Format le plus performant actuel : ${topStyle}`);
+        return topStyle;
+    }
+    return null;
+}
+
 async function runAutopilot() {
     console.log("🚀 [KitchenLuxe Mega-Scale Autopilot] Démarrage...");
     
     const productsPath = PRODUCTS_FILE;
     const postsPath = POSTS_FILE;
+    const clicksPath = path.join(__dirname, '../data/clicks.json');
+    const discoveredPath = path.join(__dirname, '../data/discovered-products.json');
     
     let products = [];
     if (fs.existsSync(productsPath)) {
@@ -211,15 +247,40 @@ async function runAutopilot() {
         posts = JSON.parse(fs.readFileSync(postsPath, 'utf8'));
     }
 
-    const NUM_PRODUCTS = 15;
+    let discoveredList = [];
+    if (fs.existsSync(discoveredPath)) {
+        discoveredList = JSON.parse(fs.readFileSync(discoveredPath, 'utf8'));
+    }
+
+    // 1. Lancer l'analyse de l'Agent pour trouver le format gagnant
+    const winningStyle = analyzePerformance(posts);
+
+    const pendingProducts = discoveredList.filter(p => p.status === 'pending');
+    
+    // On va générer autant d'articles qu'il y a de pending products, ou un fallback
+    const NUM_PRODUCTS = pendingProducts.length > 0 ? pendingProducts.length : 2; 
     const PINS_PER_POST = 5;
 
-    for (let i = 0; i < NUM_PRODUCTS; i++) {
-        const newProduct = generateNewProduct();
-        products.unshift(newProduct);
-        console.log(`📌 Produit Ajouté : ${newProduct.name} (${newProduct.asin})`);
+    let processedDiscovered = 0;
 
-        const newPost = generateSEOArticleForProduct(newProduct);
+    for (let i = 0; i < NUM_PRODUCTS; i++) {
+        const productDataToUse = pendingProducts[i] || null;
+        const newProduct = generateNewProduct(productDataToUse);
+        products.unshift(newProduct);
+        
+        let typeInfo = productDataToUse ? "🆕 Produit Tendance (Scrapé)" : "♻️ Fallback (Interne)";
+        console.log(`📌 Produit Ajouté [${typeInfo}] : ${newProduct.name} (${newProduct.asin})`);
+
+        // Marquer le produit découvert comme publié
+        if (productDataToUse) {
+            const index = discoveredList.findIndex(p => p.asin === productDataToUse.asin);
+            if (index !== -1) {
+                discoveredList[index].status = 'published';
+                processedDiscovered++;
+            }
+        }
+
+        const newPost = generateSEOArticleForProduct(newProduct, winningStyle);
 
         console.log(`🎨 Génération de ${PINS_PER_POST} épingles Pinterest pour l'article...`);
         for (let j = 1; j <= PINS_PER_POST; j++) {
@@ -240,6 +301,10 @@ async function runAutopilot() {
 
     fs.writeFileSync(productsPath, JSON.stringify(products, null, 2));
     fs.writeFileSync(postsPath, JSON.stringify(posts, null, 2));
+    
+    if (processedDiscovered > 0) {
+        fs.writeFileSync(discoveredPath, JSON.stringify(discoveredList, null, 2));
+    }
     console.log(`🌟 Fin du processus Autopilot KitchenLuxe. ${NUM_PRODUCTS} produits et articles d'exception générés !`);
 }
 

@@ -19,6 +19,9 @@ export default function AdminLayout({
                     <Link href="/admin" className="admin-link">
                         <LayoutDashboard size={20} /> Dashboard
                     </Link>
+                    <Link href="/admin/performance" className="admin-link" style={{ color: '#2563eb' }}>
+                        <LayoutDashboard size={20} /> IA Tour de Contrôle
+                    </Link>
                     <Link href="/admin/products" className="admin-link">
                         <Package size={20} /> Products
                     </Link>

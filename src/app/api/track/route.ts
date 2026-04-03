@@ -51,9 +51,9 @@ export async function GET(req: NextRequest) {
     saveClicks(data);
 
     // ── Build Affiliate Link ─────────────────────────────────
-    // Using the Smart ASIN Search strategy for 100% reliability
+    // Using the Smart Keyword Search strategy for reliability with mock data
     const affiliateTag = process.env.NEXT_PUBLIC_AMAZON_TAG_FR || "kitchenluxe-21";
-    const query = product.asin ? product.asin : encodeURIComponent(product.name);
+    const query = encodeURIComponent(`${product.brand} ${product.name}`);
     const amazonLink = `https://www.amazon.fr/s?k=${query}&tag=${affiliateTag}`;
     
     // REDIRECT to Amazon immediately!

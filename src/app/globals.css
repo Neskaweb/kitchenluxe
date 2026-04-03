@@ -1,21 +1,20 @@
 :root {
-  /* KitchenLuxe Industrial-Luxe Palette */
   --color-accent: #B87333; /* Polished Copper */
   --color-accent-light: #D4A57E;
   --color-accent-dark: #8B4513;
   --color-accent-gradient: linear-gradient(135deg, #B87333 0%, #D4A57E 50%, #8B4513 100%);
-  --color-accent-glow: rgba(184, 115, 51, 0.3);
+  --color-accent-glow: rgba(184, 115, 51, 0.4);
 
   --color-steel: #E2E2E2;
-  --color-black: #0F0F0F;
-  --color-charcoal: #1A1A1A;
-  --color-grey: #666666;
-  --color-light-grey: #F4F4F4;
+  --color-black: #080808;
+  --color-charcoal: #121212;
+  --color-grey: #757575;
+  --color-light-grey: #F8F7F5;
   --color-cream: #FDFCFB;
   --color-white: #FFFFFF;
-  --color-glass: rgba(255, 255, 255, 0.05);
-  --color-glass-border: rgba(255, 255, 255, 0.1);
-  --color-glass-dark: rgba(0, 0, 0, 0.6);
+  --color-glass: rgba(255, 255, 255, 0.08);
+  --color-glass-border: rgba(255, 255, 255, 0.15);
+  --color-glass-dark: rgba(0, 0, 0, 0.7);
 
   /* Typography - Modern Serif & Sans */
   --font-heading: var(--font-playfair), "Cormorant Garamond", serif;
@@ -23,8 +22,8 @@
 
   /* Spacing & Transitions */
   --spacing-container: 1400px;
-  --spacing-section: 8rem;
-  --ease-premium: cubic-bezier(0.16, 1, 0.3, 1);
+  --spacing-section: 10rem;
+  --ease-premium: cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 * {
@@ -446,17 +445,23 @@ img {
 }
 
 .glass-card {
-  background: rgba(255, 255, 255, 0.03);
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  border: 1px solid var(--color-glass-border);
-  transition: all 0.5s var(--ease-premium);
+  background: var(--color-white);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: all 0.7s var(--ease-premium);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.02);
 }
 
 .glass-card:hover {
-  background: rgba(255, 255, 255, 0.06);
-  border-color: var(--color-accent);
-  transform: translateY(-10px);
+  border-color: var(--color-accent-light);
+  transform: translateY(-12px) scale(1.02);
+  box-shadow: 0 30px 60px rgba(0,0,0,0.08);
+}
+
+.glass-card-dark {
+  background: var(--color-glass-dark);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border: 1px solid var(--color-glass-border);
 }
 
 .image-container .product-image {

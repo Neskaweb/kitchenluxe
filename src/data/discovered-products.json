@@ -13,7 +13,7 @@
     ],
     "price": 389,
     "discoveredAt": "2026-04-02T00:45:20.228Z",
-    "status": "pending"
+    "status": "published"
   },
   {
     "name": "SMEG Bouilloire Années 50",
@@ -29,6 +29,6 @@
     ],
     "price": 169,
     "discoveredAt": "2026-04-02T00:45:20.233Z",
-    "status": "pending"
+    "status": "published"
   }
 ]

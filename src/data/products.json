@@ -1,5 +1,63 @@
 [
   {
+    "id": "kl_p_1775296710569_4015",
+    "asin": "B00U3I01C8",
+    "name": "SMEG Bouilloire Années 50",
+    "slug": "smeg-bouilloire-annees-50-4015",
+    "description": "Une bouilloire iconique au design vintage italien. Alliance parfaite entre esthétique rétro et chauffe rapide.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 169,
+    "category": "Électroménager",
+    "brand": "SMEG",
+    "image": "https://images.unsplash.com/photo-1588854337236-6889d631faa8?q=80&w=2070&auto=format&fit=crop",
+    "rating": 5,
+    "reviews": 389,
+    "features": [
+      "bouilloire smeg",
+      "design vintage",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "bouilloire smeg",
+      "design vintage",
+      "électroménager rétro",
+      "thé",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1775296696350_3380",
+    "asin": "B0B8XMJLVK",
+    "name": "De'Longhi Magnifica S Smart",
+    "slug": "de-longhi-magnifica-s-smart-3380",
+    "description": "Machine à café à grains automatique avec broyeur. Préparation de boissons caféinées parfaites avec mousse de lait ajustable.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 389,
+    "category": "Électroménager",
+    "brand": "De'Longhi",
+    "image": "https://images.unsplash.com/photo-1588854337236-6889d631faa8?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.9,
+    "reviews": 779,
+    "features": [
+      "machine à café grains",
+      "delonghi",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "machine à café grains",
+      "delonghi",
+      "espresso broyeur",
+      "café frais",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
     "id": "kl_p_1774991826114_9918",
     "asin": "B000X97G3A",
     "name": "Wüsthof Classic Ikon Paring Knife",

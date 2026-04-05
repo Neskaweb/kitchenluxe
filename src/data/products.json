@@ -1,5 +1,63 @@
 [
   {
+    "id": "kl_p_1775383335566_4131",
+    "asin": "B01B7M9R9S",
+    "name": "Magimix Cook Expert Robot Cuiseur",
+    "slug": "magimix-cook-expert-robot-cuiseur-4131",
+    "description": "Le robot cuiseur multifonction ultra-complet. Cuit, mélange, hache et pétrit pour des repas gastronomiques rapides.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 1199,
+    "category": "Électroménager",
+    "brand": "Magimix",
+    "image": "https://images.unsplash.com/photo-1594910413521-17f167666993?q=80&w=1974&auto=format&fit=crop",
+    "rating": 4.8,
+    "reviews": 562,
+    "features": [
+      "robot cuiseur",
+      "magimix cook expert",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "robot cuiseur",
+      "magimix cook expert",
+      "cuisine gourmande",
+      "robot multifonction",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1775383323950_832",
+    "asin": "B00004SGFW",
+    "name": "KitchenAid Artisan Stand Mixer 4.8L",
+    "slug": "kitchenaid-artisan-stand-mixer-4-8l-832",
+    "description": "L'icône de la cuisine. Robuste, stable et durable, ce robot pâtissier est le compagnon indispensable de toutes vos créations.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 749,
+    "category": "Appareils de Précision",
+    "brand": "KitchenAid",
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2070&auto=format&fit=crop",
+    "rating": 5,
+    "reviews": 1442,
+    "features": [
+      "robot pâtissier",
+      "kitchenaid artisan",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "robot pâtissier",
+      "kitchenaid artisan",
+      "pâtisserie",
+      "robot de cuisine",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
     "id": "kl_p_1775296710569_4015",
     "asin": "B00U3I01C8",
     "name": "SMEG Bouilloire Années 50",

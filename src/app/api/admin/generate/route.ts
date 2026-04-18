@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { runAutopilot } from '@/lib/autopilot';
 
 export async function POST(req: Request) {
   try {
@@ -12,24 +13,10 @@ export async function POST(req: Request) {
       );
     }
 
-    // Delegate to the cron autopilot endpoint (works in both local and Vercel)
-    const baseUrl = process.env.VERCEL_URL
-      ? `https://${process.env.VERCEL_URL}`
-      : process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
-
-    const res = await fetch(`${baseUrl}/api/cron/autopilot`, {
-      headers: {
-        Authorization: `Bearer ${process.env.CRON_SECRET || ''}`,
-      },
-    });
-
-    const result = await res.json();
-    if (!res.ok) throw new Error(result.error || 'Génération échouée');
-
+    const result = await runAutopilot();
     return NextResponse.json({
-      success: true,
-      message: `✅ Article généré: "${result.article}" (style: ${result.style}, format gagnant: ${result.winningStyle || 'en apprentissage'})`,
       ...result,
+      message: `✅ Article généré: "${result.article}" (style: ${result.style})`,
     });
   } catch (error: any) {
     console.error('Admin generate error:', error);

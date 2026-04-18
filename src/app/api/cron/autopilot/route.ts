@@ -91,7 +91,9 @@ export async function GET(req: Request) {
       relatedProductId: newProduct.id,
       isAutopilot: true,
       style,
-      pinterestImages: [],
+      // Dynamic pin URL — generated on-demand by /api/pins/[slug] via Satori
+      pinterestImage: `/api/pins/${generated.slug}`,
+      pinterestImages: [`/api/pins/${generated.slug}`],
     };
 
     // 5. Update memory history

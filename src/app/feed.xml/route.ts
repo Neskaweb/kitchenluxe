@@ -5,7 +5,7 @@ export async function GET() {
     const posts = getBlogPosts();
     
     // Fallback à Vercel en production, localhost sinon
-    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://KitchenLuxe.vercel.app';
+    const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://kitchenluxe.vercel.app';
 
     let rssItems = '';
 

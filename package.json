@@ -12,7 +12,6 @@
     "agent-loop": "npm run discover && npm run autopilot"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.39.0",
     "@resvg/resvg-js": "^2.6.2",
     "clsx": "^2.1.1",
     "jimp": "^1.6.0",

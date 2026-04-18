@@ -1,5 +1,3 @@
-import Anthropic from '@anthropic-ai/sdk';
-
 const UNSPLASH_IMAGES = [
   'https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=2070&auto=format&fit=crop',
   'https://images.unsplash.com/photo-1588854337236-6889d631faa8?q=80&w=2070&auto=format&fit=crop',
@@ -46,17 +44,10 @@ export async function generateArticleWithClaude(
   product: ProductInput,
   style: 'GUIDE' | 'DUEL' | 'RECETTE'
 ): Promise<GeneratedArticle> {
-  const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+  const apiKey = process.env.ANTHROPIC_API_KEY;
+  if (!apiKey) throw new Error('ANTHROPIC_API_KEY non configurée');
 
-  const message = await client.messages.create({
-    model: 'claude-haiku-4-5-20251001',
-    max_tokens: 2000,
-    system:
-      'Tu es un expert culinaire français et blogueur spécialisé en cuisine de luxe. Tu écris des articles SEO engageants, naturels et informatifs en français. Ne mentionne jamais que le contenu est généré par IA.',
-    messages: [
-      {
-        role: 'user',
-        content: `Écris un article SEO de 900 mots en français sur ${STYLE_PROMPTS[style](product.name, product.brand)}.
+  const userPrompt = `Écris un article SEO de 900 mots en français sur ${STYLE_PROMPTS[style](product.name, product.brand)}.
 
 Produit: ${product.name} par ${product.brand} — ${product.price}€
 Description: ${product.description}
@@ -89,19 +80,38 @@ R: [réponse courte]
 
 👉 **[Voir le prix du ${product.name} sur Amazon →](/products/${product.slug})**
 
-Mots-clés à intégrer naturellement: ${product.keywords.join(', ')}, avis, test 2026, meilleur prix`,
-      },
-    ],
+Mots-clés à intégrer naturellement: ${product.keywords.join(', ')}, avis, test 2026, meilleur prix`;
+
+  const res = await fetch('https://api.anthropic.com/v1/messages', {
+    method: 'POST',
+    headers: {
+      'x-api-key': apiKey,
+      'anthropic-version': '2023-06-01',
+      'content-type': 'application/json',
+    },
+    body: JSON.stringify({
+      model: 'claude-haiku-4-5-20251001',
+      max_tokens: 2000,
+      system:
+        'Tu es un expert culinaire français et blogueur spécialisé en cuisine de luxe. Tu écris des articles SEO engageants, naturels et informatifs en français. Ne mentionne jamais que le contenu est généré par IA.',
+      messages: [{ role: 'user', content: userPrompt }],
+    }),
   });
 
-  const content = message.content[0].type === 'text' ? message.content[0].text : '';
+  if (!res.ok) {
+    const err = await res.text();
+    throw new Error(`Anthropic API ${res.status}: ${err.slice(0, 300)}`);
+  }
+
+  const data = await res.json() as { content: Array<{ type: string; text: string }> };
+  const content = data.content.find(b => b.type === 'text')?.text || '';
 
   const titleMatch = content.match(/^#\s+(.+)$/m);
   const rawTitle = titleMatch ? titleMatch[1].trim() : `${product.name} — Avis Expert 2026`;
 
   const firstPara = content
     .split('\n')
-    .find(l => l.trim().length > 60 && !l.startsWith('#') && !l.startsWith('*'))
+    .find(l => l.trim().length > 60 && !l.startsWith('#') && !l.startsWith('*') && !l.startsWith('👉'))
     ?.replace(/[*#[\]]/g, '')
     .trim() || '';
 
@@ -117,7 +127,7 @@ Mots-clés à intégrer naturellement: ${product.keywords.join(', ')}, avis, tes
     title: rawTitle,
     slug,
     metaTitle: `${rawTitle} | KitchenLuxe`,
-    metaDescription: (firstPara.slice(0, 152) + (firstPara.length > 152 ? '...' : '')),
+    metaDescription: firstPara.slice(0, 152) + (firstPara.length > 152 ? '...' : ''),
     keywords: `${product.name}, ${product.brand}, ${product.category}, ${product.keywords.slice(0, 3).join(', ')}, avis 2026`,
     excerpt: firstPara.slice(0, 200),
     content,

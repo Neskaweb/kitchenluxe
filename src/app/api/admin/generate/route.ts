@@ -1,45 +1,38 @@
-import { NextResponse } from "next/server";
-import { exec } from "child_process";
-import path from "path";
-import util from "util";
-
-const execPromise = util.promisify(exec);
+import { NextResponse } from 'next/server';
 
 export async function POST(req: Request) {
-    try {
-        const body = await req.json();
-        const { type } = body; // 'product', 'article', 'pin'
+  try {
+    const body = await req.json();
+    const { type } = body;
 
-        let scriptPath = "";
-        let successMessage = "";
-
-        if (type === "product") {
-            // Re-generates products
-            scriptPath = path.join(process.cwd(), "src/scripts/generate-french-luxury.js");
-            successMessage = "Nouveaux produits générés avec succès !";
-        } else if (type === "article") {
-            // Generates 1 article & 1 pin
-            scriptPath = path.join(process.cwd(), "src/scripts/autopilot-content.js");
-            successMessage = "Nouvel article SEO et épingle générés avec succès !";
-        } else if (type === "pin") {
-            // Generates pins
-            scriptPath = path.join(process.cwd(), "src/scripts/generate-all-pins.js");
-            successMessage = "Nouvelles épingles générées avec succès !";
-        } else {
-            return NextResponse.json({ error: "Type de génération invalide" }, { status: 400 });
-        }
-
-        // Run the script
-        const { stdout, stderr } = await execPromise(`node "${scriptPath}"`);
-        console.log(stdout);
-
-        if (stderr) {
-            console.error(stderr);
-        }
-
-        return NextResponse.json({ success: true, message: successMessage, output: stdout });
-    } catch (error: any) {
-        console.error("Erreur de génération:", error);
-        return NextResponse.json({ success: false, error: error.message }, { status: 500 });
+    if (type !== 'article') {
+      return NextResponse.json(
+        { error: 'Type invalide. Utilisez type: "article"' },
+        { status: 400 }
+      );
     }
+
+    // Delegate to the cron autopilot endpoint (works in both local and Vercel)
+    const baseUrl = process.env.VERCEL_URL
+      ? `https://${process.env.VERCEL_URL}`
+      : process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+
+    const res = await fetch(`${baseUrl}/api/cron/autopilot`, {
+      headers: {
+        Authorization: `Bearer ${process.env.CRON_SECRET || ''}`,
+      },
+    });
+
+    const result = await res.json();
+    if (!res.ok) throw new Error(result.error || 'Génération échouée');
+
+    return NextResponse.json({
+      success: true,
+      message: `✅ Article généré: "${result.article}" (style: ${result.style}, format gagnant: ${result.winningStyle || 'en apprentissage'})`,
+      ...result,
+    });
+  } catch (error: any) {
+    console.error('Admin generate error:', error);
+    return NextResponse.json({ success: false, error: error.message }, { status: 500 });
+  }
 }

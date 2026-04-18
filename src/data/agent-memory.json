@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-04-18T00:00:00.000Z",
+  "winningStyle": null,
+  "topCategory": null,
+  "styles": {
+    "GUIDE": { "clicks": 0, "posts": 0 },
+    "DUEL": { "clicks": 0, "posts": 0 },
+    "RECETTE": { "clicks": 0, "posts": 0 }
+  },
+  "categories": {},
+  "totalRuns": 0,
+  "history": []
+}

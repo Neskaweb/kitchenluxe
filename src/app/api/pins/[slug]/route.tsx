@@ -33,9 +33,9 @@ const DARK2 = '#141414';
 
 export async function GET(
   _req: Request,
-  { params }: { params: { slug: string } }
+  { params }: { params: Promise<{ slug: string }> }
 ) {
-  const { slug } = params;
+  const { slug } = await params;
 
   const posts = getBlogPosts();
   const post = posts.find(p => p.slug === slug);

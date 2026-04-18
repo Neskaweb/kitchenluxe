@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Native Node.js modules — must be excluded from Turbopack bundling
+  serverExternalPackages: ['@resvg/resvg-js', 'sharp'],
   images: {
     remotePatterns: [
       {

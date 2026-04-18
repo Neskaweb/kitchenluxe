@@ -191,7 +191,7 @@ export async function GET(
   );
 
   const resvg = new Resvg(svg, { fitTo: { mode: 'width', value: 1000 } });
-  const png = resvg.render().asPng();
+  const png = new Uint8Array(resvg.render().asPng());
 
   return new Response(png, {
     headers: {

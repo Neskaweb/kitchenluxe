@@ -1,6 +1,8 @@
 import { NextResponse } from 'next/server';
 import { runAutopilot } from '@/lib/autopilot';
 
+export const maxDuration = 60;
+
 export async function GET(req: Request) {
   const secret = process.env.CRON_SECRET;
   if (secret) {

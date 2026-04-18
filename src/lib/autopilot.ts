@@ -25,6 +25,14 @@ export interface AutopilotResult {
 }
 
 export async function runAutopilot(): Promise<AutopilotResult> {
+  // Validate required env vars upfront with clear errors
+  const missing = ['ANTHROPIC_API_KEY', 'GITHUB_TOKEN', 'GITHUB_OWNER', 'GITHUB_REPO'].filter(
+    k => !process.env[k]
+  );
+  if (missing.length > 0) {
+    throw new Error(`Variables d'env manquantes sur Vercel: ${missing.join(', ')}`);
+  }
+
   // 1. Fetch current data from GitHub (source of truth in production)
   const [postsResult, productsResult, clicksResult, memoryResult] = await Promise.allSettled([
     readJSONFile<any[]>('src/data/posts.json'),
@@ -100,13 +108,13 @@ export async function runAutopilot(): Promise<AutopilotResult> {
     ...(updatedMemory.history || []).slice(0, 49),
   ];
 
-  // 6. Commit all changes to GitHub (triggers Vercel auto-deploy)
+  // 6. Commit all changes to GitHub in parallel (each file has its own sha)
   const commitMsg = `🤖 Autopilot AI: ${newPost.title.slice(0, 60)}`;
-  await writeJSONFile('src/data/products.json', [newProduct, ...products], productsSha, commitMsg);
-  await new Promise(r => setTimeout(r, 600));
-  await writeJSONFile('src/data/posts.json', [newPost, ...posts], postsSha, commitMsg);
-  await new Promise(r => setTimeout(r, 600));
-  await writeJSONFile('src/data/agent-memory.json', updatedMemory, memorySha, '🧠 Agent memory updated');
+  await Promise.all([
+    writeJSONFile('src/data/products.json', [newProduct, ...products], productsSha, commitMsg),
+    writeJSONFile('src/data/posts.json', [newPost, ...posts], postsSha, commitMsg),
+    writeJSONFile('src/data/agent-memory.json', updatedMemory, memorySha, '🧠 Agent memory updated'),
+  ]);
 
   // 7. Notify Pinterest via Make.com webhook
   const webhookUrl = process.env.MAKE_WEBHOOK_URL;

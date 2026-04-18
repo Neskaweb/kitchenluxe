@@ -25,7 +25,11 @@ export interface AutopilotResult {
 }
 
 export async function runAutopilot(): Promise<AutopilotResult> {
+  let step = 'init';
+  try {
+
   // Validate required env vars upfront with clear errors
+  step = 'env-check';
   const missing = ['ANTHROPIC_API_KEY', 'GITHUB_TOKEN', 'GITHUB_OWNER', 'GITHUB_REPO'].filter(
     k => !process.env[k]
   );
@@ -34,6 +38,7 @@ export async function runAutopilot(): Promise<AutopilotResult> {
   }
 
   // 1. Fetch current data from GitHub (source of truth in production)
+  step = 'github-reads';
   const [postsResult, productsResult, clicksResult, memoryResult] = await Promise.allSettled([
     readJSONFile<any[]>('src/data/posts.json'),
     readJSONFile<any[]>('src/data/products.json'),
@@ -50,9 +55,11 @@ export async function runAutopilot(): Promise<AutopilotResult> {
   const memorySha = memoryResult.status === 'fulfilled' ? memoryResult.value.sha : undefined;
 
   // 2. Update agent memory from real click data (learning loop)
+  step = 'memory-update';
   const updatedMemory = updateMemory(memory, posts, clicksByProduct);
 
   // 3. Pick style (epsilon-greedy) and product
+  step = 'product-pick';
   const style = pickStyle(updatedMemory);
   const rawProduct = PRODUCT_CATALOG[Math.floor(Math.random() * PRODUCT_CATALOG.length)];
   const uniqueSuffix = Date.now();
@@ -82,6 +89,7 @@ export async function runAutopilot(): Promise<AutopilotResult> {
   };
 
   // 4. Generate article with Claude AI
+  step = 'claude-generate';
   const generated = await generateArticleWithClaude(
     { ...newProduct, keywords: rawProduct.keywords },
     style
@@ -109,6 +117,7 @@ export async function runAutopilot(): Promise<AutopilotResult> {
   ];
 
   // 6. Commit all changes to GitHub in parallel (each file has its own sha)
+  step = 'github-writes';
   const commitMsg = `🤖 Autopilot AI: ${newPost.title.slice(0, 60)}`;
   await Promise.all([
     writeJSONFile('src/data/products.json', [newProduct, ...products], productsSha, commitMsg),
@@ -140,4 +149,8 @@ export async function runAutopilot(): Promise<AutopilotResult> {
     topCategory: updatedMemory.topCategory,
     totalRuns: updatedMemory.totalRuns,
   };
+
+  } catch (err: any) {
+    throw new Error(`[${step}] ${err.message}`);
+  }
 }

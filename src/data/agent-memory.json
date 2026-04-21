@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "lastUpdated": "2026-04-19T08:36:20.244Z",
+  "lastUpdated": "2026-04-21T08:45:38.618Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
     "GUIDE": {
       "clicks": 0,
-      "posts": 19
+      "posts": 20
     },
     "DUEL": {
       "clicks": 0,
@@ -14,21 +14,21 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 42
+      "posts": 45
     }
   },
   "categories": {
-    "Ustensiles de Chef": {
-      "clicks": 0,
-      "posts": 17
-    },
     "Électroménager": {
       "clicks": 0,
-      "posts": 34
+      "posts": 35
     },
     "Appareils de Précision": {
       "clicks": 0,
-      "posts": 9
+      "posts": 11
+    },
+    "Ustensiles de Chef": {
+      "clicks": 0,
+      "posts": 18
     },
     "Coutellerie": {
       "clicks": 0,
@@ -39,8 +39,14 @@
       "posts": 1
     }
   },
-  "totalRuns": 1,
+  "totalRuns": 2,
   "history": [
+    {
+      "date": "2026-04-21T08:45:55.612Z",
+      "style": "RECETTE",
+      "title": "Magimix Cook Expert: 3 recettes luxe qui révolutionnent votre cuisine",
+      "clicks": 0
+    },
     {
       "date": "2026-04-19T08:36:35.110Z",
       "style": "DUEL",

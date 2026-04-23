@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-04-22T08:05:38.419Z",
+  "lastUpdated": "2026-04-23T08:04:44.343Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -14,10 +14,18 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 47
+      "posts": 49
     }
   },
   "categories": {
+    "Appareils de Précision": {
+      "clicks": 0,
+      "posts": 12
+    },
+    "Coutellerie": {
+      "clicks": 0,
+      "posts": 18
+    },
     "Ustensiles de Chef": {
       "clicks": 0,
       "posts": 20
@@ -26,21 +34,19 @@
       "clicks": 0,
       "posts": 35
     },
-    "Appareils de Précision": {
-      "clicks": 0,
-      "posts": 11
-    },
-    "Coutellerie": {
-      "clicks": 0,
-      "posts": 17
-    },
     "Inspiration": {
       "clicks": 0,
       "posts": 1
     }
   },
-  "totalRuns": 3,
+  "totalRuns": 4,
   "history": [
+    {
+      "date": "2026-04-23T08:04:58.817Z",
+      "style": "GUIDE",
+      "title": "Magimix Cook Expert : Cuisinez comme un chef",
+      "clicks": 0
+    },
     {
       "date": "2026-04-22T08:05:55.060Z",
       "style": "RECETTE",

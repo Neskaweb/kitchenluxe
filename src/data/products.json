@@ -1,5 +1,63 @@
 [
   {
+    "id": "kl_p_1777113059943_7249",
+    "asin": "B089SYG6CC",
+    "name": "Ninja Foodi MAX Dual Zone Air Fryer",
+    "slug": "ninja-foodi-max-dual-zone-air-fryer-7249",
+    "description": "La friteuse sans huile révolutionnaire avec deux zones de cuisson indépendantes. Cuisinez deux plats différemment en même temps.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 229,
+    "category": "Électroménager",
+    "brand": "Ninja",
+    "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.9,
+    "reviews": 941,
+    "features": [
+      "air fryer",
+      "ninja foodi",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "air fryer",
+      "ninja foodi",
+      "cuisine saine",
+      "friteuse sans huile",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1777113043563_5889",
+    "asin": "B00063539C",
+    "name": "Staub Round Cocotte 24cm",
+    "slug": "staub-round-cocotte-24cm-5889",
+    "description": "La cocotte préférée des chefs avec son couvercle à picots pour un arrosage continu. Saveurs préservées garanties.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 249,
+    "category": "Ustensiles de Chef",
+    "brand": "Staub",
+    "image": "https://images.unsplash.com/photo-1588854337236-6889d631faa8?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.9,
+    "reviews": 729,
+    "features": [
+      "cocotte staub",
+      "fonte émaillée",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "cocotte staub",
+      "fonte émaillée",
+      "mijoté chef",
+      "cuisine française",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
     "id": "kl_p_1777031117053_7729",
     "asin": "B00V86W64M",
     "name": "Le Creuset Signature Cast Iron Casserole",

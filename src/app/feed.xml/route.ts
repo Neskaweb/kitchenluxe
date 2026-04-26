@@ -3,46 +3,38 @@ import { getBlogPosts } from '@/lib/blog';
 
 export async function GET() {
     const posts = getBlogPosts();
-    
-    // Fallback à Vercel en production, localhost sinon
     const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://kitchenluxe.vercel.app';
 
     let rssItems = '';
-
-    // Ne prendre que les 50 derniers posts pour ne pas surcharger le flux
     const recentPosts = posts.slice(0, 50);
 
-    recentPosts.forEach(post => {
-        const url = encodeURI(`${siteUrl}/blog/${post.slug}`);
-        
-        // S'il y a plusieurs images (méga-scale de 5 pins), on les publie toutes comme entités distinctes
-        const imagesToPin = post.pinterestImages && post.pinterestImages.length > 0 
-            ? post.pinterestImages 
-            : [post.pinterestImage || post.image];
+    recentPosts.forEach((post) => {
+        const canonicalUrl = encodeURI(`${siteUrl}/blog/${post.slug}`);
+        const url = encodeURI(`${siteUrl}/blog/${post.slug}?utm_source=rss&utm_medium=feed&utm_campaign=autopilot&utm_content=${post.slug}`);
 
-        imagesToPin.forEach((pinPath: string | undefined, index: number) => {
-            if (!pinPath) return;
+        // Pinterest can ingest this public RSS feed automatically from the account.
+        // Keep one item per article to avoid publishing near-duplicate pin variants.
+        const imageToPin = post.pinterestImage
+            || (Array.isArray(post.pinterestImages) ? post.pinterestImages[0] : undefined)
+            || post.image;
 
-            // URL absolue de l'image
-            let imageUrl = pinPath.startsWith('http') ? pinPath : `${siteUrl}${pinPath}`;
-            imageUrl = encodeURI(imageUrl);
+        if (!imageToPin) return;
 
-            // Pour que Pinterest ne les voit pas comme des doublons absolus, on ajoute l'index au lien permaLink (tout en redirigeant vers le même article)
-            const uniqueGuid = index > 0 ? `${url}?pin=${index}` : url;
-            // On peut même faire varier légèrement le titre !
-            const variantTitle = index > 0 ? `${post.title} (Astuce #${index + 1})` : post.title;
+        let imageUrl = imageToPin.startsWith('http') ? imageToPin : `${siteUrl}${imageToPin}`;
+        imageUrl = encodeURI(imageUrl);
 
-            rssItems += `
+        const guid = `${canonicalUrl}#${encodeURIComponent(post.id || post.slug)}`;
+
+        rssItems += `
         <item>
-            <title><![CDATA[${variantTitle}]]></title>
+            <title><![CDATA[${post.title}]]></title>
             <link>${url}</link>
-            <guid isPermaLink="true">${uniqueGuid}</guid>
+            <guid isPermaLink="true">${guid}</guid>
             <pubDate>${new Date(post.publishedDate).toUTCString()}</pubDate>
             <description><![CDATA[${post.metaDescription || post.excerpt}]]></description>
             <enclosure url="${imageUrl.replace(/&/g, '&amp;')}" type="image/jpeg" />
             <media:content url="${imageUrl.replace(/&/g, '&amp;')}" type="image/jpeg" medium="image" />
         </item>`;
-        });
     });
 
     const rssFeed = `<?xml version="1.0" encoding="UTF-8" ?>
@@ -50,7 +42,7 @@ export async function GET() {
     <channel>
         <title>KitchenLuxe | Excellence Culinaire &amp; Design</title>
         <link>${siteUrl}</link>
-        <description>Découvrez les meilleurs ustensiles de chef, robots de cuisine et conseils gastronomiques de luxe.</description>
+        <description>Decouvrez les meilleurs ustensiles de chef, robots de cuisine et conseils gastronomiques de luxe.</description>
         <language>fr</language>
         <atom:link href="${siteUrl}/feed.xml" rel="self" type="application/rss+xml" />
         ${rssItems}
@@ -60,7 +52,6 @@ export async function GET() {
     return new NextResponse(rssFeed, {
         headers: {
             'Content-Type': 'text/xml',
-            // Mise en cache CDN d'une heure pour être très rapide pour les bots Pinterest
             'Cache-Control': 's-maxage=3600, stale-while-revalidate',
         },
     });

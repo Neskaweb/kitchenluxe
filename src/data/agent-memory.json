@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-04-26T08:11:48.259Z",
+  "lastUpdated": "2026-04-27T08:00:18.243Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -14,21 +14,21 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 55
+      "posts": 57
     }
   },
   "categories": {
+    "Coutellerie": {
+      "clicks": 0,
+      "posts": 20
+    },
     "Électroménager": {
       "clicks": 0,
-      "posts": 36
+      "posts": 37
     },
     "Ustensiles de Chef": {
       "clicks": 0,
       "posts": 24
-    },
-    "Coutellerie": {
-      "clicks": 0,
-      "posts": 19
     },
     "Appareils de Précision": {
       "clicks": 0,
@@ -39,8 +39,14 @@
       "posts": 1
     }
   },
-  "totalRuns": 7,
+  "totalRuns": 8,
   "history": [
+    {
+      "date": "2026-04-27T08:00:34.071Z",
+      "style": "DUEL",
+      "title": "Sage Barista Express vs ses concurrents : le vrai test",
+      "clicks": 0
+    },
     {
       "date": "2026-04-26T08:12:06.104Z",
       "style": "RECETTE",

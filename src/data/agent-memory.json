@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "lastUpdated": "2026-05-01T08:22:14.389Z",
+  "lastUpdated": "2026-05-02T08:19:54.244Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
     "GUIDE": {
       "clicks": 0,
-      "posts": 21
+      "posts": 22
     },
     "DUEL": {
       "clicks": 0,
@@ -14,21 +14,21 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 64
+      "posts": 65
     }
   },
   "categories": {
-    "Ustensiles de Chef": {
+    "Appareils de Précision": {
       "clicks": 0,
-      "posts": 27
+      "posts": 14
     },
     "Électroménager": {
       "clicks": 0,
-      "posts": 39
+      "posts": 40
     },
-    "Appareils de Précision": {
+    "Ustensiles de Chef": {
       "clicks": 0,
-      "posts": 13
+      "posts": 27
     },
     "Coutellerie": {
       "clicks": 0,
@@ -39,8 +39,14 @@
       "posts": 1
     }
   },
-  "totalRuns": 11,
+  "totalRuns": 12,
   "history": [
+    {
+      "date": "2026-05-02T08:20:13.395Z",
+      "style": "GUIDE",
+      "title": "Sage Barista Express : Guide Complet pour Devenir Barista à la Maison",
+      "clicks": 0
+    },
     {
       "date": "2026-05-01T08:22:29.976Z",
       "style": "GUIDE",

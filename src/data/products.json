@@ -1,5 +1,63 @@
 [
   {
+    "id": "kl_p_1777800303702_5346",
+    "asin": "B00063539C",
+    "name": "Staub Round Cocotte 24cm",
+    "slug": "staub-round-cocotte-24cm-5346",
+    "description": "La cocotte préférée des chefs avec son couvercle à picots pour un arrosage continu. Saveurs préservées garanties.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 249,
+    "category": "Ustensiles de Chef",
+    "brand": "Staub",
+    "image": "https://images.unsplash.com/photo-1588854337236-6889d631faa8?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.8,
+    "reviews": 1421,
+    "features": [
+      "cocotte staub",
+      "fonte émaillée",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "cocotte staub",
+      "fonte émaillée",
+      "mijoté chef",
+      "cuisine française",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1777800288966_1329",
+    "asin": "B00004RFMT",
+    "name": "Zwilling Pro Chef's Knife 20cm",
+    "slug": "zwilling-pro-chef-s-knife-20cm-1329",
+    "description": "L'excellence de la coutellerie allemande. Forgé à partir d'une seule pièce d'acier spécial pour un tranchant durable.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 109,
+    "category": "Coutellerie",
+    "brand": "Zwilling",
+    "image": "https://images.unsplash.com/photo-1507048331197-7d4ac70811cf?q=80&w=1974&auto=format&fit=crop",
+    "rating": 4.7,
+    "reviews": 853,
+    "features": [
+      "couteau de chef",
+      "zwilling pro",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "couteau de chef",
+      "zwilling pro",
+      "coutellerie pro",
+      "couteau forgé",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
     "id": "kl_p_1777713118524_6217",
     "asin": "B01B7M9R9S",
     "name": "Magimix Cook Expert Robot Cuiseur",

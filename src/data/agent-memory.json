@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-05-03T08:04:45.229Z",
+  "lastUpdated": "2026-05-04T08:13:15.388Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -14,33 +14,39 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 67
+      "posts": 69
     }
   },
   "categories": {
+    "Ustensiles de Chef": {
+      "clicks": 0,
+      "posts": 28
+    },
+    "Coutellerie": {
+      "clicks": 0,
+      "posts": 24
+    },
     "Électroménager": {
       "clicks": 0,
       "posts": 41
     },
-    "Coutellerie": {
-      "clicks": 0,
-      "posts": 23
-    },
     "Appareils de Précision": {
       "clicks": 0,
       "posts": 14
-    },
-    "Ustensiles de Chef": {
-      "clicks": 0,
-      "posts": 27
     },
     "Inspiration": {
       "clicks": 0,
       "posts": 1
     }
   },
-  "totalRuns": 13,
+  "totalRuns": 14,
   "history": [
+    {
+      "date": "2026-05-04T08:13:35.770Z",
+      "style": "DUEL",
+      "title": "Le Creuset Signature vs concurrents — Test 2026",
+      "clicks": 0
+    },
     {
       "date": "2026-05-03T08:04:59.037Z",
       "style": "DUEL",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-05-04T08:13:15.388Z",
+  "lastUpdated": "2026-05-05T08:42:45.365Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -10,25 +10,25 @@
     },
     "DUEL": {
       "clicks": 0,
-      "posts": 17
+      "posts": 18
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 69
+      "posts": 70
     }
   },
   "categories": {
+    "Électroménager": {
+      "clicks": 0,
+      "posts": 42
+    },
     "Ustensiles de Chef": {
       "clicks": 0,
-      "posts": 28
+      "posts": 29
     },
     "Coutellerie": {
       "clicks": 0,
       "posts": 24
-    },
-    "Électroménager": {
-      "clicks": 0,
-      "posts": 41
     },
     "Appareils de Précision": {
       "clicks": 0,
@@ -39,8 +39,14 @@
       "posts": 1
     }
   },
-  "totalRuns": 14,
+  "totalRuns": 15,
   "history": [
+    {
+      "date": "2026-05-05T08:43:01.870Z",
+      "style": "DUEL",
+      "title": "Magimix Cook Expert : Le Robot Cuiseur Ultime",
+      "clicks": 0
+    },
     {
       "date": "2026-05-04T08:13:35.770Z",
       "style": "DUEL",

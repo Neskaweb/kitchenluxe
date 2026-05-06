@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-05-05T08:42:45.365Z",
+  "lastUpdated": "2026-05-06T08:01:07.593Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -10,21 +10,21 @@
     },
     "DUEL": {
       "clicks": 0,
-      "posts": 18
+      "posts": 19
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 70
+      "posts": 71
     }
   },
   "categories": {
     "Électroménager": {
       "clicks": 0,
-      "posts": 42
+      "posts": 43
     },
     "Ustensiles de Chef": {
       "clicks": 0,
-      "posts": 29
+      "posts": 30
     },
     "Coutellerie": {
       "clicks": 0,
@@ -39,8 +39,14 @@
       "posts": 1
     }
   },
-  "totalRuns": 15,
+  "totalRuns": 16,
   "history": [
+    {
+      "date": "2026-05-06T08:01:24.830Z",
+      "style": "RECETTE",
+      "title": "Vitamix E310 Professionnel : 3 recettes exclusives",
+      "clicks": 0
+    },
     {
       "date": "2026-05-05T08:43:01.870Z",
       "style": "DUEL",

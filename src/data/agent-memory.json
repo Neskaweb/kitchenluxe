@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-05-06T08:01:07.593Z",
+  "lastUpdated": "2026-05-07T08:08:45.546Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -14,13 +14,13 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 71
+      "posts": 73
     }
   },
   "categories": {
     "Électroménager": {
       "clicks": 0,
-      "posts": 43
+      "posts": 45
     },
     "Ustensiles de Chef": {
       "clicks": 0,
@@ -39,8 +39,14 @@
       "posts": 1
     }
   },
-  "totalRuns": 16,
+  "totalRuns": 17,
   "history": [
+    {
+      "date": "2026-05-07T08:09:02.404Z",
+      "style": "DUEL",
+      "title": "Cocotte Le Creuset 24cm vs Staub & Invicta : le test complet",
+      "clicks": 0
+    },
     {
       "date": "2026-05-06T08:01:24.830Z",
       "style": "RECETTE",

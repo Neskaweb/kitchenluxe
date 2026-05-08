@@ -24,6 +24,7 @@ Derniere mise a jour : 2026-05-09
 - 2026-05-09 : Neska a ajoute la redirect URI officielle dans l'application Pinterest : `https://kitchenluxe.vercel.app/api/pinterest/oauth/callback`. `.env.local` existe maintenant, mais les variables OAuth `PINTEREST_CLIENT_ID`, `PINTEREST_CLIENT_SECRET` et `PINTEREST_REDIRECT_URI` restent a renseigner avant l'echange automatique du code.
 - 2026-05-09 : apres redeploiement Vercel signale par Neska, verification live : `/api/pinterest/oauth/start` et `/api/pinterest/oauth/callback` repondent encore en 404. Les fichiers OAuth sont presents localement mais non suivis Git, donc ils ne semblent pas encore inclus dans le deploiement Vercel.
 - 2026-05-09 : preparation du commit Pinterest API/OAuth uniquement. Verification secrets sur le diff staged OK, `npm run lint` OK avec 25 warnings historiques, `npm run build` OK et routes OAuth detectees dans le build Next.
+- 2026-05-09 : push effectue sur `origin/main` via le commit `e03f082`. Verification live apres deploiement : `/api/pinterest/oauth/callback` repond `400 Missing Pinterest authorization code` et `/api/pinterest/oauth/start` repond `401 Unauthorized`, ce qui confirme que les routes sont bien en production et que la route de depart est protegee par `KITCHENLUXE_API_KEY`.
 
 ## Ce qui reste du sprint courant
 
@@ -48,6 +49,6 @@ Derniere mise a jour : 2026-05-09
 
 - Renseigner `PINTEREST_ACCESS_TOKEN` et `PINTEREST_BOARD_ID` en local/prod, garder `PINTEREST_API_DRY_RUN=1`, puis refaire `POST /api/pinterest/publish?batch=5` pour verifier le vrai board sans publier.
 - Ajouter `PINTEREST_CLIENT_ID`, `PINTEREST_CLIENT_SECRET` et `PINTEREST_REDIRECT_URI` en local/prod, ouvrir le lien OAuth Pinterest avec les scopes `boards:read,boards:write,pins:read,pins:write`, recuperer un vrai access token OAuth, puis lister les boards pour remplacer l'ID application par le vrai `PINTEREST_BOARD_ID`.
-- Commit/push/deployer les routes OAuth Pinterest avant de lancer le lien OAuth public, sinon la redirection Pinterest arrive sur une 404.
+- Ouvrir le lien OAuth Pinterest, recuperer le vrai token utilisateur, lister les boards, puis remplacer l'ID application par le vrai `PINTEREST_BOARD_ID`.
 - Nettoyer les slugs dupliques dans `src/data/posts.json`, puis relancer `npm run validate-autopilot`, `npm run lint` et `npm run build`.
 - Continuer a surveiller Pinterest dans les prochaines 24h : le flux ne publie plus les variantes, mais Pinterest peut garder les anciens pins deja ingeres.

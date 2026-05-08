@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getProducts, getProductById } from "@/lib/data";
+import { buildPinterestApiPayload, getPinterestApiConfig } from "@/lib/pinterest-api";
 import { buildPinData, buildMakeWebhookPayload } from "@/lib/pinterest";
 
 // GET /api/pinterest/export?productId=xxx  → single pin data
@@ -10,6 +11,7 @@ export async function GET(req: NextRequest) {
     const productId = searchParams.get("productId");
     const format = searchParams.get("format") || "json";
     const limit = parseInt(searchParams.get("limit") || "20");
+    const includeRejected = searchParams.get("includeRejected") === "1";
     const baseUrl = searchParams.get("baseUrl") || `${req.headers.get("x-forwarded-proto") || "https"}://${req.headers.get("host")}`;
 
     if (productId) {
@@ -20,12 +22,12 @@ export async function GET(req: NextRequest) {
         return NextResponse.json({ success: true, pin, makePayload: buildMakeWebhookPayload(pin) });
     }
 
-    // Batch: all products, sorted by reviews (most popular first)
-    const products = getProducts()
+    // Batch: most popular products first, with rejected pins hidden by default.
+    const pins = getProducts()
         .sort((a, b) => b.reviews - a.reviews)
+        .map((p) => buildPinData(p, baseUrl))
+        .filter((pin) => includeRejected || pin.quality.passed)
         .slice(0, limit);
-
-    const pins = products.map((p) => buildPinData(p, baseUrl));
 
     if (format === "csv") {
         // CSV format compatible with Tailwind & Buffer bulk upload
@@ -43,11 +45,23 @@ export async function GET(req: NextRequest) {
         });
     }
 
+    const pinterestApiConfig = getPinterestApiConfig();
+
     return NextResponse.json({
         success: true,
         count: pins.length,
+        qualityGate: {
+            minScore: pins[0]?.quality.minScore ?? Number.parseInt(process.env.PINTEREST_MIN_QUALITY_SCORE || "85", 10),
+            includeRejected,
+            approvedOnly: !includeRejected,
+        },
         pins,
         makePayloads: pins.map(buildMakeWebhookPayload),
+        pinterestApi: {
+            configured: pinterestApiConfig.configured,
+            dryRunByEnv: pinterestApiConfig.dryRunByEnv,
+            payloads: pins.map((pin) => buildPinterestApiPayload(pin)),
+        },
         tip: "Use ?format=csv to download a CSV for Tailwind or Buffer bulk upload",
     });
 }

@@ -1,16 +1,30 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
 import { Download, RefreshCw, Copy, CheckCircle, ExternalLink, Send, Zap } from "lucide-react";
 
+interface PinQuality {
+    score: number;
+    passed: boolean;
+    minScore: number;
+    warnings: string[];
+    strengths: string[];
+}
+
 interface PinData {
     productId: string;
     productName: string;
+    productSlug: string;
+    productBrand: string;
+    categoryLabel: string;
     title: string;
     description: string;
+    altText: string;
     link: string;
     hashtags: string[];
     imageUrl: string;
+    quality: PinQuality;
     generatedAt: string;
 }
 
@@ -29,6 +43,9 @@ interface PublishResult {
     productName: string;
     success: boolean;
     makeResponse: string;
+    response?: string;
+    dryRun?: boolean;
+    provider?: string;
 }
 
 export default function AdminPinterestClient() {
@@ -58,15 +75,6 @@ export default function AdminPinterestClient() {
         }
     }, []);
 
-    const [apiKey, setApiKey] = useState<string>("");
-
-    useEffect(() => {
-        // Fetch the API key safely from a server config endpoint
-        fetch('/api/admin/config').then(res => res.json()).then(data => {
-            if (data.apiKey) setApiKey(data.apiKey);
-        });
-    }, []);
-
     useEffect(() => {
         fetchPins();
         fetch("/api/products").then(r => r.json()).then(setProducts);
@@ -80,22 +88,23 @@ export default function AdminPinterestClient() {
 
     const downloadCSV = () => window.open("/api/pinterest/export?format=csv", "_blank");
 
-    // Publish 1 pin to Make.com
+    // Prepare or publish 1 pin through the official Pinterest API.
     const publishOne = async (pin: PinData) => {
         setPublishing(pin.productId);
         try {
             const res = await fetch(`/api/pinterest/publish?productId=${pin.productId}`, {
                 method: "POST",
                 headers: {
-                    "Content-Type": "application/json",
-                    "Authorization": `Bearer ${apiKey}`
+                    "Content-Type": "application/json"
                 },
             });
             const data = await res.json();
             setPublishLog(prev => [{
                 productName: pin.productName,
                 success: data.success,
-                makeResponse: data.makeResponse || "—",
+                makeResponse: data.response || data.makeResponse || "Dry-run pret.",
+                dryRun: data.dryRun,
+                provider: data.provider,
             }, ...prev].slice(0, 20));
             setShowLog(true);
         } finally {
@@ -103,17 +112,21 @@ export default function AdminPinterestClient() {
         }
     };
 
-    // Publish top 5 pins to Make.com (daily batch)
+    // Prepare or publish top pins through the official Pinterest API.
     const publishBatch = async (count: number = 5) => {
         setBatchPublishing(true);
         try {
             const res = await fetch(`/api/pinterest/publish?batch=${count}`, {
                 method: "POST",
-                headers: { "Authorization": "Bearer ZG58DirMq40KBzV7nFmkbI9CpSNvLooOYalyR2gJuTAjch3x1" },
+                headers: { "Content-Type": "application/json" },
             });
             const data = await res.json();
             if (data.results) {
-                setPublishLog(prev => [...(data.results as PublishResult[]), ...prev].slice(0, 20));
+                const normalized = (data.results as PublishResult[]).map((item) => ({
+                    ...item,
+                    makeResponse: item.response || item.makeResponse || "Dry-run pret.",
+                }));
+                setPublishLog(prev => [...normalized, ...prev].slice(0, 20));
                 setShowLog(true);
             }
         } finally {
@@ -121,9 +134,9 @@ export default function AdminPinterestClient() {
         }
     };
 
-    const makeDescription = selectedPin
-        ? `${selectedPin.description}\n\n${selectedPin.hashtags.join(" ")}`
-        : "";
+    const averageQuality = pins.length
+        ? Math.round(pins.reduce((sum, pin) => sum + pin.quality.score, 0) / pins.length)
+        : 0;
 
     if (loading) {
         return (
@@ -141,18 +154,18 @@ export default function AdminPinterestClient() {
             <header className="page-header-admin flex-header">
                 <div>
                     <h1 className="pin-header-title">📌 Pinterest Dashboard</h1>
-                    <p className="pin-header-sub">{pins.length} Pins générés • Webhook Make.com <span className="pin-badge-live">🟢 Connecté</span></p>
+                    <p className="pin-header-sub">{pins.length} Pins générés • API Pinterest <span className="pin-badge-live">Dry-run sécurisé</span></p>
                 </div>
                 <div className="pin-header-actions">
                     <button
                         className="btn btn-outline pin-action-btn"
                         onClick={() => publishBatch(5)}
                         disabled={batchPublishing}
-                        title="Envoie les 5 produits les plus populaires à Make.com maintenant"
+                        title="Prépare les 5 produits les plus populaires en dry-run Pinterest"
                     >
                         <span className="btn-label-steady" translate="no">
                             {batchPublishing && <span className="pin-mini-spinner"></span>}
-                            {batchPublishing ? " Publication..." : <span><Zap size={16} style={{marginRight: '8px'}} /> Publier 5 Pins</span>}
+                            {batchPublishing ? " Préparation..." : <span><Zap size={16} style={{marginRight: '8px'}} /> Tester 5 Pins</span>}
                         </span>
                     </button>
                     <button className="btn btn-outline pin-action-btn" onClick={fetchPins}>
@@ -168,9 +181,9 @@ export default function AdminPinterestClient() {
             <div className="pin-stats-row">
                 {[
                     { icon: "📌", value: String(pins.length), label: "Pins Prêts" },
-                    { icon: "🤖", value: "Make.com", label: "Webhook Actif" },
+                    { icon: "🤖", value: `${averageQuality}/100`, label: "Score qualité" },
                     { icon: "💰", value: process.env.NEXT_PUBLIC_AMAZON_TAG_FR || "kitchenluxe-21", label: "Tag Affilié" },
-                    { icon: "📊", value: String(publishLog.filter(l => l.success).length), label: "Publiés ce run" },
+                    { icon: "📊", value: String(publishLog.filter(l => l.success).length), label: "Tests OK ce run" },
                 ].map((s) => (
                     <div key={s.label} className="pin-stat-card">
                         <span className="pin-stat-icon">{s.icon}</span>
@@ -230,11 +243,11 @@ export default function AdminPinterestClient() {
                                         <div className="pin-list-name">
                                             {pin.productName.length > 32 ? pin.productName.slice(0, 29) + "…" : pin.productName}
                                         </div>
-                                        <span className="pin-badge">{product?.category ?? "—"}</span>
+                                        <span className="pin-badge">{pin.categoryLabel}</span>
                                     </div>
                                     <button
                                         className="pin-send-btn"
-                                        disabled={isPublishing || batchPublishing}
+                                        disabled={isPublishing || batchPublishing || !pin.quality.passed}
                                         title="Envoyer ce Pin à Make.com maintenant"
                                         onClick={(e) => { e.stopPropagation(); publishOne(pin); }}
                                     >
@@ -261,7 +274,7 @@ export default function AdminPinterestClient() {
                                     onClick={() => setActiveTab(t)}
                                 >
                                     {t === "preview" && "🖼️ Aperçu"}
-                                    {t === "make" && "🤖 Make.com"}
+                                    {t === "make" && "🤖 API Pinterest"}
                                     {t === "csv" && "📋 CSV"}
                                 </button>
                             ))}
@@ -269,12 +282,12 @@ export default function AdminPinterestClient() {
                             {/* Quick Publish Button in header */}
                             <button
                                 className="pin-tab-publish-btn"
-                                disabled={!!publishing || batchPublishing}
+                                disabled={!!publishing || batchPublishing || !selectedPin.quality.passed}
                                 onClick={() => publishOne(selectedPin)}
                             >
                                 <span className="btn-label-steady" translate="no">
                                     {publishing === selectedPin.productId && <span className="pin-mini-spinner"></span>}
-                                    {publishing === selectedPin.productId ? " Envoi..." : <span><Send size={14} style={{marginRight: '8px'}} /> Envoyer à Make.com</span>}
+                                    {publishing === selectedPin.productId ? " Test..." : <span><Send size={14} style={{marginRight: '8px'}} /> Tester via API</span>}
                                 </span>
                             </button>
                         </div>
@@ -285,13 +298,13 @@ export default function AdminPinterestClient() {
                                 <div className="pin-preview-container">
                                     <div className="pin-image-wrapper">
                                         {previewLoading && <div className="pin-image-loader">Génération…</div>}
-                                        <iframe
+                                        <img
                                             key={selectedPin.productId}
                                             src={selectedPin.imageUrl}
-                                            title="Pinterest Pin Preview"
-                                            className="pin-preview-iframe"
+                                            alt={`Apercu Pinterest pour ${selectedPin.productName}`}
+                                            className="pin-preview-image"
                                             onLoad={() => setPreviewLoading(false)}
-                                            sandbox="allow-same-origin"
+                                            onError={() => setPreviewLoading(false)}
                                         />
                                     </div>
                                     <div className="pin-meta-panel">
@@ -311,6 +324,23 @@ export default function AdminPinterestClient() {
                                             </button>
                                         </div>
 
+                                        <h4 className="pin-meta-label">Qualité</h4>
+                                        <div className={`pin-quality-box ${selectedPin.quality.passed ? "ok" : "warn"}`}>
+                                            <strong>{selectedPin.quality.score}/100</strong>
+                                            <span>
+                                                {selectedPin.quality.passed
+                                                    ? `Prêt à publier (seuil ${selectedPin.quality.minScore})`
+                                                    : `À revoir avant publication (seuil ${selectedPin.quality.minScore})`}
+                                            </span>
+                                        </div>
+                                        {selectedPin.quality.warnings.length > 0 && (
+                                            <div className="pin-quality-warnings">
+                                                {selectedPin.quality.warnings.map((warning) => (
+                                                    <span key={warning}>{warning}</span>
+                                                ))}
+                                            </div>
+                                        )}
+
                                         <h4 className="pin-meta-label">Hashtags</h4>
                                         <div className="pin-hashtags">
                                             {selectedPin.hashtags.map(h => (
@@ -328,12 +358,12 @@ export default function AdminPinterestClient() {
 
                                         <button
                                             className="btn btn-primary pin-dl-btn"
-                                            disabled={!!publishing || batchPublishing}
+                                            disabled={!!publishing || batchPublishing || !selectedPin.quality.passed}
                                             onClick={() => publishOne(selectedPin)}
                                         >
                                             {publishing === selectedPin.productId
-                                                ? "⏳ Envoi en cours..."
-                                                : "📌 Publier ce Pin sur Pinterest"}
+                                                ? "⏳ Test en cours..."
+                                                : "📌 Tester ce Pin Pinterest"}
                                         </button>
 
                                         <a
@@ -342,7 +372,7 @@ export default function AdminPinterestClient() {
                                             rel="noopener noreferrer"
                                             className="pin-see-html"
                                         >
-                                            🖼️ Voir le Pin HTML pleine taille →
+                                            🖼️ Voir le Pin image pleine taille →
                                         </a>
                                     </div>
                                 </div>
@@ -355,40 +385,40 @@ export default function AdminPinterestClient() {
                                 <div className="make-connected-banner">
                                     <span>🟢</span>
                                     <div>
-                                        <strong>Webhook Make.com connecté !</strong>
-                                        <p>Tu peux publier des Pins directement depuis cette interface ou automatiser avec un Cron dans Make.com</p>
+                                        <strong>API Pinterest en mode test</strong>
+                                        <p>Le dashboard prépare le payload officiel sans publier tant que le mode live n'est pas confirmé.</p>
                                     </div>
                                 </div>
 
                                 <div className="make-actions-grid">
                                     <div className="make-action-card">
                                         <div className="make-action-icon">⚡</div>
-                                        <h4>Publier maintenant</h4>
-                                        <p>Envoyer le Pin sélectionné à Pinterest via Make.com</p>
+                                        <h4>Tester maintenant</h4>
+                                        <p>Préparer le Pin sélectionné pour l'API Pinterest officielle</p>
                                         <button
                                             className="btn btn-primary"
-                                            disabled={!!publishing || batchPublishing}
+                                            disabled={!!publishing || batchPublishing || !selectedPin.quality.passed}
                                             onClick={() => publishOne(selectedPin)}
                                         >
-                                            {publishing === selectedPin.productId ? "Envoi..." : "Envoyer 1 Pin →"}
+                                            {publishing === selectedPin.productId ? "Test..." : "Tester 1 Pin →"}
                                         </button>
                                     </div>
                                     <div className="make-action-card">
                                         <div className="make-action-icon">🚀</div>
                                         <h4>Batch — Top 5</h4>
-                                        <p>Envoyer les 5 produits les plus populaires en une fois</p>
+                                        <p>Préparer les 5 produits les plus populaires en une fois</p>
                                         <button
                                             className="btn btn-primary"
                                             disabled={!!publishing || batchPublishing}
                                             onClick={() => publishBatch(5)}
                                         >
-                                            {batchPublishing ? "En cours..." : "Publier 5 Pins →"}
+                                            {batchPublishing ? "En cours..." : "Tester 5 Pins →"}
                                         </button>
                                     </div>
                                     <div className="make-action-card">
                                         <div className="make-action-icon">📅</div>
                                         <h4>Automatisation</h4>
-                                        <p>Configure un Cron dans Make.com pour publier automatiquement chaque jour</p>
+                                        <p>À activer seulement après validation du lot et passage volontaire en live</p>
                                         <div className="make-cron-info">
                                             <code>POST /api/pinterest/publish?batch=5</code>
                                             <button className="copy-btn" onClick={() => copyToClipboard(`${typeof window !== "undefined" ? window.location.origin : ""}/api/pinterest/publish?batch=5`, "cron")}>
@@ -399,15 +429,14 @@ export default function AdminPinterestClient() {
                                 </div>
 
                                 <div className="make-cron-guide">
-                                    <h4>⏰ Automatiser 5 Pins/jour dans Make.com</h4>
+                                    <h4>⏰ Passage live contrôlé</h4>
                                     <ol>
-                                        <li>Dans Make.com → Nouveau scénario</li>
-                                        <li>Trigger : <strong>Clock</strong> → Tous les jours à <strong>10:00</strong></li>
-                                        <li>Module : <strong>HTTP → Make a request</strong></li>
-                                        <li>URL : <code>{typeof window !== "undefined" ? window.location.origin : "https://KitchenLuxe.vercel.app"}/api/pinterest/publish?batch=5</code></li>
-                                        <li>Méthode : <strong>POST</strong> → Sauvegarder → <strong>Activer le scénario</strong> ✅</li>
+                                        <li>Configurer <strong>PINTEREST_ACCESS_TOKEN</strong> et <strong>PINTEREST_BOARD_ID</strong></li>
+                                        <li>Garder <strong>PINTEREST_API_DRY_RUN=1</strong> tant que les exemples ne sont pas validés</li>
+                                        <li>Pour publier réellement : <code>POST /api/pinterest/publish?batch=5&amp;mode=live&amp;confirm=publish</code></li>
+                                        <li>Le live exige aussi <strong>PINTEREST_API_DRY_RUN=0</strong></li>
                                     </ol>
-                                    <p className="make-cron-result">→ 5 Pins publiés automatiquement chaque matin, 7j/7, sans rien faire ! 🎉</p>
+                                    <p className="make-cron-result">→ Aucun Pin réel ne part tant que les deux sécurités live ne sont pas réunies.</p>
                                 </div>
                             </div>
                         )}
@@ -497,7 +526,7 @@ export default function AdminPinterestClient() {
                 .pin-preview-container { display:grid;grid-template-columns:240px 1fr;gap:18px; }
                 .pin-image-wrapper { width:100%;aspect-ratio:2/3;border-radius:10px;overflow:hidden;background:#f3f3f3;position:relative; }
                 .pin-image-loader { position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:12px;color:#888; }
-                .pin-preview-iframe { width:100%;height:100%;border:none; }
+                .pin-preview-image { width:100%;height:100%;object-fit:cover;display:block;border:none; }
                 .pin-meta-panel { display:flex;flex-direction:column;gap:8px; }
                 .pin-meta-label { font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#888;margin:0;margin-top:4px; }
                 .pin-text-box { background:#fdf8f0;border:1px solid #e5e7eb;border-radius:7px;padding:9px 12px;font-size:12px;display:flex;align-items:flex-start;gap:6px;line-height:1.5; }
@@ -506,6 +535,11 @@ export default function AdminPinterestClient() {
                 .pin-link-box { align-items:center; }
                 .pin-link-text { flex:1;color:#c9973a;text-decoration:none;font-size:11px;word-break:break-all; }
                 .pin-link-icon { flex-shrink:0;color:#888; }
+                .pin-quality-box { display:flex;align-items:center;justify-content:space-between;gap:10px;border-radius:7px;padding:10px 12px;font-size:12px;border:1px solid #e5e7eb;background:#f9fafb; }
+                .pin-quality-box strong { font-size:16px; }
+                .pin-quality-box.ok { background:#ecfdf5;border-color:#86efac;color:#166534; }
+                .pin-quality-box.warn { background:#fff7ed;border-color:#fdba74;color:#9a3412; }
+                .pin-quality-warnings { display:flex;flex-direction:column;gap:4px;font-size:11px;color:#9a3412;background:#fff7ed;border:1px solid #fed7aa;border-radius:7px;padding:8px 10px; }
                 .copy-btn { background:none;border:none;cursor:pointer;color:#888;padding:0;display:flex;flex-shrink:0; }
                 .copy-btn:hover { color:#c9973a; }
                 .pin-hashtags { display:flex;flex-wrap:wrap;gap:5px; }

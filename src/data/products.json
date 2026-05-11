@@ -1,5 +1,63 @@
 [
   {
+    "id": "kl_p_1778498951800_7785",
+    "asin": "B000X97G3A",
+    "name": "Wüsthof Classic Ikon Paring Knife",
+    "slug": "wusthof-classic-ikon-paring-knife-7785",
+    "description": "Le couteau d'office de précision. Parfait pour peler, parer et décorer vos fruits et légumes avec une agilité maximale.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 79,
+    "category": "Coutellerie",
+    "brand": "Wüsthof",
+    "image": "https://images.unsplash.com/photo-1507048331197-7d4ac70811cf?q=80&w=1974&auto=format&fit=crop",
+    "rating": 4.8,
+    "reviews": 1400,
+    "features": [
+      "couteau d'office",
+      "wüsthof",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "couteau d'office",
+      "wüsthof",
+      "ikon",
+      "coutellerie de précision",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1778498937950_2520",
+    "asin": "B00004RFMT",
+    "name": "Zwilling Pro Chef's Knife 20cm",
+    "slug": "zwilling-pro-chef-s-knife-20cm-2520",
+    "description": "L'excellence de la coutellerie allemande. Forgé à partir d'une seule pièce d'acier spécial pour un tranchant durable.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 109,
+    "category": "Coutellerie",
+    "brand": "Zwilling",
+    "image": "https://images.unsplash.com/photo-1594910413521-17f167666993?q=80&w=1974&auto=format&fit=crop",
+    "rating": 5,
+    "reviews": 975,
+    "features": [
+      "couteau de chef",
+      "zwilling pro",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "couteau de chef",
+      "zwilling pro",
+      "coutellerie pro",
+      "couteau forgé",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
     "id": "kl_p_1778406100041_7121",
     "asin": "B00063539C",
     "name": "Staub Round Cocotte 24cm",

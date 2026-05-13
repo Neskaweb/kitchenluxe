@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "lastUpdated": "2026-05-11T08:04:00.393Z",
+  "lastUpdated": "2026-05-13T08:04:03.379Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
     "GUIDE": {
       "clicks": 0,
-      "posts": 23
+      "posts": 24
     },
     "DUEL": {
       "clicks": 0,
@@ -14,10 +14,14 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 80
+      "posts": 83
     }
   },
   "categories": {
+    "Coutellerie": {
+      "clicks": 0,
+      "posts": 28
+    },
     "Ustensiles de Chef": {
       "clicks": 0,
       "posts": 33
@@ -30,17 +34,19 @@
       "clicks": 0,
       "posts": 15
     },
-    "Coutellerie": {
-      "clicks": 0,
-      "posts": 24
-    },
     "Inspiration": {
       "clicks": 0,
       "posts": 1
     }
   },
-  "totalRuns": 20,
+  "totalRuns": 21,
   "history": [
+    {
+      "date": "2026-05-13T08:04:17.730Z",
+      "style": "GUIDE",
+      "title": "Vitamix E310 Blender Professionnel — Guide de Maître Cuisinier",
+      "clicks": 0
+    },
     {
       "date": "2026-05-11T08:04:20.827Z",
       "style": "GUIDE",

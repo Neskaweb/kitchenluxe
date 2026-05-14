@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-05-13T08:04:03.379Z",
+  "lastUpdated": "2026-05-14T08:32:34.629Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -14,13 +14,13 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 83
+      "posts": 85
     }
   },
   "categories": {
     "Coutellerie": {
       "clicks": 0,
-      "posts": 28
+      "posts": 30
     },
     "Ustensiles de Chef": {
       "clicks": 0,
@@ -39,8 +39,14 @@
       "posts": 1
     }
   },
-  "totalRuns": 21,
+  "totalRuns": 22,
   "history": [
+    {
+      "date": "2026-05-14T08:32:49.984Z",
+      "style": "GUIDE",
+      "title": "Sage Barista Express — Machine Espresso Professionnel",
+      "clicks": 0
+    },
     {
       "date": "2026-05-13T08:04:17.730Z",
       "style": "GUIDE",

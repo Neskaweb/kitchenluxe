@@ -1,5 +1,63 @@
 [
   {
+    "id": "kl_p_1778840952159_1346",
+    "asin": "B00CI32S9K",
+    "name": "Sage Barista Express Espresso Machine",
+    "slug": "sage-barista-express-espresso-machine-1346",
+    "description": "L'expérience barista ultime à la maison. Un broyeur intégré pour un café fraîchement moulu et une mousse de lait soyeuse.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 629,
+    "category": "Électroménager",
+    "brand": "Sage",
+    "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=2070&auto=format&fit=crop",
+    "rating": 5,
+    "reviews": 1683,
+    "features": [
+      "machine espresso",
+      "barista",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "machine espresso",
+      "barista",
+      "café de luxe",
+      "sage appliances",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1778840937473_3782",
+    "asin": "B000X97G3A",
+    "name": "Wüsthof Classic Ikon Paring Knife",
+    "slug": "wusthof-classic-ikon-paring-knife-3782",
+    "description": "Le couteau d'office de précision. Parfait pour peler, parer et décorer vos fruits et légumes avec une agilité maximale.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 79,
+    "category": "Coutellerie",
+    "brand": "Wüsthof",
+    "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.8,
+    "reviews": 368,
+    "features": [
+      "couteau d'office",
+      "wüsthof",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "couteau d'office",
+      "wüsthof",
+      "ikon",
+      "coutellerie de précision",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
     "id": "kl_p_1778754218123_5078",
     "asin": "B01B7M9R9S",
     "name": "Magimix Cook Expert Robot Cuiseur",

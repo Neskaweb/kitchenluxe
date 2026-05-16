@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "lastUpdated": "2026-05-15T08:40:50.515Z",
+  "lastUpdated": "2026-05-16T08:31:47.317Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
     "GUIDE": {
       "clicks": 0,
-      "posts": 24
+      "posts": 26
     },
     "DUEL": {
       "clicks": 0,
@@ -20,11 +20,11 @@
   "categories": {
     "Électroménager": {
       "clicks": 0,
-      "posts": 50
+      "posts": 51
     },
     "Coutellerie": {
       "clicks": 0,
-      "posts": 31
+      "posts": 32
     },
     "Ustensiles de Chef": {
       "clicks": 0,
@@ -39,8 +39,14 @@
       "posts": 1
     }
   },
-  "totalRuns": 23,
+  "totalRuns": 24,
   "history": [
+    {
+      "date": "2026-05-16T08:32:04.446Z",
+      "style": "RECETTE",
+      "title": "Sage Barista Express — Le Secret des Baristas à Domicile",
+      "clicks": 0
+    },
     {
       "date": "2026-05-15T08:41:06.781Z",
       "style": "DUEL",

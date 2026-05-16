@@ -1,5 +1,63 @@
 [
   {
+    "id": "kl_p_1778924693367_8506",
+    "asin": "B00004SGFW",
+    "name": "KitchenAid Artisan Stand Mixer 4.8L",
+    "slug": "kitchenaid-artisan-stand-mixer-4-8l-8506",
+    "description": "L'icône de la cuisine. Robuste, stable et durable, ce robot pâtissier est le compagnon indispensable de toutes vos créations.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 749,
+    "category": "Appareils de Précision",
+    "brand": "KitchenAid",
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.8,
+    "reviews": 784,
+    "features": [
+      "robot pâtissier",
+      "kitchenaid artisan",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "robot pâtissier",
+      "kitchenaid artisan",
+      "pâtisserie",
+      "robot de cuisine",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1778924679954_5471",
+    "asin": "B00004RFMT",
+    "name": "Zwilling Pro Chef's Knife 20cm",
+    "slug": "zwilling-pro-chef-s-knife-20cm-5471",
+    "description": "L'excellence de la coutellerie allemande. Forgé à partir d'une seule pièce d'acier spécial pour un tranchant durable.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 109,
+    "category": "Coutellerie",
+    "brand": "Zwilling",
+    "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.9,
+    "reviews": 512,
+    "features": [
+      "couteau de chef",
+      "zwilling pro",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "couteau de chef",
+      "zwilling pro",
+      "coutellerie pro",
+      "couteau forgé",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
     "id": "kl_p_1778840952159_1346",
     "asin": "B00CI32S9K",
     "name": "Sage Barista Express Espresso Machine",

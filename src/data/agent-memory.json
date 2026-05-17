@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "lastUpdated": "2026-05-16T08:31:47.317Z",
+  "lastUpdated": "2026-05-17T08:24:51.280Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
     "GUIDE": {
       "clicks": 0,
-      "posts": 26
+      "posts": 27
     },
     "DUEL": {
       "clicks": 0,
@@ -14,33 +14,39 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 87
+      "posts": 88
     }
   },
   "categories": {
+    "Appareils de Précision": {
+      "clicks": 0,
+      "posts": 16
+    },
+    "Coutellerie": {
+      "clicks": 0,
+      "posts": 33
+    },
     "Électroménager": {
       "clicks": 0,
       "posts": 51
     },
-    "Coutellerie": {
-      "clicks": 0,
-      "posts": 32
-    },
     "Ustensiles de Chef": {
       "clicks": 0,
       "posts": 33
-    },
-    "Appareils de Précision": {
-      "clicks": 0,
-      "posts": 15
     },
     "Inspiration": {
       "clicks": 0,
       "posts": 1
     }
   },
-  "totalRuns": 24,
+  "totalRuns": 25,
   "history": [
+    {
+      "date": "2026-05-17T08:25:09.933Z",
+      "style": "GUIDE",
+      "title": "Zwilling Pro Couteau de Chef 20cm — Guide Pro",
+      "clicks": 0
+    },
     {
       "date": "2026-05-16T08:32:04.446Z",
       "style": "RECETTE",

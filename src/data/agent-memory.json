@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "lastUpdated": "2026-05-19T08:41:31.467Z",
+  "lastUpdated": "2026-05-21T08:30:26.514Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
     "GUIDE": {
       "clicks": 0,
-      "posts": 27
+      "posts": 28
     },
     "DUEL": {
       "clicks": 0,
@@ -14,33 +14,39 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 91
+      "posts": 94
     }
   },
   "categories": {
-    "Coutellerie": {
-      "clicks": 0,
-      "posts": 35
-    },
     "Électroménager": {
       "clicks": 0,
-      "posts": 53
+      "posts": 54
     },
     "Appareils de Précision": {
       "clicks": 0,
-      "posts": 16
+      "posts": 18
     },
     "Ustensiles de Chef": {
       "clicks": 0,
-      "posts": 33
+      "posts": 34
+    },
+    "Coutellerie": {
+      "clicks": 0,
+      "posts": 35
     },
     "Inspiration": {
       "clicks": 0,
       "posts": 1
     }
   },
-  "totalRuns": 27,
+  "totalRuns": 28,
   "history": [
+    {
+      "date": "2026-05-21T08:30:41.763Z",
+      "style": "GUIDE",
+      "title": "KitchenAid Artisan 4.8L : Le Robot Pâtissier",
+      "clicks": 0
+    },
     {
       "date": "2026-05-19T08:41:48.588Z",
       "style": "DUEL",

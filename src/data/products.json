@@ -1,5 +1,63 @@
 [
   {
+    "id": "kl_p_1779530264034_8460",
+    "asin": "B00V86W64M",
+    "name": "Le Creuset Signature Cast Iron Casserole",
+    "slug": "le-creuset-signature-cast-iron-casserole-8460",
+    "description": "La cocotte en fonte émaillée française légendaire. Parfaite pour les ragoûts, les rôtis et les cuissons lentes.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 319,
+    "category": "Ustensiles de Chef",
+    "brand": "Le Creuset",
+    "image": "https://images.unsplash.com/photo-1594910413521-17f167666993?q=80&w=1974&auto=format&fit=crop",
+    "rating": 4.9,
+    "reviews": 1082,
+    "features": [
+      "cocotte en fonte",
+      "le creuset",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "cocotte en fonte",
+      "le creuset",
+      "cuisine traditionnelle",
+      "mijoté",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1779530252073_5338",
+    "asin": "B00CI32S9K",
+    "name": "Sage Barista Express Espresso Machine",
+    "slug": "sage-barista-express-espresso-machine-5338",
+    "description": "L'expérience barista ultime à la maison. Un broyeur intégré pour un café fraîchement moulu et une mousse de lait soyeuse.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 629,
+    "category": "Électroménager",
+    "brand": "Sage",
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.8,
+    "reviews": 1088,
+    "features": [
+      "machine espresso",
+      "barista",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "machine espresso",
+      "barista",
+      "café de luxe",
+      "sage appliances",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
     "id": "kl_p_1779447289601_4502",
     "asin": "B00063539C",
     "name": "Staub Round Cocotte 24cm",

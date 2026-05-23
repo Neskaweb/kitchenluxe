@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-05-22T08:58:19.279Z",
+  "lastUpdated": "2026-05-23T08:25:48.322Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -14,13 +14,17 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 94
+      "posts": 96
     }
   },
   "categories": {
+    "Ustensiles de Chef": {
+      "clicks": 0,
+      "posts": 35
+    },
     "Électroménager": {
       "clicks": 0,
-      "posts": 55
+      "posts": 56
     },
     "Coutellerie": {
       "clicks": 0,
@@ -30,17 +34,19 @@
       "clicks": 0,
       "posts": 18
     },
-    "Ustensiles de Chef": {
-      "clicks": 0,
-      "posts": 34
-    },
     "Inspiration": {
       "clicks": 0,
       "posts": 1
     }
   },
-  "totalRuns": 29,
+  "totalRuns": 30,
   "history": [
+    {
+      "date": "2026-05-23T08:26:05.672Z",
+      "style": "GUIDE",
+      "title": "KitchenAid Artisan 4.8L : Guide Complet du Pro",
+      "clicks": 0
+    },
     {
       "date": "2026-05-22T08:58:37.742Z",
       "style": "RECETTE",

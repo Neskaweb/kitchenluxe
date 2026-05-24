@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-05-23T08:25:48.322Z",
+  "lastUpdated": "2026-05-24T08:32:18.316Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -10,7 +10,7 @@
     },
     "DUEL": {
       "clicks": 0,
-      "posts": 22
+      "posts": 24
     },
     "RECETTE": {
       "clicks": 0,
@@ -20,11 +20,11 @@
   "categories": {
     "Ustensiles de Chef": {
       "clicks": 0,
-      "posts": 35
+      "posts": 36
     },
     "Électroménager": {
       "clicks": 0,
-      "posts": 56
+      "posts": 57
     },
     "Coutellerie": {
       "clicks": 0,
@@ -39,8 +39,14 @@
       "posts": 1
     }
   },
-  "totalRuns": 30,
+  "totalRuns": 31,
   "history": [
+    {
+      "date": "2026-05-24T08:32:34.231Z",
+      "style": "DUEL",
+      "title": "De Buyer Minéral B 28cm : Le Fer des Chefs",
+      "clicks": 0
+    },
     {
       "date": "2026-05-23T08:26:05.672Z",
       "style": "GUIDE",

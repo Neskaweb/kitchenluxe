@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-05-25T08:47:03.364Z",
+  "lastUpdated": "2026-05-26T08:53:02.479Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -14,21 +14,21 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 97
+      "posts": 99
     }
   },
   "categories": {
+    "Ustensiles de Chef": {
+      "clicks": 0,
+      "posts": 37
+    },
     "Électroménager": {
       "clicks": 0,
-      "posts": 58
+      "posts": 59
     },
     "Appareils de Précision": {
       "clicks": 0,
       "posts": 19
-    },
-    "Ustensiles de Chef": {
-      "clicks": 0,
-      "posts": 36
     },
     "Coutellerie": {
       "clicks": 0,
@@ -39,8 +39,14 @@
       "posts": 1
     }
   },
-  "totalRuns": 32,
+  "totalRuns": 33,
   "history": [
+    {
+      "date": "2026-05-26T08:53:19.624Z",
+      "style": "GUIDE",
+      "title": "Staub Cocotte Ronde 24cm — L'Arme Secrète des Chefs",
+      "clicks": 0
+    },
     {
       "date": "2026-05-25T08:47:19.758Z",
       "style": "DUEL",

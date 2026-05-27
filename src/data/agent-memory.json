@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-05-26T08:53:02.479Z",
+  "lastUpdated": "2026-05-27T08:36:28.625Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -39,8 +39,14 @@
       "posts": 1
     }
   },
-  "totalRuns": 33,
+  "totalRuns": 34,
   "history": [
+    {
+      "date": "2026-05-27T08:36:43.583Z",
+      "style": "DUEL",
+      "title": "Breville Barista Pro : Meilleure Machine Espresso 2026 ?",
+      "clicks": 0
+    },
     {
       "date": "2026-05-26T08:53:19.624Z",
       "style": "GUIDE",

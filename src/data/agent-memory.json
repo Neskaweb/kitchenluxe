@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-05-27T08:36:28.625Z",
+  "lastUpdated": "2026-05-28T08:20:49.364Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -39,8 +39,14 @@
       "posts": 1
     }
   },
-  "totalRuns": 34,
+  "totalRuns": 35,
   "history": [
+    {
+      "date": "2026-05-28T08:21:06.490Z",
+      "style": "DUEL",
+      "title": "Magimix Cook Expert vs ses rivaux : le meilleur choix?",
+      "clicks": 0
+    },
     {
       "date": "2026-05-27T08:36:43.583Z",
       "style": "DUEL",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-05-28T08:20:49.364Z",
+  "lastUpdated": "2026-05-29T08:23:41.497Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -10,37 +10,43 @@
     },
     "DUEL": {
       "clicks": 0,
-      "posts": 24
+      "posts": 25
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 99
+      "posts": 100
     }
   },
   "categories": {
-    "Ustensiles de Chef": {
+    "Coutellerie": {
       "clicks": 0,
       "posts": 37
     },
     "Électroménager": {
       "clicks": 0,
-      "posts": 59
+      "posts": 60
+    },
+    "Ustensiles de Chef": {
+      "clicks": 0,
+      "posts": 37
     },
     "Appareils de Précision": {
       "clicks": 0,
       "posts": 19
-    },
-    "Coutellerie": {
-      "clicks": 0,
-      "posts": 36
     },
     "Inspiration": {
       "clicks": 0,
       "posts": 1
     }
   },
-  "totalRuns": 35,
+  "totalRuns": 36,
   "history": [
+    {
+      "date": "2026-05-29T08:23:58.321Z",
+      "style": "RECETTE",
+      "title": "Sage Barista Express — Devenir barista chez soi",
+      "clicks": 0
+    },
     {
       "date": "2026-05-28T08:21:06.490Z",
       "style": "DUEL",

@@ -1,5 +1,34 @@
 [
   {
+    "id": "kl_p_1780214663336",
+    "asin": "B00V86W64M",
+    "name": "Le Creuset Signature Cocotte Ronde 24cm",
+    "slug": "le-creuset-signature-cocotte-ronde-24cm-63336",
+    "description": "La cocotte en fonte émaillée française légendaire pour les ragoûts et cuissons lentes.",
+    "price": 319,
+    "category": "Ustensiles de Chef",
+    "brand": "Le Creuset",
+    "image": "https://images.unsplash.com/photo-1588854337236-6889d631faa8?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.8,
+    "reviews": 1465,
+    "features": [
+      "cocotte en fonte",
+      "le creuset",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "cocotte en fonte",
+      "le creuset",
+      "cuisine traditionnelle",
+      "mijoté",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ],
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux.\n- **Durabilité Garantie**: Pour une cuisine qui vous ressemble."
+  },
+  {
     "id": "kl_p_1780135458805_967",
     "asin": "B01B7M9R9S",
     "name": "Magimix Cook Expert Robot Cuiseur",

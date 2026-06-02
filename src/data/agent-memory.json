@@ -1,46 +1,52 @@
 {
   "version": 1,
-  "lastUpdated": "2026-05-30T08:18:01.488Z",
+  "lastUpdated": "2026-06-02T08:54:30.487Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
     "GUIDE": {
       "clicks": 0,
-      "posts": 29
+      "posts": 31
     },
     "DUEL": {
       "clicks": 0,
-      "posts": 25
+      "posts": 26
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 102
+      "posts": 106
     }
   },
   "categories": {
     "Ustensiles de Chef": {
       "clicks": 0,
-      "posts": 38
-    },
-    "Coutellerie": {
-      "clicks": 0,
-      "posts": 38
+      "posts": 39
     },
     "Électroménager": {
       "clicks": 0,
-      "posts": 60
+      "posts": 64
     },
     "Appareils de Précision": {
       "clicks": 0,
-      "posts": 19
+      "posts": 20
+    },
+    "Coutellerie": {
+      "clicks": 0,
+      "posts": 39
     },
     "Inspiration": {
       "clicks": 0,
       "posts": 1
     }
   },
-  "totalRuns": 37,
+  "totalRuns": 38,
   "history": [
+    {
+      "date": "2026-06-02T08:54:47.506Z",
+      "style": "GUIDE",
+      "title": "Breville Barista Pro : Le Secret des Vrais Baristas",
+      "clicks": 0
+    },
     {
       "date": "2026-05-30T08:18:18.192Z",
       "style": "DUEL",

@@ -1,5 +1,34 @@
 [
   {
+    "id": "kl_p_1780474585468",
+    "asin": "B089SYG6CC",
+    "name": "Ninja Foodi MAX Dual Zone Air Fryer",
+    "slug": "ninja-foodi-max-dual-zone-air-fryer-85468",
+    "description": "La friteuse sans huile révolutionnaire avec deux zones de cuisson indépendantes.",
+    "price": 229,
+    "category": "Électroménager",
+    "brand": "Ninja",
+    "image": "https://images.unsplash.com/photo-1594910413521-17f167666993?q=80&w=1974&auto=format&fit=crop",
+    "rating": 4.9,
+    "reviews": 631,
+    "features": [
+      "air fryer",
+      "ninja foodi",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "air fryer",
+      "ninja foodi",
+      "cuisine saine",
+      "friteuse sans huile",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ],
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux.\n- **Durabilité Garantie**: Pour une cuisine qui vous ressemble."
+  },
+  {
     "id": "kl_p_1780402111856_5145",
     "asin": "B00CI32S9K",
     "name": "Sage Barista Express Espresso Machine",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-06-02T08:54:30.487Z",
+  "lastUpdated": "2026-06-04T08:16:26.388Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -10,37 +10,43 @@
     },
     "DUEL": {
       "clicks": 0,
-      "posts": 26
+      "posts": 27
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 106
+      "posts": 109
     }
   },
   "categories": {
+    "Coutellerie": {
+      "clicks": 0,
+      "posts": 40
+    },
+    "Électroménager": {
+      "clicks": 0,
+      "posts": 67
+    },
     "Ustensiles de Chef": {
       "clicks": 0,
       "posts": 39
     },
-    "Électroménager": {
-      "clicks": 0,
-      "posts": 64
-    },
     "Appareils de Précision": {
       "clicks": 0,
       "posts": 20
-    },
-    "Coutellerie": {
-      "clicks": 0,
-      "posts": 39
     },
     "Inspiration": {
       "clicks": 0,
       "posts": 1
     }
   },
-  "totalRuns": 38,
+  "totalRuns": 39,
   "history": [
+    {
+      "date": "2026-06-04T08:16:43.067Z",
+      "style": "RECETTE",
+      "title": "Magimix Cook Expert : 3 Recettes Gourmandes",
+      "clicks": 0
+    },
     {
       "date": "2026-06-02T08:54:47.506Z",
       "style": "GUIDE",

@@ -1,5 +1,63 @@
 [
   {
+    "id": "kl_p_1780659111319_6523",
+    "asin": "B089SYG6CC",
+    "name": "Ninja Foodi MAX Dual Zone Air Fryer",
+    "slug": "ninja-foodi-max-dual-zone-air-fryer-6523",
+    "description": "La friteuse sans huile révolutionnaire avec deux zones de cuisson indépendantes. Cuisinez deux plats différemment en même temps.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 229,
+    "category": "Électroménager",
+    "brand": "Ninja",
+    "image": "https://images.unsplash.com/photo-1594910413521-17f167666993?q=80&w=1974&auto=format&fit=crop",
+    "rating": 4.9,
+    "reviews": 493,
+    "features": [
+      "air fryer",
+      "ninja foodi",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "air fryer",
+      "ninja foodi",
+      "cuisine saine",
+      "friteuse sans huile",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1780659098313_1689",
+    "asin": "B00CI32S9K",
+    "name": "Sage Barista Express Espresso Machine",
+    "slug": "sage-barista-express-espresso-machine-1689",
+    "description": "L'expérience barista ultime à la maison. Un broyeur intégré pour un café fraîchement moulu et une mousse de lait soyeuse.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 629,
+    "category": "Électroménager",
+    "brand": "Sage",
+    "image": "https://images.unsplash.com/photo-1507048331197-7d4ac70811cf?q=80&w=1974&auto=format&fit=crop",
+    "rating": 4.7,
+    "reviews": 1764,
+    "features": [
+      "machine espresso",
+      "barista",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "machine espresso",
+      "barista",
+      "café de luxe",
+      "sage appliances",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
     "id": "kl_p_1780571940197_2722",
     "asin": "B00004SGFW",
     "name": "KitchenAid Artisan Stand Mixer 4.8L",

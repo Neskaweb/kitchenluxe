@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "lastUpdated": "2026-06-04T08:16:26.388Z",
+  "lastUpdated": "2026-06-05T08:12:17.532Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
     "GUIDE": {
       "clicks": 0,
-      "posts": 31
+      "posts": 32
     },
     "DUEL": {
       "clicks": 0,
@@ -14,10 +14,18 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 109
+      "posts": 110
     }
   },
   "categories": {
+    "Appareils de Précision": {
+      "clicks": 0,
+      "posts": 21
+    },
+    "Ustensiles de Chef": {
+      "clicks": 0,
+      "posts": 40
+    },
     "Coutellerie": {
       "clicks": 0,
       "posts": 40
@@ -26,21 +34,19 @@
       "clicks": 0,
       "posts": 67
     },
-    "Ustensiles de Chef": {
-      "clicks": 0,
-      "posts": 39
-    },
-    "Appareils de Précision": {
-      "clicks": 0,
-      "posts": 20
-    },
     "Inspiration": {
       "clicks": 0,
       "posts": 1
     }
   },
-  "totalRuns": 39,
+  "totalRuns": 40,
   "history": [
+    {
+      "date": "2026-06-05T08:12:33.473Z",
+      "style": "GUIDE",
+      "title": "KitchenAid Artisan Stand Mixer 4.8L — L'Allié des Cuisiniers",
+      "clicks": 0
+    },
     {
       "date": "2026-06-04T08:16:43.067Z",
       "style": "RECETTE",

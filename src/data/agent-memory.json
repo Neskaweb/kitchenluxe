@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-06-05T08:12:17.532Z",
+  "lastUpdated": "2026-06-06T08:19:32.534Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -14,10 +14,14 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 110
+      "posts": 112
     }
   },
   "categories": {
+    "Électroménager": {
+      "clicks": 0,
+      "posts": 69
+    },
     "Appareils de Précision": {
       "clicks": 0,
       "posts": 21
@@ -30,17 +34,19 @@
       "clicks": 0,
       "posts": 40
     },
-    "Électroménager": {
-      "clicks": 0,
-      "posts": 67
-    },
     "Inspiration": {
       "clicks": 0,
       "posts": 1
     }
   },
-  "totalRuns": 40,
+  "totalRuns": 41,
   "history": [
+    {
+      "date": "2026-06-06T08:19:49.826Z",
+      "style": "RECETTE",
+      "title": "De Buyer Poêle Minéral B 28cm — L'arme secrète",
+      "clicks": 0
+    },
     {
       "date": "2026-06-05T08:12:33.473Z",
       "style": "GUIDE",

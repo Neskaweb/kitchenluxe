@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-06-06T08:19:32.534Z",
+  "lastUpdated": "2026-06-07T08:26:18.260Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -14,13 +14,17 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 112
+      "posts": 114
     }
   },
   "categories": {
     "Électroménager": {
       "clicks": 0,
-      "posts": 69
+      "posts": 70
+    },
+    "Coutellerie": {
+      "clicks": 0,
+      "posts": 41
     },
     "Appareils de Précision": {
       "clicks": 0,
@@ -30,17 +34,19 @@
       "clicks": 0,
       "posts": 40
     },
-    "Coutellerie": {
-      "clicks": 0,
-      "posts": 40
-    },
     "Inspiration": {
       "clicks": 0,
       "posts": 1
     }
   },
-  "totalRuns": 41,
+  "totalRuns": 42,
   "history": [
+    {
+      "date": "2026-06-07T08:26:32.979Z",
+      "style": "GUIDE",
+      "title": "Staub Cocotte Ronde 24cm : Le Secret des Chefs",
+      "clicks": 0
+    },
     {
       "date": "2026-06-06T08:19:49.826Z",
       "style": "RECETTE",

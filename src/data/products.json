@@ -1,5 +1,63 @@
 [
   {
+    "id": "kl_p_1780922251574_9153",
+    "asin": "B089SYG6CC",
+    "name": "Ninja Foodi MAX Dual Zone Air Fryer",
+    "slug": "ninja-foodi-max-dual-zone-air-fryer-9153",
+    "description": "La friteuse sans huile révolutionnaire avec deux zones de cuisson indépendantes. Cuisinez deux plats différemment en même temps.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 229,
+    "category": "Électroménager",
+    "brand": "Ninja",
+    "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.9,
+    "reviews": 882,
+    "features": [
+      "air fryer",
+      "ninja foodi",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "air fryer",
+      "ninja foodi",
+      "cuisine saine",
+      "friteuse sans huile",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1780922238910_4593",
+    "asin": "B000X97G3A",
+    "name": "Wüsthof Classic Ikon Paring Knife",
+    "slug": "wusthof-classic-ikon-paring-knife-4593",
+    "description": "Le couteau d'office de précision. Parfait pour peler, parer et décorer vos fruits et légumes avec une agilité maximale.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 79,
+    "category": "Coutellerie",
+    "brand": "Wüsthof",
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2070&auto=format&fit=crop",
+    "rating": 5,
+    "reviews": 532,
+    "features": [
+      "couteau d'office",
+      "wüsthof",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "couteau d'office",
+      "wüsthof",
+      "ikon",
+      "coutellerie de précision",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
     "id": "kl_p_1780828347605_7468",
     "asin": "B00CI32S9K",
     "name": "Sage Barista Express Espresso Machine",

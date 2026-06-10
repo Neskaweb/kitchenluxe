@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-06-08T08:09:51.411Z",
+  "lastUpdated": "2026-06-10T08:39:20.576Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -10,37 +10,43 @@
     },
     "DUEL": {
       "clicks": 0,
-      "posts": 28
+      "posts": 29
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 115
+      "posts": 118
     }
   },
   "categories": {
     "Électroménager": {
       "clicks": 0,
-      "posts": 72
+      "posts": 74
+    },
+    "Ustensiles de Chef": {
+      "clicks": 0,
+      "posts": 41
     },
     "Coutellerie": {
       "clicks": 0,
-      "posts": 41
+      "posts": 42
     },
     "Appareils de Précision": {
       "clicks": 0,
       "posts": 21
-    },
-    "Ustensiles de Chef": {
-      "clicks": 0,
-      "posts": 40
     },
     "Inspiration": {
       "clicks": 0,
       "posts": 1
     }
   },
-  "totalRuns": 43,
+  "totalRuns": 44,
   "history": [
+    {
+      "date": "2026-06-10T08:39:39.888Z",
+      "style": "RECETTE",
+      "title": "Le KitchenAid Artisan 4.8L: transformer votre pâtisserie",
+      "clicks": 0
+    },
     {
       "date": "2026-06-08T08:10:07.816Z",
       "style": "DUEL",

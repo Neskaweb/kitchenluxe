@@ -1,5 +1,34 @@
 [
   {
+    "id": "kl_p_1781252633384",
+    "asin": "B00004SGFW",
+    "name": "KitchenAid Artisan Stand Mixer 4.8L",
+    "slug": "kitchenaid-artisan-stand-mixer-4-8l-33384",
+    "description": "L'icône de la cuisine. Robuste, stable et durable, compagnon indispensable de toutes vos créations.",
+    "price": 749,
+    "category": "Appareils de Précision",
+    "brand": "KitchenAid",
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.8,
+    "reviews": 1641,
+    "features": [
+      "robot pâtissier",
+      "kitchenaid artisan",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "robot pâtissier",
+      "kitchenaid artisan",
+      "pâtisserie",
+      "robot cuisine",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ],
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux.\n- **Durabilité Garantie**: Pour une cuisine qui vous ressemble."
+  },
+  {
     "id": "kl_p_1781180044641_1571",
     "asin": "B00004SGFW",
     "name": "KitchenAid Artisan Stand Mixer 4.8L",

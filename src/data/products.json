@@ -1,5 +1,63 @@
 [
   {
+    "id": "kl_p_1781346789849_417",
+    "asin": "B00004SGFW",
+    "name": "KitchenAid Artisan Stand Mixer 4.8L",
+    "slug": "kitchenaid-artisan-stand-mixer-4-8l-417",
+    "description": "L'icône de la cuisine. Robuste, stable et durable, ce robot pâtissier est le compagnon indispensable de toutes vos créations.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 749,
+    "category": "Appareils de Précision",
+    "brand": "KitchenAid",
+    "image": "https://images.unsplash.com/photo-1588854337236-6889d631faa8?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.9,
+    "reviews": 1011,
+    "features": [
+      "robot pâtissier",
+      "kitchenaid artisan",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "robot pâtissier",
+      "kitchenaid artisan",
+      "pâtisserie",
+      "robot de cuisine",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1781346777507_2335",
+    "asin": "B00004SGFW",
+    "name": "KitchenAid Artisan Stand Mixer 4.8L",
+    "slug": "kitchenaid-artisan-stand-mixer-4-8l-2335",
+    "description": "L'icône de la cuisine. Robuste, stable et durable, ce robot pâtissier est le compagnon indispensable de toutes vos créations.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 749,
+    "category": "Appareils de Précision",
+    "brand": "KitchenAid",
+    "image": "https://images.unsplash.com/photo-1507048331197-7d4ac70811cf?q=80&w=1974&auto=format&fit=crop",
+    "rating": 4.7,
+    "reviews": 532,
+    "features": [
+      "robot pâtissier",
+      "kitchenaid artisan",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "robot pâtissier",
+      "kitchenaid artisan",
+      "pâtisserie",
+      "robot de cuisine",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
     "id": "kl_p_1781264804007_2342",
     "asin": "B01B7M9R9S",
     "name": "Magimix Cook Expert Robot Cuiseur",

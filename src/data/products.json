@@ -1,5 +1,63 @@
 [
   {
+    "id": "kl_p_1781434297175_5761",
+    "asin": "B089SYG6CC",
+    "name": "Ninja Foodi MAX Dual Zone Air Fryer",
+    "slug": "ninja-foodi-max-dual-zone-air-fryer-5761",
+    "description": "La friteuse sans huile révolutionnaire avec deux zones de cuisson indépendantes. Cuisinez deux plats différemment en même temps.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 229,
+    "category": "Électroménager",
+    "brand": "Ninja",
+    "image": "https://images.unsplash.com/photo-1507048331197-7d4ac70811cf?q=80&w=1974&auto=format&fit=crop",
+    "rating": 4.7,
+    "reviews": 1592,
+    "features": [
+      "air fryer",
+      "ninja foodi",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "air fryer",
+      "ninja foodi",
+      "cuisine saine",
+      "friteuse sans huile",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1781434282864_3816",
+    "asin": "B00004RFMT",
+    "name": "Zwilling Pro Chef's Knife 20cm",
+    "slug": "zwilling-pro-chef-s-knife-20cm-3816",
+    "description": "L'excellence de la coutellerie allemande. Forgé à partir d'une seule pièce d'acier spécial pour un tranchant durable.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 109,
+    "category": "Coutellerie",
+    "brand": "Zwilling",
+    "image": "https://images.unsplash.com/photo-1594910413521-17f167666993?q=80&w=1974&auto=format&fit=crop",
+    "rating": 4.9,
+    "reviews": 867,
+    "features": [
+      "couteau de chef",
+      "zwilling pro",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "couteau de chef",
+      "zwilling pro",
+      "coutellerie pro",
+      "couteau forgé",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
     "id": "kl_p_1781346789849_417",
     "asin": "B00004SGFW",
     "name": "KitchenAid Artisan Stand Mixer 4.8L",

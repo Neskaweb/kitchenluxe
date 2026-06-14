@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-06-13T08:54:22.171Z",
+  "lastUpdated": "2026-06-14T08:27:45.238Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -14,10 +14,14 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 124
+      "posts": 126
     }
   },
   "categories": {
+    "Appareils de Précision": {
+      "clicks": 0,
+      "posts": 24
+    },
     "Électroménager": {
       "clicks": 0,
       "posts": 76
@@ -25,10 +29,6 @@
     "Coutellerie": {
       "clicks": 0,
       "posts": 43
-    },
-    "Appareils de Précision": {
-      "clicks": 0,
-      "posts": 22
     },
     "Ustensiles de Chef": {
       "clicks": 0,
@@ -39,8 +39,14 @@
       "posts": 1
     }
   },
-  "totalRuns": 46,
+  "totalRuns": 47,
   "history": [
+    {
+      "date": "2026-06-14T08:28:00.984Z",
+      "style": "DUEL",
+      "title": "Breville Barista Pro vs Ses Concurrents — Le Test Complet",
+      "clicks": 0
+    },
     {
       "date": "2026-06-13T08:54:40.432Z",
       "style": "GUIDE",

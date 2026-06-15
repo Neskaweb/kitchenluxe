@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-06-14T08:27:45.238Z",
+  "lastUpdated": "2026-06-15T08:36:48.694Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -14,21 +14,21 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 126
+      "posts": 128
     }
   },
   "categories": {
-    "Appareils de Précision": {
-      "clicks": 0,
-      "posts": 24
-    },
     "Électroménager": {
       "clicks": 0,
-      "posts": 76
+      "posts": 77
     },
     "Coutellerie": {
       "clicks": 0,
-      "posts": 43
+      "posts": 44
+    },
+    "Appareils de Précision": {
+      "clicks": 0,
+      "posts": 24
     },
     "Ustensiles de Chef": {
       "clicks": 0,
@@ -39,8 +39,14 @@
       "posts": 1
     }
   },
-  "totalRuns": 47,
+  "totalRuns": 48,
   "history": [
+    {
+      "date": "2026-06-15T08:37:03.387Z",
+      "style": "DUEL",
+      "title": "Staub Cocotte Ronde 24cm : Le Duel des Meilleures Cocottes",
+      "clicks": 0
+    },
     {
       "date": "2026-06-14T08:28:00.984Z",
       "style": "DUEL",

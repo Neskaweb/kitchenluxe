@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-06-16T08:35:05.403Z",
+  "lastUpdated": "2026-06-17T08:20:55.460Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -14,33 +14,39 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 130
+      "posts": 132
     }
   },
   "categories": {
+    "Coutellerie": {
+      "clicks": 0,
+      "posts": 45
+    },
+    "Ustensiles de Chef": {
+      "clicks": 0,
+      "posts": 44
+    },
     "Électroménager": {
       "clicks": 0,
       "posts": 79
     },
-    "Coutellerie": {
-      "clicks": 0,
-      "posts": 44
-    },
     "Appareils de Précision": {
       "clicks": 0,
       "posts": 24
-    },
-    "Ustensiles de Chef": {
-      "clicks": 0,
-      "posts": 43
     },
     "Inspiration": {
       "clicks": 0,
       "posts": 1
     }
   },
-  "totalRuns": 49,
+  "totalRuns": 50,
   "history": [
+    {
+      "date": "2026-06-17T08:21:15.038Z",
+      "style": "RECETTE",
+      "title": "Sage Barista Express : 3 Recettes Luxe & Astuces",
+      "clicks": 0
+    },
     {
       "date": "2026-06-16T08:35:21.514Z",
       "style": "GUIDE",

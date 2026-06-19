@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-06-18T08:27:14.709Z",
+  "lastUpdated": "2026-06-19T08:11:48.437Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -14,21 +14,21 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 133
+      "posts": 135
     }
   },
   "categories": {
-    "Appareils de Précision": {
-      "clicks": 0,
-      "posts": 26
-    },
-    "Coutellerie": {
+    "Ustensiles de Chef": {
       "clicks": 0,
       "posts": 45
     },
-    "Ustensiles de Chef": {
+    "Coutellerie": {
       "clicks": 0,
-      "posts": 44
+      "posts": 46
+    },
+    "Appareils de Précision": {
+      "clicks": 0,
+      "posts": 26
     },
     "Électroménager": {
       "clicks": 0,
@@ -39,8 +39,14 @@
       "posts": 1
     }
   },
-  "totalRuns": 51,
+  "totalRuns": 52,
   "history": [
+    {
+      "date": "2026-06-19T08:12:07.059Z",
+      "style": "GUIDE",
+      "title": "Vitamix E310 : Guide Complet pour Cuisiner Pro",
+      "clicks": 0
+    },
     {
       "date": "2026-06-18T08:27:28.747Z",
       "style": "GUIDE",
@@ -333,12 +339,6 @@
       "date": "2026-04-22T08:05:55.060Z",
       "style": "RECETTE",
       "title": "Staub Cocotta 24cm : 3 recettes de chef pour un résultat pro",
-      "clicks": 0
-    },
-    {
-      "date": "2026-04-21T08:45:55.612Z",
-      "style": "RECETTE",
-      "title": "Magimix Cook Expert: 3 recettes luxe qui révolutionnent votre cuisine",
       "clicks": 0
     }
   ]

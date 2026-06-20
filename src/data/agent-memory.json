@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-06-19T08:11:48.437Z",
+  "lastUpdated": "2026-06-20T08:55:00.349Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -10,14 +10,18 @@
     },
     "DUEL": {
       "clicks": 0,
-      "posts": 30
+      "posts": 31
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 135
+      "posts": 136
     }
   },
   "categories": {
+    "Électroménager": {
+      "clicks": 0,
+      "posts": 81
+    },
     "Ustensiles de Chef": {
       "clicks": 0,
       "posts": 45
@@ -30,17 +34,19 @@
       "clicks": 0,
       "posts": 26
     },
-    "Électroménager": {
-      "clicks": 0,
-      "posts": 79
-    },
     "Inspiration": {
       "clicks": 0,
       "posts": 1
     }
   },
-  "totalRuns": 52,
+  "totalRuns": 53,
   "history": [
+    {
+      "date": "2026-06-20T08:55:16.460Z",
+      "style": "GUIDE",
+      "title": "Maîtrisez l'Air Fryer Ninja Foodi MAX Dual Zone",
+      "clicks": 0
+    },
     {
       "date": "2026-06-19T08:12:07.059Z",
       "style": "GUIDE",
@@ -333,12 +339,6 @@
       "date": "2026-04-23T08:04:58.817Z",
       "style": "GUIDE",
       "title": "Magimix Cook Expert : Cuisinez comme un chef",
-      "clicks": 0
-    },
-    {
-      "date": "2026-04-22T08:05:55.060Z",
-      "style": "RECETTE",
-      "title": "Staub Cocotta 24cm : 3 recettes de chef pour un résultat pro",
       "clicks": 0
     }
   ]

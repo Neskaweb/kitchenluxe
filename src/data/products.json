@@ -1,5 +1,63 @@
 [
   {
+    "id": "kl_p_1781951752031_6433",
+    "asin": "B00V86W64M",
+    "name": "Le Creuset Signature Cast Iron Casserole",
+    "slug": "le-creuset-signature-cast-iron-casserole-6433",
+    "description": "La cocotte en fonte émaillée française légendaire. Parfaite pour les ragoûts, les rôtis et les cuissons lentes.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 319,
+    "category": "Ustensiles de Chef",
+    "brand": "Le Creuset",
+    "image": "https://images.unsplash.com/photo-1594910413521-17f167666993?q=80&w=1974&auto=format&fit=crop",
+    "rating": 4.9,
+    "reviews": 526,
+    "features": [
+      "cocotte en fonte",
+      "le creuset",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "cocotte en fonte",
+      "le creuset",
+      "cuisine traditionnelle",
+      "mijoté",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1781951741385_2808",
+    "asin": "B00063539C",
+    "name": "Staub Round Cocotte 24cm",
+    "slug": "staub-round-cocotte-24cm-2808",
+    "description": "La cocotte préférée des chefs avec son couvercle à picots pour un arrosage continu. Saveurs préservées garanties.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 249,
+    "category": "Ustensiles de Chef",
+    "brand": "Staub",
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.9,
+    "reviews": 741,
+    "features": [
+      "cocotte staub",
+      "fonte émaillée",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "cocotte staub",
+      "fonte émaillée",
+      "mijoté chef",
+      "cuisine française",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
     "id": "kl_p_1781871073388_9478",
     "asin": "B01B7M9R9S",
     "name": "Magimix Cook Expert Robot Cuiseur",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-06-20T08:55:00.349Z",
+  "lastUpdated": "2026-06-21T08:51:30.392Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -14,17 +14,17 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 136
+      "posts": 138
     }
   },
   "categories": {
+    "Ustensiles de Chef": {
+      "clicks": 0,
+      "posts": 47
+    },
     "Électroménager": {
       "clicks": 0,
       "posts": 81
-    },
-    "Ustensiles de Chef": {
-      "clicks": 0,
-      "posts": 45
     },
     "Coutellerie": {
       "clicks": 0,
@@ -39,8 +39,14 @@
       "posts": 1
     }
   },
-  "totalRuns": 53,
+  "totalRuns": 54,
   "history": [
+    {
+      "date": "2026-06-21T08:51:52.855Z",
+      "style": "RECETTE",
+      "title": "Sage Barista Express : 3 Recettes Exclusives pour Café de Luxe",
+      "clicks": 0
+    },
     {
       "date": "2026-06-20T08:55:16.460Z",
       "style": "GUIDE",
@@ -333,12 +339,6 @@
       "date": "2026-04-24T08:33:37.630Z",
       "style": "DUEL",
       "title": "Ninja Foodi MAX vs ses rivales : le test complet",
-      "clicks": 0
-    },
-    {
-      "date": "2026-04-23T08:04:58.817Z",
-      "style": "GUIDE",
-      "title": "Magimix Cook Expert : Cuisinez comme un chef",
       "clicks": 0
     }
   ]

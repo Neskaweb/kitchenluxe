@@ -1,5 +1,63 @@
 [
   {
+    "id": "kl_p_1782384430792_5744",
+    "asin": "B01B7M9R9S",
+    "name": "Magimix Cook Expert Robot Cuiseur",
+    "slug": "magimix-cook-expert-robot-cuiseur-5744",
+    "description": "Le robot cuiseur multifonction ultra-complet. Cuit, mélange, hache et pétrit pour des repas gastronomiques rapides.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 1199,
+    "category": "Électroménager",
+    "brand": "Magimix",
+    "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.9,
+    "reviews": 1596,
+    "features": [
+      "robot cuiseur",
+      "magimix cook expert",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "robot cuiseur",
+      "magimix cook expert",
+      "cuisine gourmande",
+      "robot multifonction",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1782384418009_6619",
+    "asin": "B089SYG6CC",
+    "name": "Ninja Foodi MAX Dual Zone Air Fryer",
+    "slug": "ninja-foodi-max-dual-zone-air-fryer-6619",
+    "description": "La friteuse sans huile révolutionnaire avec deux zones de cuisson indépendantes. Cuisinez deux plats différemment en même temps.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 229,
+    "category": "Électroménager",
+    "brand": "Ninja",
+    "image": "https://images.unsplash.com/photo-1588854337236-6889d631faa8?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.9,
+    "reviews": 417,
+    "features": [
+      "air fryer",
+      "ninja foodi",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "air fryer",
+      "ninja foodi",
+      "cuisine saine",
+      "friteuse sans huile",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
     "id": "kl_p_1782298485379_6712",
     "asin": "B00CI32S9K",
     "name": "Sage Barista Express Espresso Machine",

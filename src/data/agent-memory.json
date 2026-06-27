@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-06-26T08:31:18.597Z",
+  "lastUpdated": "2026-06-27T08:22:54.455Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -14,33 +14,39 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 146
+      "posts": 148
     }
   },
   "categories": {
+    "Appareils de Précision": {
+      "clicks": 0,
+      "posts": 28
+    },
+    "Ustensiles de Chef": {
+      "clicks": 0,
+      "posts": 50
+    },
     "Électroménager": {
       "clicks": 0,
       "posts": 87
     },
-    "Ustensiles de Chef": {
-      "clicks": 0,
-      "posts": 49
-    },
     "Coutellerie": {
       "clicks": 0,
       "posts": 47
-    },
-    "Appareils de Précision": {
-      "clicks": 0,
-      "posts": 27
     },
     "Inspiration": {
       "clicks": 0,
       "posts": 1
     }
   },
-  "totalRuns": 58,
+  "totalRuns": 59,
   "history": [
+    {
+      "date": "2026-06-27T08:23:09.357Z",
+      "style": "GUIDE",
+      "title": "Vitamix E310 : Le Blender Professionnel pour Cuisine d'Exception",
+      "clicks": 0
+    },
     {
       "date": "2026-06-26T08:31:35.057Z",
       "style": "DUEL",
@@ -333,12 +339,6 @@
       "date": "2026-04-30T08:25:33.314Z",
       "style": "GUIDE",
       "title": "Vitamix E310 Blender Professionnel — Guide Expert",
-      "clicks": 0
-    },
-    {
-      "date": "2026-04-29T08:30:54.537Z",
-      "style": "RECETTE",
-      "title": "Staub Cocotte Ronde 24cm : 3 Recettes pour Chefs",
       "clicks": 0
     }
   ]

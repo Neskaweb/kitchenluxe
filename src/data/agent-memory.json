@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-06-27T08:22:54.455Z",
+  "lastUpdated": "2026-06-28T08:17:46.617Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -14,10 +14,14 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 148
+      "posts": 150
     }
   },
   "categories": {
+    "Électroménager": {
+      "clicks": 0,
+      "posts": 89
+    },
     "Appareils de Précision": {
       "clicks": 0,
       "posts": 28
@@ -25,10 +29,6 @@
     "Ustensiles de Chef": {
       "clicks": 0,
       "posts": 50
-    },
-    "Électroménager": {
-      "clicks": 0,
-      "posts": 87
     },
     "Coutellerie": {
       "clicks": 0,
@@ -39,8 +39,14 @@
       "posts": 1
     }
   },
-  "totalRuns": 59,
+  "totalRuns": 60,
   "history": [
+    {
+      "date": "2026-06-28T08:18:05.314Z",
+      "style": "DUEL",
+      "title": "Le Creuset Signature vs Staub et Invicta : Quel Best-Buy ?",
+      "clicks": 0
+    },
     {
       "date": "2026-06-27T08:23:09.357Z",
       "style": "GUIDE",
@@ -333,12 +339,6 @@
       "date": "2026-05-01T08:22:29.976Z",
       "style": "GUIDE",
       "title": "KitchenAid Artisan 4.8L : Maîtriser la Pâtisserie Professionnelle",
-      "clicks": 0
-    },
-    {
-      "date": "2026-04-30T08:25:33.314Z",
-      "style": "GUIDE",
-      "title": "Vitamix E310 Blender Professionnel — Guide Expert",
       "clicks": 0
     }
   ]

@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "lastUpdated": "2026-06-28T08:17:46.617Z",
+  "lastUpdated": "2026-06-29T08:57:46.308Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
     "GUIDE": {
       "clicks": 0,
-      "posts": 33
+      "posts": 34
     },
     "DUEL": {
       "clicks": 0,
-      "posts": 32
+      "posts": 33
     },
     "RECETTE": {
       "clicks": 0,
@@ -18,6 +18,14 @@
     }
   },
   "categories": {
+    "Coutellerie": {
+      "clicks": 0,
+      "posts": 48
+    },
+    "Ustensiles de Chef": {
+      "clicks": 0,
+      "posts": 51
+    },
     "Électroménager": {
       "clicks": 0,
       "posts": 89
@@ -26,21 +34,19 @@
       "clicks": 0,
       "posts": 28
     },
-    "Ustensiles de Chef": {
-      "clicks": 0,
-      "posts": 50
-    },
-    "Coutellerie": {
-      "clicks": 0,
-      "posts": 47
-    },
     "Inspiration": {
       "clicks": 0,
       "posts": 1
     }
   },
-  "totalRuns": 60,
+  "totalRuns": 61,
   "history": [
+    {
+      "date": "2026-06-29T08:58:03.355Z",
+      "style": "GUIDE",
+      "title": "Vitamix E310 Blender : Cuisinez Comme un Pro",
+      "clicks": 0
+    },
     {
       "date": "2026-06-28T08:18:05.314Z",
       "style": "DUEL",
@@ -333,12 +339,6 @@
       "date": "2026-05-02T08:20:13.395Z",
       "style": "GUIDE",
       "title": "Sage Barista Express : Guide Complet pour Devenir Barista à la Maison",
-      "clicks": 0
-    },
-    {
-      "date": "2026-05-01T08:22:29.976Z",
-      "style": "GUIDE",
-      "title": "KitchenAid Artisan 4.8L : Maîtriser la Pâtisserie Professionnelle",
       "clicks": 0
     }
   ]

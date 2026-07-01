@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-06-30T08:23:52.381Z",
+  "lastUpdated": "2026-07-01T08:39:27.634Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -14,21 +14,21 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 152
+      "posts": 154
     }
   },
   "categories": {
-    "Ustensiles de Chef": {
-      "clicks": 0,
-      "posts": 53
-    },
     "Coutellerie": {
       "clicks": 0,
-      "posts": 48
+      "posts": 49
     },
     "Électroménager": {
       "clicks": 0,
-      "posts": 89
+      "posts": 90
+    },
+    "Ustensiles de Chef": {
+      "clicks": 0,
+      "posts": 53
     },
     "Appareils de Précision": {
       "clicks": 0,
@@ -39,8 +39,14 @@
       "posts": 1
     }
   },
-  "totalRuns": 62,
+  "totalRuns": 63,
   "history": [
+    {
+      "date": "2026-07-01T08:39:44.898Z",
+      "style": "GUIDE",
+      "title": "Breville Barista Pro : Devenez Barista Chez Vous",
+      "clicks": 0
+    },
     {
       "date": "2026-06-30T08:24:08.316Z",
       "style": "DUEL",
@@ -333,12 +339,6 @@
       "date": "2026-05-04T08:13:35.770Z",
       "style": "DUEL",
       "title": "Le Creuset Signature vs concurrents — Test 2026",
-      "clicks": 0
-    },
-    {
-      "date": "2026-05-03T08:04:59.037Z",
-      "style": "DUEL",
-      "title": "De Buyer Minéral B 28cm — Meilleure poêle en fer?",
       "clicks": 0
     }
   ]

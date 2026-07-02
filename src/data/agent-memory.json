@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-07-01T08:39:27.634Z",
+  "lastUpdated": "2026-07-02T08:00:46.554Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -14,33 +14,39 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 154
+      "posts": 156
     }
   },
   "categories": {
+    "Électroménager": {
+      "clicks": 0,
+      "posts": 91
+    },
+    "Appareils de Précision": {
+      "clicks": 0,
+      "posts": 29
+    },
     "Coutellerie": {
       "clicks": 0,
       "posts": 49
     },
-    "Électroménager": {
-      "clicks": 0,
-      "posts": 90
-    },
     "Ustensiles de Chef": {
       "clicks": 0,
       "posts": 53
-    },
-    "Appareils de Précision": {
-      "clicks": 0,
-      "posts": 28
     },
     "Inspiration": {
       "clicks": 0,
       "posts": 1
     }
   },
-  "totalRuns": 63,
+  "totalRuns": 64,
   "history": [
+    {
+      "date": "2026-07-02T08:01:00.758Z",
+      "style": "DUEL",
+      "title": "Staub Cocotte Ronde 24cm Noir : Le Test Complet vs Ses Rivales",
+      "clicks": 0
+    },
     {
       "date": "2026-07-01T08:39:44.898Z",
       "style": "GUIDE",
@@ -333,12 +339,6 @@
       "date": "2026-05-05T08:43:01.870Z",
       "style": "DUEL",
       "title": "Magimix Cook Expert : Le Robot Cuiseur Ultime",
-      "clicks": 0
-    },
-    {
-      "date": "2026-05-04T08:13:35.770Z",
-      "style": "DUEL",
-      "title": "Le Creuset Signature vs concurrents — Test 2026",
       "clicks": 0
     }
   ]

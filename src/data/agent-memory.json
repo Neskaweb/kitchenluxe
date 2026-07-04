@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "lastUpdated": "2026-07-02T08:00:46.554Z",
+  "lastUpdated": "2026-07-04T08:35:15.332Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
     "GUIDE": {
       "clicks": 0,
-      "posts": 34
+      "posts": 35
     },
     "DUEL": {
       "clicks": 0,
@@ -14,21 +14,21 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 156
+      "posts": 159
     }
   },
   "categories": {
     "Électroménager": {
       "clicks": 0,
-      "posts": 91
-    },
-    "Appareils de Précision": {
-      "clicks": 0,
-      "posts": 29
+      "posts": 93
     },
     "Coutellerie": {
       "clicks": 0,
-      "posts": 49
+      "posts": 50
+    },
+    "Appareils de Précision": {
+      "clicks": 0,
+      "posts": 30
     },
     "Ustensiles de Chef": {
       "clicks": 0,
@@ -39,8 +39,14 @@
       "posts": 1
     }
   },
-  "totalRuns": 64,
+  "totalRuns": 65,
   "history": [
+    {
+      "date": "2026-07-04T08:35:34.461Z",
+      "style": "DUEL",
+      "title": "KitchenAid Artisan 4.8L : Le robot pâtissier vaut-t-il vraiment 749€ ?",
+      "clicks": 0
+    },
     {
       "date": "2026-07-02T08:01:00.758Z",
       "style": "DUEL",
@@ -333,12 +339,6 @@
       "date": "2026-05-06T08:01:24.830Z",
       "style": "RECETTE",
       "title": "Vitamix E310 Professionnel : 3 recettes exclusives",
-      "clicks": 0
-    },
-    {
-      "date": "2026-05-05T08:43:01.870Z",
-      "style": "DUEL",
-      "title": "Magimix Cook Expert : Le Robot Cuiseur Ultime",
       "clicks": 0
     }
   ]

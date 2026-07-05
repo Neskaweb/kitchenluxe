@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-07-04T08:35:15.332Z",
+  "lastUpdated": "2026-07-05T08:57:08.383Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -14,10 +14,14 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 159
+      "posts": 161
     }
   },
   "categories": {
+    "Ustensiles de Chef": {
+      "clicks": 0,
+      "posts": 55
+    },
     "Électroménager": {
       "clicks": 0,
       "posts": 93
@@ -30,17 +34,19 @@
       "clicks": 0,
       "posts": 30
     },
-    "Ustensiles de Chef": {
-      "clicks": 0,
-      "posts": 53
-    },
     "Inspiration": {
       "clicks": 0,
       "posts": 1
     }
   },
-  "totalRuns": 65,
+  "totalRuns": 66,
   "history": [
+    {
+      "date": "2026-07-05T08:57:28.465Z",
+      "style": "RECETTE",
+      "title": "Cocotte Staub 24cm Noir — Transformez Vos Mijotés en Chef",
+      "clicks": 0
+    },
     {
       "date": "2026-07-04T08:35:34.461Z",
       "style": "DUEL",
@@ -333,12 +339,6 @@
       "date": "2026-05-07T08:09:02.404Z",
       "style": "DUEL",
       "title": "Cocotte Le Creuset 24cm vs Staub & Invicta : le test complet",
-      "clicks": 0
-    },
-    {
-      "date": "2026-05-06T08:01:24.830Z",
-      "style": "RECETTE",
-      "title": "Vitamix E310 Professionnel : 3 recettes exclusives",
       "clicks": 0
     }
   ]

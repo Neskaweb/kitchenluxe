@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-07-05T08:57:08.383Z",
+  "lastUpdated": "2026-07-06T08:54:25.476Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -14,17 +14,17 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 161
+      "posts": 163
     }
   },
   "categories": {
     "Ustensiles de Chef": {
       "clicks": 0,
-      "posts": 55
+      "posts": 56
     },
     "Électroménager": {
       "clicks": 0,
-      "posts": 93
+      "posts": 94
     },
     "Coutellerie": {
       "clicks": 0,
@@ -39,8 +39,14 @@
       "posts": 1
     }
   },
-  "totalRuns": 66,
+  "totalRuns": 67,
   "history": [
+    {
+      "date": "2026-07-06T08:54:44.933Z",
+      "style": "GUIDE",
+      "title": "Maîtriser la De Buyer Poêle Minéral B 28cm",
+      "clicks": 0
+    },
     {
       "date": "2026-07-05T08:57:28.465Z",
       "style": "RECETTE",
@@ -333,12 +339,6 @@
       "date": "2026-05-08T08:57:48.742Z",
       "style": "RECETTE",
       "title": "Ninja Foodi MAX : 3 recettes gagnantes pour une cuisine révolutionnée",
-      "clicks": 0
-    },
-    {
-      "date": "2026-05-07T08:09:02.404Z",
-      "style": "DUEL",
-      "title": "Cocotte Le Creuset 24cm vs Staub & Invicta : le test complet",
       "clicks": 0
     }
   ]

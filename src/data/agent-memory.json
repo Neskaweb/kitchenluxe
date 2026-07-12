@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-07-11T08:47:48.901Z",
+  "lastUpdated": "2026-07-12T08:40:57.529Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -14,10 +14,18 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 172
+      "posts": 174
     }
   },
   "categories": {
+    "Électroménager": {
+      "clicks": 0,
+      "posts": 100
+    },
+    "Appareils de Précision": {
+      "clicks": 0,
+      "posts": 31
+    },
     "Ustensiles de Chef": {
       "clicks": 0,
       "posts": 60
@@ -26,21 +34,19 @@
       "clicks": 0,
       "posts": 51
     },
-    "Électroménager": {
-      "clicks": 0,
-      "posts": 99
-    },
-    "Appareils de Précision": {
-      "clicks": 0,
-      "posts": 30
-    },
     "Inspiration": {
       "clicks": 0,
       "posts": 1
     }
   },
-  "totalRuns": 71,
+  "totalRuns": 72,
   "history": [
+    {
+      "date": "2026-07-12T08:41:14.535Z",
+      "style": "RECETTE",
+      "title": "KitchenAid Artisan 4.8L : 3 Recettes pour Maîtriser votre Robot",
+      "clicks": 0
+    },
     {
       "date": "2026-07-11T08:48:09.272Z",
       "style": "GUIDE",
@@ -333,12 +339,6 @@
       "date": "2026-05-15T08:41:06.781Z",
       "style": "DUEL",
       "title": "Le Creuset Signature vs Staub & Invicta : le duel du 24cm",
-      "clicks": 0
-    },
-    {
-      "date": "2026-05-14T08:32:49.984Z",
-      "style": "GUIDE",
-      "title": "Sage Barista Express — Machine Espresso Professionnel",
       "clicks": 0
     }
   ]

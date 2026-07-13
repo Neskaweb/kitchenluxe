@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-07-12T08:40:57.529Z",
+  "lastUpdated": "2026-07-13T08:43:07.526Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -10,25 +10,25 @@
     },
     "DUEL": {
       "clicks": 0,
-      "posts": 34
+      "posts": 35
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 174
+      "posts": 175
     }
   },
   "categories": {
+    "Ustensiles de Chef": {
+      "clicks": 0,
+      "posts": 61
+    },
     "Électroménager": {
       "clicks": 0,
-      "posts": 100
+      "posts": 101
     },
     "Appareils de Précision": {
       "clicks": 0,
       "posts": 31
-    },
-    "Ustensiles de Chef": {
-      "clicks": 0,
-      "posts": 60
     },
     "Coutellerie": {
       "clicks": 0,
@@ -39,8 +39,14 @@
       "posts": 1
     }
   },
-  "totalRuns": 72,
+  "totalRuns": 73,
   "history": [
+    {
+      "date": "2026-07-13T08:43:22.804Z",
+      "style": "DUEL",
+      "title": "Ninja Foodi MAX vs Ses Rivaux : Qui Gagne ?",
+      "clicks": 0
+    },
     {
       "date": "2026-07-12T08:41:14.535Z",
       "style": "RECETTE",
@@ -333,12 +339,6 @@
       "date": "2026-05-16T08:32:04.446Z",
       "style": "RECETTE",
       "title": "Sage Barista Express — Le Secret des Baristas à Domicile",
-      "clicks": 0
-    },
-    {
-      "date": "2026-05-15T08:41:06.781Z",
-      "style": "DUEL",
-      "title": "Le Creuset Signature vs Staub & Invicta : le duel du 24cm",
       "clicks": 0
     }
   ]

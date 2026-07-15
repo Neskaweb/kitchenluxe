@@ -1,5 +1,63 @@
 [
   {
+    "id": "kl_p_1784109981489_5629",
+    "asin": "B00063539C",
+    "name": "Staub Round Cocotte 24cm",
+    "slug": "staub-round-cocotte-24cm-5629",
+    "description": "La cocotte préférée des chefs avec son couvercle à picots pour un arrosage continu. Saveurs préservées garanties.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 249,
+    "category": "Ustensiles de Chef",
+    "brand": "Staub",
+    "image": "https://images.unsplash.com/photo-1507048331197-7d4ac70811cf?q=80&w=1974&auto=format&fit=crop",
+    "rating": 4.8,
+    "reviews": 1684,
+    "features": [
+      "cocotte staub",
+      "fonte émaillée",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "cocotte staub",
+      "fonte émaillée",
+      "mijoté chef",
+      "cuisine française",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1784109967026_4504",
+    "asin": "B000X97G3A",
+    "name": "Wüsthof Classic Ikon Paring Knife",
+    "slug": "wusthof-classic-ikon-paring-knife-4504",
+    "description": "Le couteau d'office de précision. Parfait pour peler, parer et décorer vos fruits et légumes avec une agilité maximale.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 79,
+    "category": "Coutellerie",
+    "brand": "Wüsthof",
+    "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=2070&auto=format&fit=crop",
+    "rating": 5,
+    "reviews": 1523,
+    "features": [
+      "couteau d'office",
+      "wüsthof",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "couteau d'office",
+      "wüsthof",
+      "ikon",
+      "coutellerie de précision",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
     "id": "kl_p_1784023342516_1223",
     "asin": "B00004SGFW",
     "name": "KitchenAid Artisan Stand Mixer 4.8L",

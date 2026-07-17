@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-07-16T08:38:02.592Z",
+  "lastUpdated": "2026-07-17T08:57:05.363Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -14,13 +14,17 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 181
+      "posts": 183
     }
   },
   "categories": {
+    "Électroménager": {
+      "clicks": 0,
+      "posts": 104
+    },
     "Ustensiles de Chef": {
       "clicks": 0,
-      "posts": 63
+      "posts": 64
     },
     "Coutellerie": {
       "clicks": 0,
@@ -30,17 +34,19 @@
       "clicks": 0,
       "posts": 32
     },
-    "Électroménager": {
-      "clicks": 0,
-      "posts": 103
-    },
     "Inspiration": {
       "clicks": 0,
       "posts": 1
     }
   },
-  "totalRuns": 76,
+  "totalRuns": 77,
   "history": [
+    {
+      "date": "2026-07-17T08:57:21.114Z",
+      "style": "DUEL",
+      "title": "Le Creuset vs Staub vs Vermicular : le duel des cocottes",
+      "clicks": 0
+    },
     {
       "date": "2026-07-16T08:38:21.226Z",
       "style": "GUIDE",
@@ -333,12 +339,6 @@
       "date": "2026-05-21T08:30:41.763Z",
       "style": "GUIDE",
       "title": "KitchenAid Artisan 4.8L : Le Robot Pâtissier",
-      "clicks": 0
-    },
-    {
-      "date": "2026-05-19T08:41:48.588Z",
-      "style": "DUEL",
-      "title": "Staub Cocotte Ronde 24cm : Le Choix des Vrais Chefs ?",
       "clicks": 0
     }
   ]

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-07-18T08:11:06.373Z",
+  "lastUpdated": "2026-07-19T08:18:04.298Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -14,33 +14,39 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 185
+      "posts": 187
     }
   },
   "categories": {
+    "Coutellerie": {
+      "clicks": 0,
+      "posts": 54
+    },
+    "Appareils de Précision": {
+      "clicks": 0,
+      "posts": 33
+    },
     "Électroménager": {
       "clicks": 0,
       "posts": 105
     },
-    "Coutellerie": {
-      "clicks": 0,
-      "posts": 53
-    },
     "Ustensiles de Chef": {
       "clicks": 0,
       "posts": 64
-    },
-    "Appareils de Précision": {
-      "clicks": 0,
-      "posts": 32
     },
     "Inspiration": {
       "clicks": 0,
       "posts": 1
     }
   },
-  "totalRuns": 78,
+  "totalRuns": 79,
   "history": [
+    {
+      "date": "2026-07-19T08:18:20.449Z",
+      "style": "RECETTE",
+      "title": "De Buyer Poêle Minéral B 28cm : La Poêle Intemporelle",
+      "clicks": 0
+    },
     {
       "date": "2026-07-18T08:11:23.341Z",
       "style": "RECETTE",
@@ -333,12 +339,6 @@
       "date": "2026-05-23T08:26:05.672Z",
       "style": "GUIDE",
       "title": "KitchenAid Artisan 4.8L : Guide Complet du Pro",
-      "clicks": 0
-    },
-    {
-      "date": "2026-05-22T08:58:37.742Z",
-      "style": "RECETTE",
-      "title": "Magimix Cook Expert : 3 Recettes Exclusives pour Devenir Chef",
       "clicks": 0
     }
   ]

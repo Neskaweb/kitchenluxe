@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-07-19T08:18:04.298Z",
+  "lastUpdated": "2026-07-20T08:00:38.239Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -14,10 +14,14 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 187
+      "posts": 189
     }
   },
   "categories": {
+    "Électroménager": {
+      "clicks": 0,
+      "posts": 107
+    },
     "Coutellerie": {
       "clicks": 0,
       "posts": 54
@@ -25,10 +29,6 @@
     "Appareils de Précision": {
       "clicks": 0,
       "posts": 33
-    },
-    "Électroménager": {
-      "clicks": 0,
-      "posts": 105
     },
     "Ustensiles de Chef": {
       "clicks": 0,
@@ -39,8 +39,14 @@
       "posts": 1
     }
   },
-  "totalRuns": 79,
+  "totalRuns": 80,
   "history": [
+    {
+      "date": "2026-07-20T08:00:56.661Z",
+      "style": "DUEL",
+      "title": "Le Creuset vs Concurrents : Quelle Cocotte Ronde 24cm Choisir?",
+      "clicks": 0
+    },
     {
       "date": "2026-07-19T08:18:20.449Z",
       "style": "RECETTE",
@@ -333,12 +339,6 @@
       "date": "2026-05-24T08:32:34.231Z",
       "style": "DUEL",
       "title": "De Buyer Minéral B 28cm : Le Fer des Chefs",
-      "clicks": 0
-    },
-    {
-      "date": "2026-05-23T08:26:05.672Z",
-      "style": "GUIDE",
-      "title": "KitchenAid Artisan 4.8L : Guide Complet du Pro",
       "clicks": 0
     }
   ]

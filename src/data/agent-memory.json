@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-07-21T08:15:30.239Z",
+  "lastUpdated": "2026-07-22T08:15:09.410Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -14,10 +14,18 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 191
+      "posts": 193
     }
   },
   "categories": {
+    "Appareils de Précision": {
+      "clicks": 0,
+      "posts": 34
+    },
+    "Coutellerie": {
+      "clicks": 0,
+      "posts": 55
+    },
     "Ustensiles de Chef": {
       "clicks": 0,
       "posts": 65
@@ -26,21 +34,19 @@
       "clicks": 0,
       "posts": 108
     },
-    "Coutellerie": {
-      "clicks": 0,
-      "posts": 54
-    },
-    "Appareils de Précision": {
-      "clicks": 0,
-      "posts": 33
-    },
     "Inspiration": {
       "clicks": 0,
       "posts": 1
     }
   },
-  "totalRuns": 81,
+  "totalRuns": 82,
   "history": [
+    {
+      "date": "2026-07-22T08:15:41.681Z",
+      "style": "DUEL",
+      "title": "Breville Barista Pro : Le Meilleur Espresso Domestique ?",
+      "clicks": 0
+    },
     {
       "date": "2026-07-21T08:15:46.606Z",
       "style": "GUIDE",
@@ -333,12 +339,6 @@
       "date": "2026-05-26T08:53:19.624Z",
       "style": "GUIDE",
       "title": "Staub Cocotte Ronde 24cm — L'Arme Secrète des Chefs",
-      "clicks": 0
-    },
-    {
-      "date": "2026-05-25T08:47:19.758Z",
-      "style": "DUEL",
-      "title": "Ninja Foodi MAX vs concurrents : le meilleur choix ?",
       "clicks": 0
     }
   ]

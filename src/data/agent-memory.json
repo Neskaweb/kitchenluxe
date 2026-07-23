@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-07-22T08:15:09.410Z",
+  "lastUpdated": "2026-07-23T08:59:51.372Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -14,10 +14,14 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 193
+      "posts": 195
     }
   },
   "categories": {
+    "Ustensiles de Chef": {
+      "clicks": 0,
+      "posts": 67
+    },
     "Appareils de Précision": {
       "clicks": 0,
       "posts": 34
@@ -25,10 +29,6 @@
     "Coutellerie": {
       "clicks": 0,
       "posts": 55
-    },
-    "Ustensiles de Chef": {
-      "clicks": 0,
-      "posts": 65
     },
     "Électroménager": {
       "clicks": 0,
@@ -39,8 +39,14 @@
       "posts": 1
     }
   },
-  "totalRuns": 82,
+  "totalRuns": 83,
   "history": [
+    {
+      "date": "2026-07-23T09:00:09.293Z",
+      "style": "RECETTE",
+      "title": "KitchenAid Artisan 4.8L: 3 Recettes Exclusives pour Résultats Parfaits",
+      "clicks": 0
+    },
     {
       "date": "2026-07-22T08:15:41.681Z",
       "style": "DUEL",
@@ -333,12 +339,6 @@
       "date": "2026-05-27T08:36:43.583Z",
       "style": "DUEL",
       "title": "Breville Barista Pro : Meilleure Machine Espresso 2026 ?",
-      "clicks": 0
-    },
-    {
-      "date": "2026-05-26T08:53:19.624Z",
-      "style": "GUIDE",
-      "title": "Staub Cocotte Ronde 24cm — L'Arme Secrète des Chefs",
       "clicks": 0
     }
   ]

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-07-26T08:45:33.855Z",
+  "lastUpdated": "2026-07-28T08:58:37.451Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -10,17 +10,21 @@
     },
     "DUEL": {
       "clicks": 0,
-      "posts": 35
+      "posts": 36
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 201
+      "posts": 204
     }
   },
   "categories": {
     "Appareils de Précision": {
       "clicks": 0,
-      "posts": 35
+      "posts": 36
+    },
+    "Électroménager": {
+      "clicks": 0,
+      "posts": 113
     },
     "Coutellerie": {
       "clicks": 0,
@@ -30,17 +34,19 @@
       "clicks": 0,
       "posts": 69
     },
-    "Électroménager": {
-      "clicks": 0,
-      "posts": 110
-    },
     "Inspiration": {
       "clicks": 0,
       "posts": 1
     }
   },
-  "totalRuns": 86,
+  "totalRuns": 87,
   "history": [
+    {
+      "date": "2026-07-28T08:58:59.432Z",
+      "style": "GUIDE",
+      "title": "KitchenAid Artisan Stand Mixer: Le Robot Pâtissier Professionnel",
+      "clicks": 0
+    },
     {
       "date": "2026-07-26T08:45:48.550Z",
       "style": "DUEL",
@@ -333,12 +339,6 @@
       "date": "2026-06-02T08:54:47.506Z",
       "style": "GUIDE",
       "title": "Breville Barista Pro : Le Secret des Vrais Baristas",
-      "clicks": 0
-    },
-    {
-      "date": "2026-05-30T08:18:18.192Z",
-      "style": "DUEL",
-      "title": "Breville Barista Pro 2026 : Le Meilleur Choix ?",
       "clicks": 0
     }
   ]

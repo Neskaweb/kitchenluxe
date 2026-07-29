@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-07-28T08:58:37.451Z",
+  "lastUpdated": "2026-07-29T08:35:33.557Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -14,33 +14,39 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 204
+      "posts": 206
     }
   },
   "categories": {
+    "Ustensiles de Chef": {
+      "clicks": 0,
+      "posts": 70
+    },
+    "Électroménager": {
+      "clicks": 0,
+      "posts": 114
+    },
     "Appareils de Précision": {
       "clicks": 0,
       "posts": 36
     },
-    "Électroménager": {
-      "clicks": 0,
-      "posts": 113
-    },
     "Coutellerie": {
       "clicks": 0,
       "posts": 56
-    },
-    "Ustensiles de Chef": {
-      "clicks": 0,
-      "posts": 69
     },
     "Inspiration": {
       "clicks": 0,
       "posts": 1
     }
   },
-  "totalRuns": 87,
+  "totalRuns": 88,
   "history": [
+    {
+      "date": "2026-07-29T08:35:50.735Z",
+      "style": "RECETTE",
+      "title": "Sage Barista Express : 3 Recettes Exclusives pour Barista",
+      "clicks": 0
+    },
     {
       "date": "2026-07-28T08:58:59.432Z",
       "style": "GUIDE",
@@ -333,12 +339,6 @@
       "date": "2026-06-04T08:16:43.067Z",
       "style": "RECETTE",
       "title": "Magimix Cook Expert : 3 Recettes Gourmandes",
-      "clicks": 0
-    },
-    {
-      "date": "2026-06-02T08:54:47.506Z",
-      "style": "GUIDE",
-      "title": "Breville Barista Pro : Le Secret des Vrais Baristas",
       "clicks": 0
     }
   ]

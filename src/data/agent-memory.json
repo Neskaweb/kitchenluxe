@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "lastUpdated": "2026-07-30T08:40:32.475Z",
+  "lastUpdated": "2026-07-31T08:07:12.545Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
     "GUIDE": {
       "clicks": 0,
-      "posts": 35
+      "posts": 36
     },
     "DUEL": {
       "clicks": 0,
@@ -14,21 +14,21 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 208
+      "posts": 209
     }
   },
   "categories": {
+    "Électroménager": {
+      "clicks": 0,
+      "posts": 115
+    },
     "Coutellerie": {
       "clicks": 0,
-      "posts": 57
+      "posts": 58
     },
     "Ustensiles de Chef": {
       "clicks": 0,
       "posts": 71
-    },
-    "Électroménager": {
-      "clicks": 0,
-      "posts": 114
     },
     "Appareils de Précision": {
       "clicks": 0,
@@ -39,8 +39,14 @@
       "posts": 1
     }
   },
-  "totalRuns": 89,
+  "totalRuns": 90,
   "history": [
+    {
+      "date": "2026-07-31T08:07:32.248Z",
+      "style": "GUIDE",
+      "title": "Sage Barista Express : Maîtrisez l'Art du Café Comme un Pro",
+      "clicks": 0
+    },
     {
       "date": "2026-07-30T08:40:49.077Z",
       "style": "RECETTE",
@@ -333,12 +339,6 @@
       "date": "2026-06-06T08:19:49.826Z",
       "style": "RECETTE",
       "title": "De Buyer Poêle Minéral B 28cm — L'arme secrète",
-      "clicks": 0
-    },
-    {
-      "date": "2026-06-05T08:12:33.473Z",
-      "style": "GUIDE",
-      "title": "KitchenAid Artisan Stand Mixer 4.8L — L'Allié des Cuisiniers",
       "clicks": 0
     }
   ]

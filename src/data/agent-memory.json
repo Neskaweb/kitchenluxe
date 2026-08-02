@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "lastUpdated": "2026-08-01T08:51:47.484Z",
+  "lastUpdated": "2026-08-02T08:15:58.226Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
     "GUIDE": {
       "clicks": 0,
-      "posts": 36
+      "posts": 37
     },
     "DUEL": {
       "clicks": 0,
@@ -14,21 +14,21 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 211
+      "posts": 212
     }
   },
   "categories": {
-    "Ustensiles de Chef": {
-      "clicks": 0,
-      "posts": 72
-    },
     "Électroménager": {
       "clicks": 0,
-      "posts": 116
+      "posts": 117
     },
     "Coutellerie": {
       "clicks": 0,
-      "posts": 58
+      "posts": 59
+    },
+    "Ustensiles de Chef": {
+      "clicks": 0,
+      "posts": 72
     },
     "Appareils de Précision": {
       "clicks": 0,
@@ -39,8 +39,14 @@
       "posts": 1
     }
   },
-  "totalRuns": 91,
+  "totalRuns": 92,
   "history": [
+    {
+      "date": "2026-08-02T08:16:13.281Z",
+      "style": "GUIDE",
+      "title": "Vitamix E310 Blender Professionnel — Le Guide Ultime",
+      "clicks": 0
+    },
     {
       "date": "2026-08-01T08:52:05.303Z",
       "style": "RECETTE",
@@ -333,12 +339,6 @@
       "date": "2026-06-08T08:10:07.816Z",
       "style": "DUEL",
       "title": "Magimix Cook Expert : Le Robot Cuiseur Ultime ?",
-      "clicks": 0
-    },
-    {
-      "date": "2026-06-07T08:26:32.979Z",
-      "style": "GUIDE",
-      "title": "Staub Cocotte Ronde 24cm : Le Secret des Chefs",
       "clicks": 0
     }
   ]

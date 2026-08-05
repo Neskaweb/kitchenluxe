@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-08-04T08:39:03.379Z",
+  "lastUpdated": "2026-08-05T08:30:34.455Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -14,13 +14,17 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 215
+      "posts": 217
     }
   },
   "categories": {
+    "Appareils de Précision": {
+      "clicks": 0,
+      "posts": 37
+    },
     "Électroménager": {
       "clicks": 0,
-      "posts": 118
+      "posts": 119
     },
     "Coutellerie": {
       "clicks": 0,
@@ -30,17 +34,19 @@
       "clicks": 0,
       "posts": 73
     },
-    "Appareils de Précision": {
-      "clicks": 0,
-      "posts": 36
-    },
     "Inspiration": {
       "clicks": 0,
       "posts": 1
     }
   },
-  "totalRuns": 94,
+  "totalRuns": 95,
   "history": [
+    {
+      "date": "2026-08-05T08:30:51.389Z",
+      "style": "DUEL",
+      "title": "De Buyer Minéral B 28cm : La Poêle Fer des Chefs",
+      "clicks": 0
+    },
     {
       "date": "2026-08-04T08:39:20.408Z",
       "style": "GUIDE",
@@ -333,12 +339,6 @@
       "date": "2026-06-13T08:54:40.432Z",
       "style": "GUIDE",
       "title": "De Buyer Poêle Minéral B 28cm — L'Arme Secrète des Chefs",
-      "clicks": 0
-    },
-    {
-      "date": "2026-06-11T08:47:48.846Z",
-      "style": "DUEL",
-      "title": "Staub Cocotte Ronde 24cm : Le Duel des Cocottes de Luxe",
       "clicks": 0
     }
   ]

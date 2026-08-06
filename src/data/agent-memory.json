@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "lastUpdated": "2026-08-05T08:30:34.455Z",
+  "lastUpdated": "2026-08-06T08:52:57.409Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
     "GUIDE": {
       "clicks": 0,
-      "posts": 38
+      "posts": 39
     },
     "DUEL": {
       "clicks": 0,
@@ -14,33 +14,39 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 217
+      "posts": 218
     }
   },
   "categories": {
+    "Électroménager": {
+      "clicks": 0,
+      "posts": 120
+    },
+    "Ustensiles de Chef": {
+      "clicks": 0,
+      "posts": 74
+    },
     "Appareils de Précision": {
       "clicks": 0,
       "posts": 37
     },
-    "Électroménager": {
-      "clicks": 0,
-      "posts": 119
-    },
     "Coutellerie": {
       "clicks": 0,
       "posts": 61
-    },
-    "Ustensiles de Chef": {
-      "clicks": 0,
-      "posts": 73
     },
     "Inspiration": {
       "clicks": 0,
       "posts": 1
     }
   },
-  "totalRuns": 95,
+  "totalRuns": 96,
   "history": [
+    {
+      "date": "2026-08-06T08:53:12.854Z",
+      "style": "GUIDE",
+      "title": "Magimix Cook Expert : Votre Chef en Cuisine 🍳",
+      "clicks": 0
+    },
     {
       "date": "2026-08-05T08:30:51.389Z",
       "style": "DUEL",
@@ -333,12 +339,6 @@
       "date": "2026-06-14T08:28:00.984Z",
       "style": "DUEL",
       "title": "Breville Barista Pro vs Ses Concurrents — Le Test Complet",
-      "clicks": 0
-    },
-    {
-      "date": "2026-06-13T08:54:40.432Z",
-      "style": "GUIDE",
-      "title": "De Buyer Poêle Minéral B 28cm — L'Arme Secrète des Chefs",
       "clicks": 0
     }
   ]

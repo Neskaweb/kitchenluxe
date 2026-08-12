@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-08-11T08:34:04.722Z",
+  "lastUpdated": "2026-08-12T08:13:48.648Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -14,17 +14,17 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 227
+      "posts": 229
     }
   },
   "categories": {
+    "Coutellerie": {
+      "clicks": 0,
+      "posts": 66
+    },
     "Appareils de Précision": {
       "clicks": 0,
       "posts": 39
-    },
-    "Coutellerie": {
-      "clicks": 0,
-      "posts": 64
     },
     "Électroménager": {
       "clicks": 0,
@@ -39,8 +39,14 @@
       "posts": 1
     }
   },
-  "totalRuns": 100,
+  "totalRuns": 101,
   "history": [
+    {
+      "date": "2026-08-12T08:14:02.386Z",
+      "style": "GUIDE",
+      "title": "Le Creuset Signature Cocotte 24cm — Votre Secret pour des Plats d'Exception",
+      "clicks": 0
+    },
     {
       "date": "2026-08-11T08:34:24.860Z",
       "style": "RECETTE",
@@ -333,12 +339,6 @@
       "date": "2026-06-19T08:12:07.059Z",
       "style": "GUIDE",
       "title": "Vitamix E310 : Guide Complet pour Cuisiner Pro",
-      "clicks": 0
-    },
-    {
-      "date": "2026-06-18T08:27:28.747Z",
-      "style": "GUIDE",
-      "title": "Ninja Foodi MAX : Maîtrisez la Cuisson Professionnelle",
       "clicks": 0
     }
   ]

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-08-15T08:32:37.393Z",
+  "lastUpdated": "2026-08-16T08:31:43.699Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -39,8 +39,14 @@
       "posts": 1
     }
   },
-  "totalRuns": 104,
+  "totalRuns": 105,
   "history": [
+    {
+      "date": "2026-08-16T08:32:01.179Z",
+      "style": "RECETTE",
+      "title": "Staub Cocotte 24cm : 3 recettes chefs + astuces — Test 2026",
+      "clicks": 0
+    },
     {
       "date": "2026-08-15T08:32:54.493Z",
       "style": "RECETTE",
@@ -333,12 +339,6 @@
       "date": "2026-06-24T08:11:53.777Z",
       "style": "DUEL",
       "title": "Ninja Foodi MAX Dual Zone: Le Meilleur Choix pour Votre Cuisine?",
-      "clicks": 0
-    },
-    {
-      "date": "2026-06-22T08:03:16.070Z",
-      "style": "DUEL",
-      "title": "Staub Cocotte Ronde 24cm Noir : le test honnête face à ses rivales",
       "clicks": 0
     }
   ]

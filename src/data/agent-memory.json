@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-08-16T08:31:43.699Z",
+  "lastUpdated": "2026-08-17T08:31:25.510Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -14,10 +14,18 @@
     },
     "RECETTE": {
       "clicks": 0,
-      "posts": 233
+      "posts": 235
     }
   },
   "categories": {
+    "Électroménager": {
+      "clicks": 0,
+      "posts": 123
+    },
+    "Ustensiles de Chef": {
+      "clicks": 0,
+      "posts": 79
+    },
     "Appareils de Précision": {
       "clicks": 0,
       "posts": 41
@@ -26,21 +34,19 @@
       "clicks": 0,
       "posts": 69
     },
-    "Ustensiles de Chef": {
-      "clicks": 0,
-      "posts": 78
-    },
-    "Électroménager": {
-      "clicks": 0,
-      "posts": 122
-    },
     "Inspiration": {
       "clicks": 0,
       "posts": 1
     }
   },
-  "totalRuns": 105,
+  "totalRuns": 106,
   "history": [
+    {
+      "date": "2026-08-17T08:31:44.163Z",
+      "style": "RECETTE",
+      "title": "Zwilling Pro Couteau 20cm — 3 Recettes + Astuces",
+      "clicks": 0
+    },
     {
       "date": "2026-08-16T08:32:01.179Z",
       "style": "RECETTE",
@@ -333,12 +339,6 @@
       "date": "2026-06-25T08:44:20.777Z",
       "style": "GUIDE",
       "title": "Ninja Foodi MAX : Maîtrisez la Cuisson Pro",
-      "clicks": 0
-    },
-    {
-      "date": "2026-06-24T08:11:53.777Z",
-      "style": "DUEL",
-      "title": "Ninja Foodi MAX Dual Zone: Le Meilleur Choix pour Votre Cuisine?",
       "clicks": 0
     }
   ]

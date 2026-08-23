@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-08-20T08:12:10.557Z",
+  "lastUpdated": "2026-08-23T08:21:25.452Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -18,8 +18,14 @@
     }
   },
   "categories": {},
-  "totalRuns": 108,
+  "totalRuns": 109,
   "history": [
+    {
+      "date": "2026-08-23T08:21:42.024Z",
+      "style": "DUEL",
+      "title": "Le Creuset Cocotte 24cm : Vaut-elle vraiment 319€?",
+      "clicks": 0
+    },
     {
       "date": "2026-08-20T08:12:26.106Z",
       "style": "RECETTE",
@@ -312,12 +318,6 @@
       "date": "2026-06-28T08:18:05.314Z",
       "style": "DUEL",
       "title": "Le Creuset Signature vs Staub et Invicta : Quel Best-Buy ?",
-      "clicks": 0
-    },
-    {
-      "date": "2026-06-27T08:23:09.357Z",
-      "style": "GUIDE",
-      "title": "Vitamix E310 : Le Blender Professionnel pour Cuisine d'Exception",
       "clicks": 0
     }
   ]

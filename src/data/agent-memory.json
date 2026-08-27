@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-08-26T08:37:17.367Z",
+  "lastUpdated": "2026-08-27T08:13:43.377Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -18,8 +18,14 @@
     }
   },
   "categories": {},
-  "totalRuns": 112,
+  "totalRuns": 113,
   "history": [
+    {
+      "date": "2026-08-27T08:13:58.824Z",
+      "style": "RECETTE",
+      "title": "Le Creuset Signature Cocotte 24cm — La Reine des Mijotés",
+      "clicks": 0
+    },
     {
       "date": "2026-08-26T08:37:35.366Z",
       "style": "RECETTE",
@@ -312,12 +318,6 @@
       "date": "2026-07-02T08:01:00.758Z",
       "style": "DUEL",
       "title": "Staub Cocotte Ronde 24cm Noir : Le Test Complet vs Ses Rivales",
-      "clicks": 0
-    },
-    {
-      "date": "2026-07-01T08:39:44.898Z",
-      "style": "GUIDE",
-      "title": "Breville Barista Pro : Devenez Barista Chez Vous",
       "clicks": 0
     }
   ]

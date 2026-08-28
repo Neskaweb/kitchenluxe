@@ -1,5 +1,63 @@
 [
   {
+    "id": "kl_p_1787947525393_6387",
+    "asin": "B01B7M9R9S",
+    "name": "Magimix Cook Expert Robot Cuiseur",
+    "slug": "magimix-cook-expert-robot-cuiseur-6387",
+    "description": "Le robot cuiseur multifonction ultra-complet. Cuit, mélange, hache et pétrit pour des repas gastronomiques rapides.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 1199,
+    "category": "Électroménager",
+    "brand": "Magimix",
+    "image": "https://images.unsplash.com/photo-1594910413521-17f167666993?q=80&w=1974&auto=format&fit=crop",
+    "rating": 4.9,
+    "reviews": 1548,
+    "features": [
+      "robot cuiseur",
+      "magimix cook expert",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "robot cuiseur",
+      "magimix cook expert",
+      "cuisine gourmande",
+      "robot multifonction",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1787947512014_7470",
+    "asin": "B000X97G3A",
+    "name": "Wüsthof Classic Ikon Paring Knife",
+    "slug": "wusthof-classic-ikon-paring-knife-7470",
+    "description": "Le couteau d'office de précision. Parfait pour peler, parer et décorer vos fruits et légumes avec une agilité maximale.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 79,
+    "category": "Coutellerie",
+    "brand": "Wüsthof",
+    "image": "https://images.unsplash.com/photo-1594910413521-17f167666993?q=80&w=1974&auto=format&fit=crop",
+    "rating": 4.8,
+    "reviews": 351,
+    "features": [
+      "couteau d'office",
+      "wüsthof",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "couteau d'office",
+      "wüsthof",
+      "ikon",
+      "coutellerie de précision",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
     "id": "kl_p_1787857116859_1737",
     "asin": "B089SYG6CC",
     "name": "Ninja Foodi MAX Dual Zone Air Fryer",

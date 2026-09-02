@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-09-01T08:28:27.529Z",
+  "lastUpdated": "2026-09-02T08:31:48.400Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -18,8 +18,14 @@
     }
   },
   "categories": {},
-  "totalRuns": 118,
+  "totalRuns": 119,
   "history": [
+    {
+      "date": "2026-09-02T08:32:03.526Z",
+      "style": "GUIDE",
+      "title": "Magimix Cook Expert : Cuisinez comme un Chef ⭐",
+      "clicks": 0
+    },
     {
       "date": "2026-09-01T08:28:42.963Z",
       "style": "GUIDE",
@@ -312,12 +318,6 @@
       "date": "2026-07-10T08:21:51.477Z",
       "style": "DUEL",
       "title": "Magimix Cook Expert vs Concurrents — Test Complet 2026",
-      "clicks": 0
-    },
-    {
-      "date": "2026-07-08T08:11:27.268Z",
-      "style": "DUEL",
-      "title": "De Buyer Minéral B 28cm — Duel: la meilleure poêle de chef",
       "clicks": 0
     }
   ]

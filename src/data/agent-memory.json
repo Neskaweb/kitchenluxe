@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-09-04T08:35:55.403Z",
+  "lastUpdated": "2026-09-05T08:35:55.407Z",
   "winningStyle": null,
   "topCategory": null,
   "styles": {
@@ -18,8 +18,14 @@
     }
   },
   "categories": {},
-  "totalRuns": 121,
+  "totalRuns": 122,
   "history": [
+    {
+      "date": "2026-09-05T08:36:17.766Z",
+      "style": "RECETTE",
+      "title": "KitchenAid Artisan 4.8L : 3 recettes exclusives qui révolutionnent votre cuisine",
+      "clicks": 0
+    },
     {
       "date": "2026-09-04T08:36:17.262Z",
       "style": "GUIDE",
@@ -312,12 +318,6 @@
       "date": "2026-07-13T08:43:22.804Z",
       "style": "DUEL",
       "title": "Ninja Foodi MAX vs Ses Rivaux : Qui Gagne ?",
-      "clicks": 0
-    },
-    {
-      "date": "2026-07-12T08:41:14.535Z",
-      "style": "RECETTE",
-      "title": "KitchenAid Artisan 4.8L : 3 Recettes pour Maîtriser votre Robot",
       "clicks": 0
     }
   ]

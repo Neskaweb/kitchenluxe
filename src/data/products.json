@@ -1,5 +1,63 @@
 [
   {
+    "id": "kl_p_1790002650490_7367",
+    "asin": "B00004RFMT",
+    "name": "Zwilling Pro Chef's Knife 20cm",
+    "slug": "zwilling-pro-chef-s-knife-20cm-7367",
+    "description": "L'excellence de la coutellerie allemande. Forgé à partir d'une seule pièce d'acier spécial pour un tranchant durable.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 109,
+    "category": "Coutellerie",
+    "brand": "Zwilling",
+    "image": "https://images.unsplash.com/photo-1594910413521-17f167666993?q=80&w=1974&auto=format&fit=crop",
+    "rating": 4.9,
+    "reviews": 1271,
+    "features": [
+      "couteau de chef",
+      "zwilling pro",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "couteau de chef",
+      "zwilling pro",
+      "coutellerie pro",
+      "couteau forgé",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
+    "id": "kl_p_1790002641258_9751",
+    "asin": "B00CI32S9K",
+    "name": "Sage Barista Express Espresso Machine",
+    "slug": "sage-barista-express-espresso-machine-9751",
+    "description": "L'expérience barista ultime à la maison. Un broyeur intégré pour un café fraîchement moulu et une mousse de lait soyeuse.",
+    "benefits": "### Excellence & Performance\n- **Qualité Professionnelle**: Une conception rigoureuse pour des résultats dignes d'un chef.\n- **Design Intemporel**: Un ajout esthétique et prestigieux pour votre cuisine.\n- **Durabilité Garantie**: Investissez dans un outil qui vous accompagnera des années.",
+    "price": 629,
+    "category": "Électroménager",
+    "brand": "Sage",
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2070&auto=format&fit=crop",
+    "rating": 4.9,
+    "reviews": 1759,
+    "features": [
+      "machine espresso",
+      "barista",
+      "Élite Culinaire",
+      "Best-Seller"
+    ],
+    "seoTags": [
+      "machine espresso",
+      "barista",
+      "café de luxe",
+      "sage appliances",
+      "cuisine",
+      "gourmet",
+      "luxe"
+    ]
+  },
+  {
     "id": "kl_p_1789909021205_6798",
     "asin": "B00V86W64M",
     "name": "Le Creuset Signature Cast Iron Casserole",
